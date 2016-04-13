@@ -1,6 +1,6 @@
 # JavaScript
 ## Es el único lenguaje en el que me doy cuenta que las personas sienten que no necesitan aprenderlo antes de empezar a utilizarlo.
-: [Douglas Crockford](http://www.crockford.com/)
+> [Douglas Crockford](http://www.crockford.com/)
 
 ![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 

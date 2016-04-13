@@ -1,7 +1,147 @@
-# CSS
-Hojas de Estilo en Cascada
+# JS
+## JavaScript
+![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 
-Lenguaje de Presentación basado en reglas con una sintaxis de atributo valor
+> Es el único lenguaje en el que me doy cuenta que las personas sienten que no necesitan aprenderlo antes de empezar a utilizarlo.
+> > [Douglas Crockford](http://www.crockford.com/)
+
+
+
+
+
+
+JavaScript es el lenguaje de programación frontend de la web.
+
+Es el más popular en Internet, y trabaja en todos los principales navegadores, como Internet Explorer, Firefox, Chrome, Opera, Safari y móviles.
+
+Se utiliza en miles de millones de sitios web para agregar funcionalidad, validar formularios, comunicarse con el servidor, entre otras cosas.
+
+Y algo más...
+
+HTML5 APESTA A JAVASCRIPT
+
+Es un lenguaje interpretado, es decir, no necesita compilar para ejecutarse.
+
+Se define como orientado a objetos, basado en prototipos, no tipado y dinámico.
+
+Todo el mundo puede usarlo sin necesidad de adquirir una licencia
+
+JAVA Y JAVASCRIPT NO SON LO MISMO
+
+ACTIONSCRIPT Y JAVASCRIPT SON PRIMOS
+
+JAVASCRIPT ES UNA IMPLEMENTACIÓN DEL LENGUAJE ESTÁNDAR ECMASCRIPT
+
+
+ECMA-262 ES EL ESTÁNDAR OFICIAL DE JAVASCRIPT.
+
+JavaScript fue inventado por Brendan Eich de Netscape en 13 DÍAS
+
+Apareció con Navigator 2.0, y desde entonces (1996) en todos los navegadores.
+
+
+AHORA UN POCO DE...
+PROGRAMACIÓN
+ORIENTADA A OBJETOS
+La POO trata de plasmar o representar
+
+la realidad del mundo físico (lo concreto)
+
+y llevarlo al mundo digital (lo abstracto)
+
+
+Platón primer programador POO
+
+Decía que vivimos en el mundo de las ideas, y los objetos son representaciones físicas de esa idea.
+
+4 CONCEPTOS BÁSICOS DE POO
+Clase
+Objeto
+Métodos
+Atributos
+
+
+Class Perro(){ ... }
+kEnAi = new Perro();
+kEnAi.ladrar(); kEnAi.comer("croqueta");
+kEnAi.raza = "zorrito firefox"; kEnAi.edad=2; kEnAi.entrenado=true;
+
+
+Clase: Módelo a seguir
+La idea
+Class Perro(){...}
+
+Objeto: Representación del módelo
+La representación física de la idea
+kenai = new Perro();
+
+
+Los objetos tienen 2 facultades
+
+
+Métodos: Hacen cosas, Realiazan acciones
+objeto.metodo()
+correr, caminar, mover la cola, ladrar (verbos/acciones)
+
+kenai.comer("croqueta"); kenai.ladrar();
+
+
+Los Métodos fuera de los objetos se llaman funciones, los parámetros son opcionales puede llevar o no, y se separan por comas. ej: 
+
+function ladrar(){...} 
+function comer(comida){...}
+
+Atributos: Tiene características o propiedades
+objeto.atributo=valor
+
+kenai.raza="Criollo"; kenai.sexo = "Macho"; kenai.edad=2; kenai.tamanio = "Mediana"; kenai.adiestrado=true; kenai.esterilizado = true;
+
+
+Los Atributos fuera de los objetos se llaman variables. ej:
+
+var raza = "Firefox";
+
+
+
+Aquí meter Arbnb
+
+3 TIPOS BÁSICOS DE VARIABLES
+
+EN CUALQUIER LENGUAJE
+
+Strings ("Cadenas")
+Numbers (enteros-reales)
+Booleans (true-false)
+
+
+JavaScript trabaja con Camel Case
+(Técnica del Camello)
+
+Cuando una instrucción tenga una sola palabra, va en minúsculas p.e. write().
+
+
+Sólo las clases rompen esta regla, siempre va en mayúscula la letra inicial p.e. Date()
+
+
+Cuando una instrucción tenga 2 o más palabras, apartir de la segunada la primer letra va en mayúscula p.e. getElementById()
+
+
+POO EN JAVASCRIPT
+
+LOS 3 OBJETOS PADRES EN JS
+Window
+Document
+Navigator
+ 
+
+DOCUMENT OBJECT MODEL (DOM)
+
+
+
+
+
+
+Lenguaje de Programaciónesentación basado en reglas con una sintaxis de atributo valor
 
 Provee presentación (diseño) al contenido HTML
 

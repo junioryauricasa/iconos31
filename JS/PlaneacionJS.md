@@ -1,4 +1,3 @@
-------------------------------------------------------------------------------------------
 # Materia: Fundamentos de Programación Web (JavaScript)
 ![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 
@@ -10,28 +9,41 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Instructor Web y Arquitecto de Front end
 * Fundador de **[Bextlán](http://bextlan.com)**
 * Maratonista :runner:
-* jonmircha@gmail.com
-
-## :mortar_board: Evaluación:
-* 35% Actividades
-* 25% Portafolio/Curriculum
-* 25% Implementar en el Sitio (HTML y CSS) 5 interacciones justificadas JS
-* 15% Examen Teórico (Sesión 5)
-* Prohibido usar frameworks o librerías JS
-* Para ambas entregas incluir un archivo readme.txt describiendo en que secciones se implementaron las interacciones JS, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlos el estudiante acepta la percepción del docente al evaluar dicho sitio
-
-## :date: Entrega Final: 
-**Lunes 14 Septiembre 2015 11:59:59pm**
-La entrega puede ser vía email, dropbox, google drive, one drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com
+* **[@jonmircha](https://twitter.com/jonmircha)**
+* **[jonmircha@gmail.com](mailto:jonmircha@gmail.com)** 
 
 ## :books: Fuentes bibliográficas del curso:
-* [Introducción a JS](http://librosweb.es/libro/javascript/)
+* [Introducción a JavaScript](http://librosweb.es/libro/javascript/)
 * [Introducción a AJAX](http://librosweb.es/libro/ajax/)
 * [Curso de Diseño y Programación Web de Bextlán](http://bextlan.com/cursos/web/)
 * [JavaScript The Good Parts](https://www.ebooks-it.net/ebook/javascript-the-good-parts)
+* [Eloquent JavaScript](http://eloquentjavascript.net/)
+
+
+## :school: Sesión 1: 14 Abril 2016
+### :clipboard: Temas y conceptos revisados: 
+### :pencil: Actividades para la siguiente sesión: 
+
+## :school: Sesión 2: 21 Abril 2016
+### :clipboard: Temas y conceptos revisados: 
+### :pencil: Actividades para la siguiente sesión: 
+
+## :school: Sesión 3: 28 Abril 2016
+### :clipboard: Temas y conceptos revisados: 
+### :pencil: Actividades para la siguiente sesión: 
+
+## :school: Sesión 4: 05 Mayo 2016
+### :clipboard: Temas y conceptos revisados: 
+### :pencil: Actividades para la siguiente sesión: 
+
+## :school: Sesión 5: 12 Mayo 2016
+### :clipboard: Temas y conceptos revisados: 
+### :pencil: Actividades para la siguiente sesión: 
+
+
+
 
 ## :school: Sesión 1: 7 Agosto 2015
-
 ### :chart_with_upwards_trend: Objetivo de la Sesión:
 Conocer e introducir al estudiante a la programación web a través del paradigma de la orientación a objetos y el lenguaje JavaScript. Conceptos de programación orientada a objetos
 
@@ -163,3 +175,16 @@ Entender el uso de JavaScript en entornos de servidor, AJAX y Geolocalización
 	* Aplicar estilos y eventos dinamicamente con JS (mínimo 2 de c/u)
 	* Aplicar AJAX para cargar una versión imprimible del cv en pdf
 3. Para ambas entregas incluir un archivo readme.txt describiendo en que secciones se implementaron las interacciones JS, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlos el estudiante acepta la percepción del docente al evaluar dicho sitio
+
+
+## :mortar_board: Evaluación:
+* 35% Actividades
+* 25% Portafolio/Curriculum
+* 25% Implementar en el Sitio (HTML y CSS) 5 interacciones justificadas JS
+* 15% Examen Teórico (Sesión 5)
+* Prohibido usar frameworks o librerías JS
+* Para ambas entregas incluir un archivo readme.txt describiendo en que secciones se implementaron las interacciones JS, si no se incluye dicho archivo se restará un punto de la calificación final, además al no entregarlos el estudiante acepta la percepción del docente al evaluar dicho sitio
+
+## :date: Entrega Final: 
+**Lunes 14 Septiembre 2015 11:59:59pm**
+La entrega puede ser vía email, dropbox, google drive, one drive o cualquier medio de transferencia de archivos al correo jonmircha@gmail.com

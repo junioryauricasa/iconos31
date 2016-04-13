@@ -48,7 +48,6 @@ y llevarlo al mundo digital (lo abstracto)
 
 ![kEnAi](http://bextlan.com/img/para-cursos/kenai.jpg)
 
-	```javascript
 	Class Perro() { ... }
 
 	kenai = new Perro();
@@ -59,7 +58,6 @@ y llevarlo al mundo digital (lo abstracto)
 	kenai.raza = 'Criollo';
 	kenai.edad = 3;
 	kenai.esterilizado = true;
-
 
 #### Clase: 
 	

@@ -21,80 +21,92 @@ La programación es:
 
 ### PROGRAMAR ES FLUJO Y NO PROCESOS
 
+# PROGRAMACIÓN ORIENTADA A OBJETOS
 
+La POO es un paradigma de programación que utiliza objetos e interacciones en el diseño de un sistema y está compuesta por varios elementos y características
 
-
-#Pendientes
-* Tipos de Datos de ARBNB y REDRADIX
-* POO
-* POO en JS
-* Servidore WEB y Node
-* Ques Programar
-
-
-
-
-
-AHORA UN POCO DE...
-PROGRAMACIÓN
-ORIENTADA A OBJETOS
-La POO trata de plasmar o representar
-
-la realidad del mundo físico (lo concreto)
-
+La POO trata de plasmar o representar la realidad del mundo físico (lo concreto) 
 y llevarlo al mundo digital (lo abstracto)
 
+### Platón primer programador POO
+![Platón](http://jonmircha.github.io/slides-poo-js/img/platon.jpg)
+> Decía que vivimos en el mundo de las ideas, y los objetos son representaciones físicas de esa idea
 
-Platón primer programador POO
+### 4 CONCEPTOS BÁSICOS DE POO
 
-Decía que vivimos en el mundo de las ideas, y los objetos son representaciones físicas de esa idea.
+* Clase
+* Objeto
+* Métodos
+* Atributos
 
-4 CONCEPTOS BÁSICOS DE POO
-Clase
-Objeto
-Métodos
-Atributos
+![kEnAi](http://jonmircha.github.io/slides-poo-js/img/kenai.jpg)
 
+	Class Perro() { ... }
 
-Class Perro(){ ... }
-kEnAi = new Perro();
-kEnAi.ladrar(); kEnAi.comer("croqueta");
-kEnAi.raza = "zorrito firefox"; kEnAi.edad=2; kEnAi.entrenado=true;
+	kenai = new Perro();
 
+	kenai.ladrar();
+	kenai.comer('croqueta');
 
-Clase: Módelo a seguir
-La idea
-Class Perro(){...}
-
-Objeto: Representación del módelo
-La representación física de la idea
-kenai = new Perro();
+	kenai.raza = 'Criollo';
+	kenai.edad = 3;
+	kenai.esterilizado = true;
 
 
-Los objetos tienen 2 facultades
+#### Clase: 
+	
+* Es un **Modelo** a seguir
+* La idea de Platón
+* Sintaxis: `Class Perro(){...}`
+
+#### Objeto:
+
+* Representación o **Instancia** de una clase
+* La representación física de la idea de Platón
+* Sintaxis: `kenai = new Perro();`
+
+Los objetos tienen 2 facultades:
+* Métodos
+* Atributos
+
+#### Métodos: 
+
+* Son las cosas o **Acciones** que hacen los objetos
+	* Sintaxis: `objeto.metodo();`
+   	* correr, caminar, mover la cola, ladrar (verbos/acciones)
+	* `kenai.comer('croqueta');`
+	* `kenai.ladrar();`
+* Los Métodos fuera de los objetos se llaman **Funciones**
+	* `function ladrar() { ... }`
+* Los **Parámetros** son argumentos (datos) que se pueden pasar (o no) a una función. Pueden ser opcionales, y se separan por comas.
+	* `function comer(comida) { ... }`
+
+#### Atributos: 
+
+* Son las características o **Propiedades** que tienen los objetos
+	* Sintaxis: `objeto.atributo = valor;`
+	* `kenai.raza = 'Criollo';`
+	* `kenai.edad = 3;`
+	* `kenai.esterilizado = true;`
+* Los Atributos fuera de los objetos se llaman **Variables**
+	* `var raza = 'Criollo';`
 
 
-Métodos: Hacen cosas, Realiazan acciones
-objeto.metodo()
-correr, caminar, mover la cola, ladrar (verbos/acciones)
-
-kenai.comer("croqueta"); kenai.ladrar();
 
 
-Los Métodos fuera de los objetos se llaman funciones, los parámetros son opcionales puede llevar o no, y se separan por comas. ej: 
-
-function ladrar(){...} 
-function comer(comida){...}
-
-Atributos: Tiene características o propiedades
-objeto.atributo=valor
-
-kenai.raza="Criollo"; kenai.sexo = "Macho"; kenai.edad=2; kenai.tamanio = "Mediana"; kenai.adiestrado=true; kenai.esterilizado = true;
 
 
-Los Atributos fuera de los objetos se llaman variables. ej:
 
-var raza = "Firefox";
+
+* Tipos de Datos de ARBNB y REDRADIX
+* POO en JS
+* Servidore WEB y Node
+
+
+
+
+
+
 
 
 

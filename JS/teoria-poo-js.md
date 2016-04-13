@@ -38,6 +38,7 @@ y llevarlo al mundo digital (lo abstracto)
 ### Platón primer programador POO
 ![Platón](http://bextlan.com/img/para-cursos/platon.jpg)
 > Decía que vivimos en el mundo de las ideas, y los objetos son representaciones físicas de esa idea
+> > [Teoría de las Ideas](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_las_formas)
 
 ### 4 CONCEPTOS BÁSICOS DE POO
 

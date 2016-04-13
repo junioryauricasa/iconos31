@@ -1,42 +1,56 @@
 # JavaScript
-## "Es el único lenguaje en el que me doy cuenta que las personas sienten que no necesitan aprenderlo antes de empezar a utilizarlo." ([Douglas Crockford](http://www.crockford.com/))
 
 ![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 
+## "Es el único lenguaje en el que me doy cuenta que las personas sienten que no necesitan aprenderlo antes de empezar a utilizarlo." ([Douglas Crockford](http://www.crockford.com/))
+
+### JavaScript INICIOS (1995)
+
+> JavaScript, conocido como LiveScript, JScript, ECMAScript, es uno de los lenguajes de programación más populares del mundo. Virtualmente cada computadora en el mundo tiene al menos un intérprete Javascript instalado y sin duda es usado frecuentemente (navegador web). La popularidad que tiene Javascript se debe enteramente a su rol como lenguaje de script en la Web.
+
+> A pesar de su popularidad, pocos saben que JavaScript es un lenguaje de programación dinámico, orientado a objetos y de propósito general.
+
+> > [CROCKFORD, Douglas. Javascript: The World’s Most Misunderstood Programming Language, 2001](http://www.crockford.com/javascript/javascript.html)
+
+* Fue creado en 1995 por Brendan Eich de Netscape en **13 días**
+* Fue implementado en 1996 en el Nestcape Navigator 2.0 y a partir de ese momento en todos los navegadores
+* Todo el mundo puede usarlo sin necesidad de adquirir una licencia
+* Es un lenguaje interpretado, es decir, no necesita compilar para ejecutarse
+* Se define como orientado a objetos, basado en prototipos
+* No es tipado y es dinámico
+* Las funciones son objetos de primer órden
+* Se utiliza en sitios web para agregar funcionalidad, interactividad validar formularios, comunicarse con el servidor, entre otras cosas
+* Es el lenguaje de programación front end de la web
+
+### JavaScript Era Flash (2000)
+
+* Se crea [JSON](http://www.json.org/) (_JavaScript Object Notation_) es un formato ligero de intercambio de datos
+* Se crea [AJAX](https://es.wikipedia.org/wiki/AJAX) (_Asynchronous JavaScript And XML_), técnica que permite la comunicación asíncrona entre el navegador y el servidor
+* Guerra de los Navegadores
+* Proliferan sitios web hechos en Flash por sobre los hechos en Estándares Web (HTML, CSS y JS)
+* [ActionScript](https://es.wikipedia.org/wiki/ActionScript) el lenguaje de Flash evoluciona hasta ser orientado a objetos, su sintaxis es similar a la de JavaScript ya que se basan del mismo estándar [EcmaScript](http://www.ecma-international.org/)
+* Proliferan librerías y frameworks para hacer CrossBrowser como [jQuery](https://jquery.com/)
+
+### JavaScript Era HTML5 (2008)
+
+[Implementaciones HTML5](http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png)
+* De 2008 a 2014 se define e implementa [HTML5](https://www.w3.org/html/logo/)
+* HTML5 apesta a JavaScript (6 de sus 8 implementaciones son JS)
+* Comienzan a proliferar librerías y frameworks para todo propósito
+* Comienzan a desarrollarse [API's](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) para la interacción con el software y hardware del usuario a través del navegador
+* En 2009 se crea [Node.js®](https://nodejs.org) el entorno de programación back end de JavaScript
 
 
 
 
-
-
-JavaScript es el lenguaje de programación frontend de la web.
-
-Es el más popular en Internet, y trabaja en todos los principales navegadores, como Internet Explorer, Firefox, Chrome, Opera, Safari y móviles.
-
-Se utiliza en miles de millones de sitios web para agregar funcionalidad, validar formularios, comunicarse con el servidor, entre otras cosas.
-
-Y algo más...
-
-HTML5 APESTA A JAVASCRIPT
-
-Es un lenguaje interpretado, es decir, no necesita compilar para ejecutarse.
-
-Se define como orientado a objetos, basado en prototipos, no tipado y dinámico.
-
-Todo el mundo puede usarlo sin necesidad de adquirir una licencia
 
 JAVA Y JAVASCRIPT NO SON LO MISMO
-
 ACTIONSCRIPT Y JAVASCRIPT SON PRIMOS
-
 JAVASCRIPT ES UNA IMPLEMENTACIÓN DEL LENGUAJE ESTÁNDAR ECMASCRIPT
-
-
 ECMA-262 ES EL ESTÁNDAR OFICIAL DE JAVASCRIPT.
 
-JavaScript fue inventado por Brendan Eich de Netscape en 13 DÍAS
 
-Apareció con Navigator 2.0, y desde entonces (1996) en todos los navegadores.
+
 
 
 AHORA UN POCO DE...

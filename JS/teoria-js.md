@@ -39,7 +39,8 @@
 * Comienzan a proliferar librerías y frameworks para todo propósito
 * Comienzan a desarrollarse [API's](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) para la interacción con el software y hardware del usuario a través del navegador
 * En 2009 se crea [Node.js ®](https://nodejs.org) el entorno de programación back end de JavaScript
-* Comienzan a surgir bases de datos NoSQL basadas en JSON
+* Comienzan a surgir bases de datos NoSQL basadas en JSON 
+* JavaScript comienza a tener una gran [comunidad](https://www.npmjs.com/)
 
 ### JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)
 
@@ -64,9 +65,9 @@
     * Scripts para la automatización de tareas y pruebas de código
     * Controlar Hardware (Drones)
     * Scripts para la dominación del mundo :earth_americas: :smiling_imp:
-* JavaScript tiene una gran comunidad en [NPM]()
 
 ### LIBRERIAS y FRAMEWORKS:
+
 * Librerías Front end
     * [jQuery](https://jquery.com/)
     * [Modernizr](https://modernizr.com/)
@@ -79,16 +80,71 @@
     * [jQueryMobile](https://jquerymobile.com/)
     * [Kendo UI](http://www.telerik.com/kendo-ui)
 * Frameworks MVC
-    * [AngularJS]
-* Librerías basadas en Componentes
-* Frameworks Backend
+    * [Angular](https://angularjs.org/)
+    * [Backbone](http://backbonejs.org/)
+    * [Ember](http://emberjs.com/)
+* Librerías basadas en Componentes Web
+    * [React](https://facebook.github.io/react/)
+    * [Polymer](https://www.polymer-project.org/)
+* Frameworks Back end para [Node](https://nodejs.org/)
+    * [Express](http://expressjs.com/)
+    * [Socket.IO](http://socket.io/)
+    * [Sails](http://sailsjs.org/)
+    * [Hapi](http://hapijs.com/)
+    * [Koa](http://koajs.com/)
+    * [Kraken](http://krakenjs.com/)
 * Bases de Datos
+    * [MongoDB](https://www.mongodb.org/)
+    * [CouchDB](http://couchdb.apache.org/)
+    * [RethinkDB](https://www.rethinkdb.com/)
+    * [Cassandra](http://cassandra.apache.org/)
+    * [Firebase](https://www.firebase.com/)
 * Aplicaciones Híbridas (Nativas):
     * [Ionic](http://ionicframework.com/)
     * [Meteor](https://www.meteor.com/)
     * [Adobe PhoneGap](http://phonegap.com/)
 * Automatización de Tareas
+    * [Grunt](http://gruntjs.com/)
+    * [Gulp](http://gulpjs.com/)
+    * [Webpack](https://webpack.github.io/)
+    * [Browserify](http://browserify.org/)
+    * [Babel](http://babeljs.io/)
 * Gestores de Paquetes
+    * [NPM](https://www.npmjs.com/)
+    * [Bower](http://bower.io/)
+* Linters
+    * [JSLint](http://www.jslint.com/)
+    * [JSHint](http://jshint.com/)
+* Preprocesadores
+    * [CoffeeScript](http://coffeescript.org/)
+    * [TypeScript](https://www.typescriptlang.org/)
+
+### JavaScript NO es JAVA
+
+![This is JS](http://bextlan.com/img/para-cursos/this-is-javascript.jpg)
+![JS vs JAVA](http://bextlan.com/img/para-cursos/jsvsjava.jpg)
+![JAVA vs JS](http://bextlan.com/img/para-cursos/java-vs-javascript.jpg)
+
+### ECMASCRIPT
+
+* ECMAScript es el nombre del estándar internacional que define JavaScript
+* Definido por un comité técnico (TC-39) de ecma international.
+* Identificado como Ecma-262 y ISO/IEC 16262
+* No es parte del W3C
+
+--------------------------------------------------
+| Edición | Publicación | Cambios |
+--------------------------------------------------
+| 1 | 1997 |  Primera edición |
+| 2 | 1998 |  Cambios editorales para mentener la especificación completa alineada con el estándar internacional ISO/IEC 16262 |
+| 3 | 1999 |  Se agregaron expresiones regulares, mejor manejo de strings, nuevo control de declaraciones, manejo de excepciones con try/catch, definición más estricta de errores, formato para la salida numérica y otras mejoras |
+| 4 | Abandonado | La cuarta edición fue abandonada debido a diferencias políticas respecto a la complejidad del lenguaje. Muchas características propuestas para la cuarta edición fueron completamente abandonadas; algunas fueron propuestas para la edición ECMAScript Harmony |
+| 5 | 2009 | Agrega el modo estricto `strict mode`, un subconjunto destinado a proporcionar una mejor comprobación de errores y evitar constructores propensos a errores. Aclara varias ambigüedades de la tercera edición, y afina el comportamiento de las implementaciones del "mundo real" que difieren consistentemente desde esa especificación. Agrega algunas nuevas características, como getters y setters, librería para el soporte de JSON, y una más completa reflexión sobre las propiedades de los objetos |
+| 5.1 | 2011 | Está completamente alineada con la tercera edición del estándar internacional ISO/IEC 16262:2011 |
+| 6 | 2015 | La sexta edición agrega cambios significativos en la sintaxis para escribir aplicaciones complejas, incluyendo clases y módulos, definiéndolos sémanticamente en los mismos términos del modo estricto de la edición ECMAScript 5. Otras nuevas características incluyen iteradores for/of loops, generadores y generador de expresiones estilo Python, funciones de dirección, datos binarios, colecciones (mapas, sets, mapas débiles), y proxies (metaprogramación para objetos virtuales y wrappers). Al ser la primera especificación “ECMAScript Harmony”, es también conocida como “ES6 Harmony” |
+| 7 |  En progreso | La séptima edición está en una etapa muy temprana de desarrollo, pero está orientada a continuar con la reforma del lenguaje, aislamiento de códigos, control de efectos y librerías/herramientas habilitadas desde ES6. Nuevas características propuestas incluyen promesas/concurrencia, matemáticas y datos numéricos mejorados, guards y trademarks (una alternativa al tipado estático), sobrecarga de operadores, value types (first-class number-like objects), nuevas estructuras de registro (registros, tuplas y vectores tipados), pattern matching, y traits |
+--------------------------------------------------
+
 
 
 #Pendientes
@@ -107,29 +163,15 @@ JAVASCRIPT ES UNA IMPLEMENTACIÓN DEL LENGUAJE ESTÁNDAR ECMASCRIPT
 ECMA-262 ES EL ESTÁNDAR OFICIAL DE JAVASCRIPT.
 
 
-SOPORTE A NAVEGADORES WEB
-Características que los navegadores modernos aun no soportan
-Características que los navegadores viejos no soportan
-A través de FALLBACKs y Pollyfills
 Recursos
 CAN I USE
-MODERNIZR
-PREFIX FREE
-AUTO PREFIXER
-BABEL
 
 
 APIS
 Complejidad en el cliente
 Personalizando experiencia
 Mayor Control
-Ejemplos: DRAG AND DROP, HISTORY, STORAGE, FULLSCREEN, GETUSERMEDIA, BATTERY, CONTENTEDITABLE, CACHE, GEOLOCATION, CANVAS, SVG, WEBSOCKETS...
 
-
-LIBRERIAS Y FRAMEWORKS
-Nos facilitan la interacción con nuestros elementos del DOM
-Solventan u optimizan una necesidad o característica en particular del Frontend
-Ejemplos: JQUERY, PROTOTYPE, MOOTOOLS, KENDO UI, ANGULAR, REACT, BACKBONE, EMBER, BROWSERIFY, GRUNT, GULP, BOWER...
 
 
 

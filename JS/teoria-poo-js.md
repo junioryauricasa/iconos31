@@ -14,7 +14,7 @@ Desde que te levantas estás programando
 
 Debería enseñarse desde la primaria
 
-	**PROGRAMAR es el FLUJO de ALGO que se PROCESA, se TRANSFORMA y TERMINA de OTRO MODO**
+### PROGRAMAR es el FLUJO de ALGO que se PROCESA, se TRANSFORMA y TERMINA de OTRO MODO
 
 Debemos PENSAR como HUMANOS y NO como MÁQUINAS
 
@@ -22,7 +22,7 @@ Debemos entender el **FLUJO** de lo que se quiere hacer, para **EJECUTAR** los *
 
 **NUNCA** traten de ejecutar **PROCESOS**, sin antes tener un **FLUJO** que controlar
 
-	**PROGRAMAR ES FLUJO Y NO PROCESOS**
+### PROGRAMAR ES FLUJO Y NO PROCESOS
 
 
 

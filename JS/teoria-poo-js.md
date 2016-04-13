@@ -21,6 +21,13 @@ La programación es:
 
 ### PROGRAMAR ES FLUJO Y NO PROCESOS
 
+### PROGRAMAR ES COMO COCINAR... UNA RECETA
+
+* **Algoritmo**: Serie de pasos ordenados y finitos para realizar o resolver una tarea o problema
+* **Diagrama de Flujo**: Es es la representación gráfica de un algoritmo
+![Símbolos de los Diagramas de Flujo](http://bextlan.com/img/para-cursos/simbolos-diagramas-flujo.png)
+![Ejemplo Diagrama de Flujo](http://bextlan.com/img/para-cursos/diagrama-par-impar.jpg)
+
 # PROGRAMACIÓN ORIENTADA A OBJETOS
 
 La POO es un paradigma de programación que utiliza objetos e interacciones en el diseño de un sistema y está compuesta por varios elementos y características
@@ -29,7 +36,7 @@ La POO trata de plasmar o representar la realidad del mundo físico (lo concreto
 y llevarlo al mundo digital (lo abstracto)
 
 ### Platón primer programador POO
-![Platón](http://jonmircha.github.io/slides-poo-js/img/platon.jpg)
+![Platón](http://bextlan.com/img/para-cursos/platon.jpg)
 > Decía que vivimos en el mundo de las ideas, y los objetos son representaciones físicas de esa idea
 
 ### 4 CONCEPTOS BÁSICOS DE POO
@@ -39,7 +46,7 @@ y llevarlo al mundo digital (lo abstracto)
 * Métodos
 * Atributos
 
-![kEnAi](http://jonmircha.github.io/slides-poo-js/img/kenai.jpg)
+![kEnAi](http://bextlan.com/img/para-cursos/kenai.jpg)
 
 	```javascript
 	Class Perro() { ... }

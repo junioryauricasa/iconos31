@@ -42,24 +42,63 @@
 * Comienzan a surgir bases de datos NoSQL basadas en JSON
 
 ### JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)
+
+* JavaScript hoy es el único lenguaje capaz de ejecutarse en las 3 capas de una aplicación:
+    * Front end (JavaScript)
+    * Back end (Node.js)
+    * Persistencia de Datos (Varias opciones)
+
 * JavaScript hoy nos permite crear:
     * Sitios Web Front end
     * Aplicaciones SPA (_Single Page Application_)
     * Aplicaciones basadas en Componentes Web
-    * Aplicaciones en Red Escalables
+    * Aplicaciones basadas en Microservicios
+    * Aplicaciones de Red
+    * Aplicaciones Distribuidas y Escalables
     * Aplicaciones en Tiempo Real
-    * Aplicaciones Distribuidas
-    * Aplicaciones en Microservicios
     * Aplicaciones Isomórficas (Front end y Back end con el mismo lenguaje de programación)
     * Aplicaciones Híbridas (Nativas)
     * Servidores Web
     * Bases de Datos
-    * Scripts para la administración de la terminal de comandos y el S.O.
+    * Scripts para la administración del S.O. desde la terminal de comandos
     * Scripts para la automatización de tareas y pruebas de código
     * Controlar Hardware (Drones)
-    * Scripts para la dominación del mundo :smiling_imp: :earth_americas:
+    * Scripts para la dominación del mundo :earth_americas: :smiling_imp:
+* JavaScript tiene una gran comunidad en [NPM]()
+
+### LIBRERIAS y FRAMEWORKS:
+* Librerías Front end
+    * [jQuery](https://jquery.com/)
+    * [Modernizr](https://modernizr.com/)
+    * [UnderScore](http://underscorejs.org/)
+    * [MooTools](http://mootools.net/)
+    * [Prototype](http://prototypejs.org/)
+* Frameworks Front end
+    * [Bootstrap](http://getbootstrap.com/)
+    * [Foundation](http://foundation.zurb.com/)
+    * [jQueryMobile](https://jquerymobile.com/)
+    * [Kendo UI](http://www.telerik.com/kendo-ui)
+* Frameworks MVC
+    * [AngularJS]
+* Librerías basadas en Componentes
+* Frameworks Backend
+* Bases de Datos
+* Aplicaciones Híbridas (Nativas):
+    * [Ionic](http://ionicframework.com/)
+    * [Meteor](https://www.meteor.com/)
+    * [Adobe PhoneGap](http://phonegap.com/)
+* Automatización de Tareas
+* Gestores de Paquetes
 
 
+#Pendientes
+* Curiosidades JS (no es JAVA)
+* Lo de ECMASCRIPT
+* Tipos de Datos de ARBNB y REDRADIX
+* POO
+* POO en JS
+* Servidore WEB y Node
+* Ques Programar
 
 
 JAVA Y JAVASCRIPT NO SON LO MISMO

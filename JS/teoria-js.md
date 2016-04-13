@@ -134,7 +134,7 @@
 
 --------------------------------------------------
 | Edición | Publicación | Cambios |
---------------------------------------------------
+| ------- | ----------- | ------- |
 | 1 | 1997 |  Primera edición |
 | 2 | 1998 |  Cambios editorales para mentener la especificación completa alineada con el estándar internacional ISO/IEC 16262 |
 | 3 | 1999 |  Se agregaron expresiones regulares, mejor manejo de strings, nuevo control de declaraciones, manejo de excepciones con try/catch, definición más estricta de errores, formato para la salida numérica y otras mejoras |

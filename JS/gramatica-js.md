@@ -1,115 +1,60 @@
 # Gramática JavaScript
 
+La gramática se define como el estudio de las reglas y principios que estandarizan el uso del lenguaje dentro de la oración
 
-## Nombrar de Archivos
-  Use snake_case when naming files.
+Si llevamos este término a la programación podríamos entender el concepto de la gramática como las reglas y principios que regulan la escritura del código
 
-    ```
-    js_style_guide.js
-    ```
-  - [0.2](#0.2) <a name='0.2'></a> Use camelCase when naming objects, primitives, functions, and instances.
+Por ende entendemos que no es solo es el hecho de escribir código como se nos de la gana, sino que debemos escribir código que sea entendible y ordenado
 
-    ```javascript
-    const obj = {};
-    const num = 1;
-    const map = new Map();
-    function fn() {};
-    ```
+* Nombramiento de archivos
+    * Usa `snake_case`
+    * `js_style_guide.js`
+* Nombramiento de objetos, primitivos, funciones e instancias
+    * Usa `camelCase`
+    * `var obj = {};`
+    * `var num = 1;`
+    * `var map = new Map();`
+    * `function fn() {}`
+* Nombramiento de clases y constructores
+    * Usa `PascalCase`
+    * `class MyClass {}`
+    * `function MyClass() {}`
 
-  - [0.3](#0.3) <a name='0.3'></a> Use PascalCase when naming singletones, constructors or classes.
+* Nombramiento de constantes
+    * Usa `UPPER_CASE`
+    * `const MY_CONSTANT = 1;`
 
-    ```javascript
-    function MyClass() {}
-    class MyClass {}
-    ```
+## Tipos en JavaScript
 
-  - [0.4](#0.4) <a name='0.4'></a> Use UPPERCASE when naming constants.
-
-    ```javascript
-    const MY_CONSTANT = 1;
-    ```
-
-## Types
-
-  - [1.1](#1.1) <a name='1.1'></a> **Primitives**: When you access a primitive type you work directly on its value.
-
+* **Primitivos**: Cuando se accede a un tipo primitivo se trabaja directamente sobre su valor
     + `string`
     + `number`
     + `boolean`
     + `null`
     + `undefined`
 
-    ```javascript
-    const foo = 1;
-    let bar = foo;
-
-    bar = 9;
-
-    console.log(foo, bar); // => 1, 9
-    ```
-
-  - [1.2](#1.2) <a name='1.2'></a> **Complex**: When you access a complex type you work on a reference to its value.
-
-    + `object`
-    + `array`
+* **Complejo**: Cuando se accede a un tipo complejo se trabaja en una referencia a su valor
+    + `object = {}`
+    + `array = []`
     + `function`
 
-    ```javascript
-    const foo = [1, 2];
-    const bar = foo;
+## Ordenamiento de Código
 
-    bar[0] = 9;
+1. Importaciones o Requerimientos de otros archivos
+2. Definición de Constantes
+3. Definición de Variables y Objetos
+4. Definición de Funciones
+5. Asignación de Eventos y Estados Iniciales
 
-    console.log(foo[0], bar[0]); // => 9, 9
-    ```
+## Más Gramática
 
-**[⬆ back to top](#table-of-contents)**
+* [Comentarios](https://github.com/airbnb/javascript#comments)
+* [Espacio en Blanco](https://github.com/airbnb/javascript#whitespace)
+* [Punto y coma](https://github.com/airbnb/javascript#semicolons)
+* [Guía de Estilo JavaScript de Airbnb](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
 
+## Objetos principales de JavaScript en el navegador
 
-
-
-
-* Tipos de Datos de ARBNB y REDRADIX
-* POO en JS
-* Servidore WEB y Node
-
-
-
-
-
-
-
-
-
-Aquí meter Arbnb
-
-3 TIPOS BÁSICOS DE VARIABLES
-
-EN CUALQUIER LENGUAJE
-
-Strings ("Cadenas")
-Numbers (enteros-reales)
-Booleans (true-false)
-
-
-JavaScript trabaja con Camel Case
-(Técnica del Camello)
-
-Cuando una instrucción tenga una sola palabra, va en minúsculas p.e. write().
-
-
-Sólo las clases rompen esta regla, siempre va en mayúscula la letra inicial p.e. Date()
-
-
-Cuando una instrucción tenga 2 o más palabras, apartir de la segunada la primer letra va en mayúscula p.e. getElementById()
-
-
-POO EN JAVASCRIPT
-
-LOS 3 OBJETOS PADRES EN JS
-Window
-Document
-Navigator
- 
-
-DOCUMENT OBJECT MODEL (DOM)
+* `Window`
+* `Document`
+* `Navigator`

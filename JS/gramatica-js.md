@@ -9,12 +9,14 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 * Nombramiento de archivos
     * Usa `snake_case`
     * `js_style_guide.js`
+
 * Nombramiento de objetos, primitivos, funciones e instancias
     * Usa `camelCase`
     * `var obj = {};`
     * `var num = 1;`
     * `var map = new Map();`
     * `function fn() {}`
+
 * Nombramiento de clases y constructores
     * Usa `PascalCase`
     * `class MyClass {}`
@@ -40,11 +42,11 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 
 ## Ordenamiento de Código
 
-1. Importaciones o Requerimientos de otros archivos
-2. Definición de Constantes
-3. Definición de Variables y Objetos
-4. Definición de Funciones
-5. Asignación de Eventos y Estados Iniciales
+1. Importaciones o requerimientos de otros archivos o librerias
+2. Definición de constantes
+3. Definición de variables y objetos
+4. Definición de funciones
+5. Asignación de eventos y estados iniciales
 
 ## Más Gramática
 
@@ -55,6 +57,6 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 
 ## Objetos principales de JavaScript en el navegador
 
-* `Window`
-* `Document`
-* `Navigator`
+* `window`
+* `document`
+* `navigator`

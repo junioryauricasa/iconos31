@@ -24,16 +24,16 @@
 
 ### JavaScript Era Flash (2000)
 
+* Guerra de los Navegadores
 * Se crea [JSON](http://www.json.org/) (_JavaScript Object Notation_) es un formato ligero de intercambio de datos
 * Se crea [AJAX](https://es.wikipedia.org/wiki/AJAX) (_Asynchronous JavaScript And XML_), técnica que permite la comunicación asíncrona entre el navegador y el servidor
-* Guerra de los Navegadores
 * Proliferan sitios web hechos en Flash por sobre los hechos en Estándares Web (HTML, CSS y JS)
 * [ActionScript](https://es.wikipedia.org/wiki/ActionScript) el lenguaje de Flash evoluciona hasta ser orientado a objetos, su sintaxis es similar a la de JavaScript ya que se basan del mismo estándar [EcmaScript](http://www.ecma-international.org/)
 * Proliferan librerías y frameworks para hacer CrossBrowser como [jQuery](https://jquery.com/)
 
 ### JavaScript Era HTML5 (2008)
 
-[Implementaciones HTML5](http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png)
+![Implementaciones HTML5](http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png)
 * De 2008 a 2014 se define e implementa [HTML5](https://www.w3.org/html/logo/)
 * HTML5 apesta a JavaScript (6 de sus 8 implementaciones son JS)
 * Comienzan a proliferar librerías y frameworks para todo propósito

@@ -4,7 +4,7 @@
 
 ## "Es el único lenguaje en el que me doy cuenta que las personas sienten que no necesitan aprenderlo antes de empezar a utilizarlo." ([Douglas Crockford](http://www.crockford.com/))
 
-### JavaScript INICIOS (1995)
+### JavaScript: BEGINS (1995)
 
 > JavaScript, conocido como LiveScript, JScript, ECMAScript, es uno de los lenguajes de programación más populares del mundo. Virtualmente cada computadora en el mundo tiene al menos un intérprete Javascript instalado y sin duda es usado frecuentemente (navegador web). La popularidad que tiene Javascript se debe enteramente a su rol como lenguaje de script en la Web.
 
@@ -22,7 +22,7 @@
 * Se utiliza en sitios web para agregar funcionalidad, interactividad validar formularios, comunicarse con el servidor, entre otras cosas
 * Es el lenguaje de programación front end de la web
 
-### JavaScript Era Flash (2000)
+### JavaScript: AGE OF FLASH (2000)
 
 * Guerra de los Navegadores
 * Se crea [JSON](http://www.json.org/) (_JavaScript Object Notation_) es un formato ligero de intercambio de datos
@@ -31,15 +31,33 @@
 * [ActionScript](https://es.wikipedia.org/wiki/ActionScript) el lenguaje de Flash evoluciona hasta ser orientado a objetos, su sintaxis es similar a la de JavaScript ya que se basan del mismo estándar [EcmaScript](http://www.ecma-international.org/)
 * Proliferan librerías y frameworks para hacer CrossBrowser como [jQuery](https://jquery.com/)
 
-### JavaScript Era HTML5 (2008)
+### JavaScript: AGE OF HTML5 (2008)
 
 ![Implementaciones HTML5](http://www.w3.org/html/logo/badge/html5-badge-h-connectivity-css3-device-graphics-multimedia-performance-semantics-storage.png)
 * De 2008 a 2014 se define e implementa [HTML5](https://www.w3.org/html/logo/)
 * HTML5 apesta a JavaScript (6 de sus 8 implementaciones son JS)
 * Comienzan a proliferar librerías y frameworks para todo propósito
 * Comienzan a desarrollarse [API's](https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones) para la interacción con el software y hardware del usuario a través del navegador
-* En 2009 se crea [Node.js®](https://nodejs.org) el entorno de programación back end de JavaScript
+* En 2009 se crea [Node.js ®](https://nodejs.org) el entorno de programación back end de JavaScript
+* Comienzan a surgir bases de datos NoSQL basadas en JSON
 
+### JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)
+* JavaScript hoy nos permite crear:
+    * Sitios Web Front end
+    * Aplicaciones SPA (_Single Page Application_)
+    * Aplicaciones basadas en Componentes Web
+    * Aplicaciones en Red Escalables
+    * Aplicaciones en Tiempo Real
+    * Aplicaciones Distribuidas
+    * Aplicaciones en Microservicios
+    * Aplicaciones Isomórficas (Front end y Back end con el mismo lenguaje de programación)
+    * Aplicaciones Híbridas (Nativas)
+    * Servidores Web
+    * Bases de Datos
+    * Scripts para la administración de la terminal de comandos y el S.O.
+    * Scripts para la automatización de tareas y pruebas de código
+    * Controlar Hardware (Drones)
+    * Scripts para la dominación del mundo :smiling_imp: :earth_americas:
 
 
 
@@ -50,6 +68,29 @@ JAVASCRIPT ES UNA IMPLEMENTACIÓN DEL LENGUAJE ESTÁNDAR ECMASCRIPT
 ECMA-262 ES EL ESTÁNDAR OFICIAL DE JAVASCRIPT.
 
 
+SOPORTE A NAVEGADORES WEB
+Características que los navegadores modernos aun no soportan
+Características que los navegadores viejos no soportan
+A través de FALLBACKs y Pollyfills
+Recursos
+CAN I USE
+MODERNIZR
+PREFIX FREE
+AUTO PREFIXER
+BABEL
+
+
+APIS
+Complejidad en el cliente
+Personalizando experiencia
+Mayor Control
+Ejemplos: DRAG AND DROP, HISTORY, STORAGE, FULLSCREEN, GETUSERMEDIA, BATTERY, CONTENTEDITABLE, CACHE, GEOLOCATION, CANVAS, SVG, WEBSOCKETS...
+
+
+LIBRERIAS Y FRAMEWORKS
+Nos facilitan la interacción con nuestros elementos del DOM
+Solventan u optimizan una necesidad o característica en particular del Frontend
+Ejemplos: JQUERY, PROTOTYPE, MOOTOOLS, KENDO UI, ANGULAR, REACT, BACKBONE, EMBER, BROWSERIFY, GRUNT, GULP, BOWER...
 
 
 
@@ -150,15 +191,16 @@ Navigator
 DOCUMENT OBJECT MODEL (DOM)
 
 
+## Más Info
+* [Guía de Referencia HTML en MDN](https://developer.mozilla.org/es/docs/Web/HTML)
+* [Introducción a HTML](http://librosweb.es/libro/xhtml/)
+* [Guía de Buenas Prácticas en Código Front end](http://mdo.github.io/code-guide/)
+* [La dieta del Navegador](https://browserdiet.com/es/)
+* [Can I Use](http://caniuse.com/)
 
 
 
 
-Lenguaje de Programaciónesentación basado en reglas con una sintaxis de atributo valor
-
-Provee presentación (diseño) al contenido HTML
-
-Su principal objetivo es separar el contenido (HTML) de su presentación (CSS)
 
 ## Sintaxis
 ~~~~~~~~~~~~~~

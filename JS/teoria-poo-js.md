@@ -6,21 +6,18 @@ La gente cree que programar es dificil, algunas razones:
 * Programadores que se sienten DIOSES
 * PERSONAS que NO les gusta ANALIZAR
 
-La programación es intuitivo e inherente a los humanos
+La programación es:
 
-Las cosas intuitivas se van a la memoria muscular, donde no se necesita pensar, se ejecuta en automático, como respirar
-
-Desde que te levantas estás programando
-
-Debería enseñarse desde la primaria
+* Intuitivo e inherente a los humanos
+* Las cosas intuitivas se van a la memoria muscular, donde no se necesita pensar, se ejecuta en automático, como respirar
+* Desde que te levantas estás programando
+* Debería enseñarse desde la primaria
 
 ### PROGRAMAR es el FLUJO de ALGO que se PROCESA, se TRANSFORMA y TERMINA de OTRO MODO
 
-Debemos PENSAR como HUMANOS y NO como MÁQUINAS
-
-Debemos entender el **FLUJO** de lo que se quiere hacer, para **EJECUTAR** los **PROCESOS** que controlarán dicho **FLUJO**
-
-**NUNCA** traten de ejecutar **PROCESOS**, sin antes tener un **FLUJO** que controlar
+* Debemos PENSAR como HUMANOS y NO como MÁQUINAS
+* Debemos entender el FLUJO de lo que se quiere hacer, para EJECUTAR los PROCESOS que controlarán dicho FLUJO
+* NUNCA traten de ejecutar PROCESOS, sin antes tener un FLUJO que controlar
 
 ### PROGRAMAR ES FLUJO Y NO PROCESOS
 

@@ -2,15 +2,15 @@
 
 Muchas de las funciones que se realizan en un sitio o aplicación web requieren el acceso a los recursos mediante el protocolo [HTTP](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol) y para ello necesitamos acceder desde nuestro navegador web a un [Servidor Web](https://es.wikipedia.org/wiki/Servidor_web)
 
-Si miramos la barra de direcciónes de nuestro navegador veremos que la ruta de la url empieza con **`http://`**
+Si miramos la barra de direcciónes de nuestro navegador veremos que la ruta de la url empieza con `http://`
 
 Cuando abrimos localmente un archivo con extensión ´.html´ nuestro equipo lo abre con el navegador web que tengamos predeterminado, y lo hace localmente desde la ruta local del disco duro o dispositivo desde donde lo abramos
 
-Si miramos la barra de direcciónes de nuestro navegador veremos que la ruta de la url empieza con **`file://`**
+Si miramos la barra de direcciónes de nuestro navegador veremos que la ruta de la url empieza con `file://`
 
 Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre debes de hacerlo desde un entorno de servidor
 
-### Di NO  a `file://` USA `http://`
+### Di NO  a `file://` usa `http://`
 
 ## Instalando un servidor web en mi equipo:
 

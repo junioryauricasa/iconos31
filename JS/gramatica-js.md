@@ -6,27 +6,47 @@ Si llevamos este término a la programación podríamos entender el concepto de 
 
 Por ende entendemos que no es solo es el hecho de escribir código como se nos de la gana, sino que debemos escribir código que sea entendible y ordenado
 
-* Nombramiento de archivos
+## Nomenclatura
+
+* De archivos
     * Usa `snake_case`
     * `js_style_guide.js`
 
-* Nombramiento de objetos, primitivos, funciones e instancias
+* De objetos, primitivos, funciones e instancias
     * Usa `camelCase`
     * `var obj = {};`
     * `var num = 1;`
     * `var map = new Map();`
     * `function fn() {}`
 
-* Nombramiento de clases y constructores
+* De clases y constructores
     * Usa `PascalCase`
     * `class MyClass {}`
     * `function MyClass() {}`
 
-* Nombramiento de constantes
+* De constantes
     * Usa `UPPER_CASE`
     * `const MY_CONSTANT = 1;`
 
-## Tipos en JavaScript
+## Palabras Reservadas
+    A: abstract
+    B: boolean, break, byte
+    C: case, catch, char, class, const, continue
+    D: debugger, default, delete, do, double
+    E: else, enum, export, extends
+    F: false, final, finally, float, for, function
+    G: goto
+    I: if, implements, import, in, instanceof, int, interface
+    L: long
+    N: native, new, null
+    P: package, private, protected, public
+    R: return
+    S: short, static, super, switch, synchronized
+    T: this, throw, throws, transient, true, try, typeof
+    V: var, volatile, void
+    W: while, with
+
+## Tipos de Datos
 
 * **Primitivos**: Cuando se accede a un tipo primitivo se trabaja directamente sobre su valor
     + `string`

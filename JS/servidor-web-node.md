@@ -20,7 +20,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 	* Puedes instalar la versión **Stable**, la cuál es la última versión estable de Node, semanalmente sale una versión con carácterísticas nuevas y correcciones de bugs, generalmente se usa en ambientes de desarrollo.
 3. Abrir una terminal de comandos,
 	* Si estás en Linux o Mac puede ser que debas anteponer a todos los comandos que ejecutes, la palabra `sudo`
-	* Si estás en Windows con el programa de ejecutar escribe `cmd` da `enter` y en la terminal de comandos escribe `powershell`
+	* Si estás en Windows con el programa de ejecutar escribe `cmd` da `enter` y en la terminal de comandos escribe `powershell`, con ello accederás a una terminal más poderosa de Windows que acepta comandos de Linux
 	* Si no sabes usar comandos en la terminal, aquí te dejo una referencia para:
 		* [Windows](http://ss64.com/nt/index.html)
 		* [Mac y Linux](https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)

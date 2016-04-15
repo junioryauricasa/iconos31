@@ -14,10 +14,10 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 
 * De objetos, primitivos, funciones e instancias
     * Usa `camelCase`
-    * `var obj = {};`
-    * `var num = 1;`
-    * `var map = new Map();`
-    * `function fn() {}`
+    * `var myObj = {};`
+    * `var myNum = 1;`
+    * `var myMap = new Map();`
+    * `function myFn() {}`
 
 * De clases y constructores
     * Usa `PascalCase`

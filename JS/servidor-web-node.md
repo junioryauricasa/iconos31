@@ -23,7 +23,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 	* Si estás en Windows con el programa de ejecutar escribe `cmd` da `enter` y en la terminal de comandos escribe `powershell`, con ello accederás a una terminal más poderosa de Windows que acepta comandos de Linux
 	* Si no sabes usar comandos en la terminal, aquí te dejo una referencia para:
 		* [Windows](http://ss64.com/nt/index.html)
-		* [Mac y Linux](https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)
+		* [Linux y Mac](https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)
 4. Comprobar que tenemos instalado Node y NPM, escribe en tu terminal los comandos:
 	* `node -v` me da la versión de Node instalada
 	* `npm -v` me da la versión de NPM instalada

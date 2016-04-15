@@ -17,7 +17,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 1. Ir a [nodejs.org](https://nodejs.org)
 2. Descargar e Instalar Node.js
 	* Puedes instalar la versión **LTS (Long Term Support)**, la cuál tendrá soporte a largo plazo, generalmente se usa en ambientes de producción.
-	* Puedes instalar la versión **Stable**, la cuál es la última versión estable de Node, semanalmente sale una nueva versión con carácterísticas nuevas y correcciones de bugs, generalmente se usa en ambientes de desarrollo.
+	* Puedes instalar la versión **Stable**, la cuál es la última versión estable de Node, semanalmente sale una versión con carácterísticas nuevas y correcciones de bugs, generalmente se usa en ambientes de desarrollo.
 3. Abrir una terminal de comandos,
 	* Si estás en Linux o Mac puede ser que debas anteponer a todos los comandos que ejecutes, la palabra `sudo`
 	* Si estás en Windows con el programa de ejecutar escribe `cmd` da `enter` y en la terminal de comandos escribe `powershell`

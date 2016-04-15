@@ -30,3 +30,5 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 	* `http-server`
 8. Ir al navegador y acceder a la url:
 	* `http://localhost:8080`
+9. Para detener el servidor web en la terminal, presiona:
+	* `Ctrl + C`

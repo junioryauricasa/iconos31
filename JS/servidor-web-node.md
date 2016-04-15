@@ -30,7 +30,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 5. Instalar el paquete [http-server](https://www.npmjs.com/package/http-server) de manera global con el comando:
 	* `npm install http-server -g`
 6. Ir desde la terminal de comandos a la carpeta donde quiero ejecutar un servidor web local
-	* `cd C:\la-ruta\de-mi\carpeta`
+	* `cd C:\la-ruta\de-mi\carpeta`, si tu ruta tiene espacios en blanco deberás ponerla entre comillas `cd '/la ruta\de mi/carpeta con espacios'`
 7. Estando en la carpeta desde la terminal ,ejecuta el comando:
 	* `http-server`
 8. Ir al navegador y acceder a la url:

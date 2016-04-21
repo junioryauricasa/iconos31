@@ -286,18 +286,35 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 ![DOM](http://bextlan.com/img/para-cursos/dom.png)
 
 ### Métodos para acceder a los elementos del DOM (Selectores)
-* **`getElementsByTagName('tag-name')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
-* **`getElementsByClassName('class-name')`** devuleve un arreglo con todos los elementos de una clase CSS
-* **`getElementsByName('attribute-name-value')`** devuleve el elemento que tenga el valor del atributo name buscado
-* **`getElementsById('id-name')`** devuleve el elemento que tenga el valor del atributo id buscado
-* **`querySelectorAll('a-selector')`** devuleve un arreglo con todos los elementos de un selector
-* **`querySelector('a-selector')`** devuleve el elemento que tenga el valor del selector buscado
+* **`.getElementsByTagName('tag-name')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
+* **`.getElementsByClassName('class-name')`** devuleve un arreglo con todos los elementos de una clase CSS
+* **`.getElementsByName('name-attribute-value')`** devuleve el elemento que tenga el valor del atributo name buscado
+* **`.getElementsById('id-name')`** devuleve el elemento que tenga el valor del atributo id buscado
+* **`.querySelectorAll('a-selector')`** devuleve un arreglo con todos los elementos de un selector
+* **`.querySelector('a-selector')`** devuleve el elemento que tenga el valor del selector buscado
+
+### Atributos para acceder a los elementos del DOM por su posición jerárquica:
+* **`.parentNode`**: Nodo Padre
+* **`.children`**: Nodos Hijos
+* **`.childNodes`**: Todos los nodos hijo
+* **`.firstChild`**: Primer nodo hijo
+* **`.lastChild`**: Último nodo hijo
+* **`.nextSibling`**: Siguiente nodo hermano 
+* **`.previousSibling`**: Anterior nodo hermano
 
 ### Métodos para crear elementos en el DOM
-La creación de nodos es posible mediante el uso de dos métodos disponibles en el objeto document. Dichos métodos son:
+* **`createElement('HTMLElement')`**: Crea un nuevo elemento HTML del tipo especificado y devuelve un referencia a dicho elemento
+* **`createTextNode('string')`**: Crea un nuevo nodo de texto con el contenido especificado en la cadena de texto
 
-createElement(Tipo cadena): Crea un nuevo elemento del tipo especificado y devuelve un referencia a dicho elemento.
-createTextNode(Cadena de texto): Crea un nuevo nodo de texto con el contenido especificado en la cadena de texto.
+### Atributos para crear o modificar elementos en el DOM
+* **`.innerHTML = 'HTML Content'`**: Crea o modifica el contenido HTML especificado en la cadena de texto
+* **`.nodeValue = 'string'`**: Crea o modifica el texto de un nodo especificado
 
+### Métodos para agregar, reemplazar y eliminar nodos en el DOM
+* **`.appendChild(child-node)`**: Agrega un nodo hijo al elemento especificado
+* **`.removeChild(child-node)`**: Elimina un nodo hijo al elemento especificado
+* **`.replaceChild(new-node, replaced-node)`**: Reemplaza un nodo hijo al elemento especificado
+* **`.insertBefore(new-node, reference-node)`**: Inserta un nodo antes del que elegimos como referencia dentro del elemento especificado
+* **`.cloneNode(boolean)`**: Clona el nodo especificado. `true` con contenido, `false` vacío
 
 **[⬆ regresar al índice](#Índice)**

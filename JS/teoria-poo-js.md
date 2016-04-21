@@ -7,9 +7,9 @@
 ## Índice
 1. [Programación](#programaciÓn)
 1. [Programación Orientada a Objetos](#programaciÓn-orientada-a-objetos)
-1. [JavaScript: AGE OF HTML5 (2008)](#javascript-age-of-html5-2008)
-1. [JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)](#javascript-age-of-web-components--real-time-2014)
-1. [LIBRERIAS y FRAMEWORKS](#librerias-y-frameworks)
+1. [Gramática JS](#gramática-javascript)
+1. [Servidor Web](#servidor-web)
+1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [JavaScript NO es JAVA](#javascript-no-es-java)
 1. [EcmaScript](#ecmascript)
 1. [Buenas Prácticas](#buenas-prácticas)
@@ -204,5 +204,85 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 * `window`
 * `document`
 * `navigator`
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Servidor Web
+
+Muchas de las funciones que se realizan en un sitio o aplicación web requieren el acceso a los recursos mediante el protocolo [HTTP](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol) y para ello necesitamos acceder desde nuestro navegador web a un [Servidor Web](https://es.wikipedia.org/wiki/Servidor_web)
+
+Si miramos la barra de direcciónes de nuestro navegador veremos que la ruta de la url empieza con `http://`
+
+Cuando abrimos localmente un archivo con extensión ´.html´ nuestro equipo lo abre con el navegador web que tengamos predeterminado, y lo hace localmente desde la ruta local del disco duro o dispositivo desde donde lo abramos
+
+Si miramos la barra de direcciones de nuestro navegador veremos que la ruta de la url empieza con `file://`
+
+Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre debes de hacerlo desde un entorno de servidor
+
+#### Di NO  a `file://` usa `http://`
+
+### Instalando un servidor web en mi equipo con Node.js:
+
+1. Ir a [nodejs.org](https://nodejs.org)
+2. Descargar e Instalar Node.js
+	* Puedes instalar la versión **LTS (Long Term Support)**, la cuál tendrá soporte a largo plazo, generalmente se usa en ambientes de producción.
+	* Puedes instalar la versión **Stable**, la cuál es la última versión estable de Node, semanalmente sale una versión con carácterísticas nuevas y correcciones de bugs, generalmente se usa en ambientes de desarrollo.
+3. Abrir una terminal de comandos,
+	* Si estás en Linux o Mac puede ser que debas anteponer a todos los comandos que ejecutes, la palabra `sudo`
+	* Si estás en Windows con el programa de ejecutar escribe `cmd` da `enter` y en la terminal de comandos escribe `powershell`, con ello accederás a una terminal más poderosa de Windows que acepta comandos de Linux
+	* Si no sabes usar comandos en la terminal, aquí te dejo una referencia para:
+		* [Windows](http://ss64.com/nt/index.html)
+		* [Linux y Mac](https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/)
+4. Comprobar que tenemos instalado Node y NPM, escribe en tu terminal los comandos:
+	* `node -v` me da la versión de Node instalada
+	* `npm -v` me da la versión de NPM instalada
+5. Instalar el paquete [http-server](https://www.npmjs.com/package/http-server) de manera global con el comando:
+	* `npm install http-server -g`
+6. Ir desde la terminal de comandos a la carpeta donde quiero ejecutar un servidor web local
+	* `cd C:\la-ruta\de-mi\carpeta`
+	* Si la ruta tiene espacios en blanco deberás ponerla entre comillas:
+	* `cd '/la ruta\de mi/carpeta con espacios'`
+7. Estando en la carpeta desde la terminal ,ejecuta el comando:
+	* `http-server`
+	* Si quieres ver todas las opciones que http-server ofrece lee su [documentación](https://www.npmjs.com/package/http-server)
+8. Ir al navegador y acceder a la url:
+	* `http://localhost:8080`
+9. Para detener el servidor web en la terminal, presiona:
+	* `Ctrl + C`
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Las Buenas Partes de JavaScript
+
+### Orientado a Objetos
+JavaScript tiene un fuerte enfoque de programación orientada a objetos, a pesar de algunos debates que tienen lugar debido a las diferencias de la orientacion a objetos en Javascript comparado con otros lenguajes.
+
+### Programación basada ​​en Prototipos
+La programación basada ​​en prototipos es un estilo de programación orientada a objetos en la que las clases no están presentes y la reutilización de comportamiento (conocido como herencia en lenguajes basados ​​en clases) se lleva a cabo a través de un proceso de decoración de objetos existentes que sirven de prototipos. Este modelo también se conoce como programación sin clases, orientada a prototipos o basada en ejemplos.
+
+### Funciones Anónimas (Anonymous Functions)
+Funciones anómimas que son declaradas dinámicamente en tiempo de ejecución. Son llamadas anónimas porque no poseen un nombre de la misma manera que las funciones normales
+
+### Funciones como Objetos de Primera Clase (Functions as First-Class Objects)
+Las funciones en JavaScript son objetos de primera clase. Esto significa que las funciones son simplemente un tipo de objeto especial, con las cuales se pueden hacer las mismas cosas que cualquier otro objeto podria hacer.
+
+### Tipado Blando (Loose Typing)
+No es necesario especificar el tipo de dato de una variable al ser declarada, cuando se le asigna un valor, JavaScript detecta el tipo de dato automáticamente.
+
+### Alcance y Elevación (Scoping & Hoisting)
+**Alcance:** En JavaScript, las funciones son nuestras delimitadoras del alcance de facto al momento de la declaración de variables, lo cual significa que los bloques que son de bucles y condicionales (tales como `if`, `for`, `while`, `switch` y `try`) NO delimitan el alcance, a diferencia de la mayoría de otros lenguajes. Por lo tanto, estos bloques compartirán el mismo alcance que la función que las contiene. De esta forma, podría ser peligroso declarar variables dentro de bloques si se requiere que las variables sólo sean vistas en el bloque que pertenecen.
+
+**Elevación:** En ejecución, todas las declaraciones `var` y `function` son movidas para el comienzo de cada función (su alcance) esto es conocido como Elevación. Por ello, es buena práctica declarar todas las variables juntas en la primera línea, con el fín de evitar falsas expectativas con las variables que han sido declaradas luego de la asignación de su valor.
+
+### Funciones de Clausura (Closure Functions)
+Las clausuras o closures son funciones que hacen referencia a variables independientes (libres). En otras palabras, la función definida en el closure 'recuerda' el ambiente en el cual esta fue creado. Esto es un importante concepto para entender, así como útil durante el desarrollo, por ejemplo emular métodos privados. Esto puede también ayuda a aprender como evitar errores, como crear closures en bucles.
+
+### Modo Estrícto (Strict Mode)
+El modo estricto de ECMAScript 5 es una manera de optar por una forma restringida de JavaScript. El código en modo estricto y en modo no estrícto pueden coexistir, de esta forma, scripts pueden optar entrar al modo estrícto de forma incremental.
+
+### Funciones Auto Invocadas o Auto Ejecutables (Immediately-Invoked Functions)
+Es un patrón el cual produce un scope léxico usando las funciones de scoping de Javascript. La Expresión de función inmediatamente invocada puede ser usada para evitar el hoisting de las variables con los bloques, protege contra la contaminación del ambiente global y simultáneamente permite acceder a los métodos publicos al tiempo que conserva la privacidad en las variables definidas dentro de la función. También se conoce. Este patrón ha sido referido también como una **función anónima autoejecutable**.
 
 **[⬆ regresar al índice](#Índice)**

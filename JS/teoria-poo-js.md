@@ -299,10 +299,17 @@ Es un patrón el cual produce un scope léxico usando las funciones de scoping d
 
 ## DOM
 El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API para documentos HTML y XML. Este prevee una representación estructural del documento, permitiéndole modificar su contenido y presentación visual mediante el uso de un lenguaje de scripting tal como JavaScript.
+![DOM](http://bextlan.com/img/para-cursos/dom.png)
 
 ### Métodos para acceder a los elementos del DOM (Selectores)
-* `**getElementsByTagName['tag']**` devuleve un arreglo con todos los elementos de la etiqueta buscada
-* `**getElementsByTagName['tag']**` devuleve un arreglo con todos los elementos de la etiqueta buscada
+* **`getElementsByTagName('tag')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
+* **`getElementsByClassName('class-name')`** devuleve un arreglo con todos los elementos de una clase CSS
+* **`getElementsByName('attribute-name')`** devuleve el elemento que tenga el valor del atributo name buscado
+* **`getElementsById('id')`** devuleve el elemento que tenga el valor del atributo id buscado
+* **`querySelectorAll('a-selector')`** devuleve un arreglo con todos los elementos de un selector
+* **`querySelector('a-selector')`** devuleve el elemento que tenga el valor del selector buscado
+
+### Métodos para acceder a los elementos del DOM (Selectores)
 
 
 **[⬆ regresar al índice](#Índice)**

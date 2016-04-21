@@ -11,10 +11,6 @@
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
-1. [EcmaScript](#ecmascript)
-1. [Buenas Prácticas](#buenas-prácticas)
-1. [Libros](#libros)
-
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:

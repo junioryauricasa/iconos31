@@ -17,7 +17,6 @@
 
 
 ## PROGRAMACIÓN
-
 La gente cree que programar es dificil, algunas razones:
 
 * MALOS Profesores
@@ -50,7 +49,6 @@ La programación es:
 
 
 ## PROGRAMACIÓN ORIENTADA A OBJETOS
-
 La POO es un paradigma de programación que utiliza objetos e interacciones en el diseño de un sistema y está compuesta por varios elementos y características
 
 La POO trata de plasmar o representar la realidad del mundo físico (lo concreto) 
@@ -62,7 +60,6 @@ y llevarlo al mundo digital (lo abstracto)
 > > [Teoría de las Ideas](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_las_formas)
 
 ### 4 CONCEPTOS BÁSICOS DE POO
-
 * Clase
 * Objeto
 * Métodos
@@ -82,13 +79,11 @@ y llevarlo al mundo digital (lo abstracto)
 	kenai.esterilizado = true;
 
 #### Clase: 
-	
 * Es un **Modelo** a seguir
 * La idea de Platón
 * Sintaxis: `Class Perro(){...}`
 
 #### Objeto:
-
 * Representación o **Instancia** de una clase
 * La representación física de la idea de Platón
 * Sintaxis: `kenai = new Perro();`
@@ -98,7 +93,6 @@ Los objetos tienen 2 facultades:
 * Atributos
 
 #### Métodos: 
-
 * Son las cosas o **Acciones** que hacen los objetos
 	* Sintaxis: `objeto.metodo();`
    	* correr, caminar, mover la cola, ladrar (verbos/acciones)
@@ -110,7 +104,6 @@ Los objetos tienen 2 facultades:
 	* `function comer(comida) { ... }`
 
 #### Atributos: 
-
 * Son las características o **Propiedades** que tienen los objetos
 	* Sintaxis: `objeto.atributo = valor;`
 	* `kenai.raza = 'Criollo';`
@@ -123,7 +116,6 @@ Los objetos tienen 2 facultades:
 
 
 ## Gramática JavaScript
-
 La gramática se define como el estudio de las reglas y principios que estandarizan el uso del lenguaje dentro de la oración
 
 Si llevamos este término a la programación podríamos entender el concepto de la gramática como las reglas y principios que regulan la escritura del código
@@ -131,7 +123,6 @@ Si llevamos este término a la programación podríamos entender el concepto de 
 Por ende entendemos que no es solo es el hecho de escribir código como se nos de la gana, sino que debemos escribir código que sea entendible y ordenado
 
 ### Nomenclatura
-
 * De archivos
     * Usa `snake_case`
     * `js_style_guide.js`
@@ -171,7 +162,6 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
     W: while, with
 
 ### Tipos de Datos
-
 * **Primitivos**: Cuando se accede a un tipo primitivo se trabaja directamente sobre su valor
     + `string`
     + `number`
@@ -185,7 +175,6 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
     + `function`
 
 ### Ordenamiento de Código
-
 1. Importaciones o requerimientos de otros archivos o librerias
 2. Definición de constantes
 3. Definición de variables y objetos
@@ -193,23 +182,20 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 5. Asignación de eventos y estados iniciales
 
 ### Más Gramática
-
 * [Comentarios](https://github.com/airbnb/javascript#comments)
 * [Espacio en Blanco](https://github.com/airbnb/javascript#whitespace)
 * [Punto y coma](https://github.com/airbnb/javascript#semicolons)
 * [Guía de Estilo JavaScript de Airbnb](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
 
 ### Objetos principales de JavaScript en el Front end
-
-* `window`
-* `document`
-* `navigator`
+* **`window`**
+* **`document`**
+* **`navigator`**
 
 **[⬆ regresar al índice](#Índice)**
 
 
 ## Servidor Web
-
 Muchas de las funciones que se realizan en un sitio o aplicación web requieren el acceso a los recursos mediante el protocolo [HTTP](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol) y para ello necesitamos acceder desde nuestro navegador web a un [Servidor Web](https://es.wikipedia.org/wiki/Servidor_web)
 
 Si miramos la barra de direcciónes de nuestro navegador veremos que la ruta de la url empieza con `http://`
@@ -223,7 +209,6 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 #### Di NO  a `file://` usa `http://`
 
 ### Instalando un servidor web en mi equipo con Node.js:
-
 1. Ir a [nodejs.org](https://nodejs.org)
 2. Descargar e Instalar Node.js
 	* Puedes instalar la versión **LTS (Long Term Support)**, la cuál tendrá soporte a largo plazo, generalmente se usa en ambientes de producción.
@@ -265,7 +250,6 @@ JavaScript tiene un fuerte enfoque de programación orientada a objetos, a pesar
 La programación basada ​​en prototipos es un estilo de programación orientada a objetos en la que las clases no están presentes y la reutilización de comportamiento (conocido como herencia en lenguajes basados ​​en clases) se lleva a cabo a través de un proceso de decoración de objetos existentes que sirven de prototipos. Este modelo también se conoce como programación sin clases, orientada a prototipos o basada en ejemplos.
 
 #### 4 Formas de crear objetos en JS:
-
 1. Objetos literales
 2. Prototipo Object()
 3. Función Constructora
@@ -302,14 +286,18 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 ![DOM](http://bextlan.com/img/para-cursos/dom.png)
 
 ### Métodos para acceder a los elementos del DOM (Selectores)
-* **`getElementsByTagName('tag')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
+* **`getElementsByTagName('tag-name')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
 * **`getElementsByClassName('class-name')`** devuleve un arreglo con todos los elementos de una clase CSS
-* **`getElementsByName('attribute-name')`** devuleve el elemento que tenga el valor del atributo name buscado
-* **`getElementsById('id')`** devuleve el elemento que tenga el valor del atributo id buscado
+* **`getElementsByName('attribute-name-value')`** devuleve el elemento que tenga el valor del atributo name buscado
+* **`getElementsById('id-name')`** devuleve el elemento que tenga el valor del atributo id buscado
 * **`querySelectorAll('a-selector')`** devuleve un arreglo con todos los elementos de un selector
 * **`querySelector('a-selector')`** devuleve el elemento que tenga el valor del selector buscado
 
-### Métodos para acceder a los elementos del DOM (Selectores)
+### Métodos para crear elementos en el DOM
+La creación de nodos es posible mediante el uso de dos métodos disponibles en el objeto document. Dichos métodos son:
+
+createElement(Tipo cadena): Crea un nuevo elemento del tipo especificado y devuelve un referencia a dicho elemento.
+createTextNode(Cadena de texto): Crea un nuevo nodo de texto con el contenido especificado en la cadena de texto.
 
 
 **[⬆ regresar al índice](#Índice)**

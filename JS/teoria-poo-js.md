@@ -1,12 +1,12 @@
 # Fundamentos de Programación JavaScript
-
 ![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 
 ### Nota: JavaScript hoy esta en todos lados (Front end, Back end, Bases de Datos, Servidores, Terminal, Hardware, Software, etc). El enfoque de este documento es introductorio a los Fundamentos de Programación Web del lado Front end con JavaScript: conceptos básicos de programación, programación orientada a objetos, gramática y sintaxis de JS, interacción con HTML y CSS, eventos, JSON y AJAX.
 
+
 ## Índice
-1. [JavaScript: BEGINS (1995)](#javascript-begins-1995)
-1. [JavaScript: AGE OF FLASH (2000)](#javascript-age-of-flash-2000)
+1. [Programación](#programaciÓn)
+1. [Programación Orientada a Objetos](#programaciÓn-orientada-a-objetos)
 1. [JavaScript: AGE OF HTML5 (2008)](#javascript-age-of-html5-2008)
 1. [JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)](#javascript-age-of-web-components--real-time-2014)
 1. [LIBRERIAS y FRAMEWORKS](#librerias-y-frameworks)
@@ -15,7 +15,8 @@
 1. [Buenas Prácticas](#buenas-prácticas)
 1. [Libros](#libros)
 
-# PROGRAMACIÓN
+
+## PROGRAMACIÓN
 
 La gente cree que programar es dificil, algunas razones:
 
@@ -45,7 +46,10 @@ La programación es:
 ![Símbolos de los Diagramas de Flujo](http://bextlan.com/img/para-cursos/simbolos-diagramas-flujo.png)
 ![Ejemplo Diagrama de Flujo](http://bextlan.com/img/para-cursos/diagrama-par-impar.jpg)
 
-# PROGRAMACIÓN ORIENTADA A OBJETOS
+**[⬆ regresar al índice](#Índice)**
+
+
+## PROGRAMACIÓN ORIENTADA A OBJETOS
 
 La POO es un paradigma de programación que utiliza objetos e interacciones en el diseño de un sistema y está compuesta por varios elementos y características
 
@@ -114,3 +118,91 @@ Los objetos tienen 2 facultades:
 	* `kenai.esterilizado = true;`
 * Los Atributos fuera de los objetos se llaman **Variables**
 	* `var raza = 'Criollo';`
+
+**[⬆ regresar al índice](#Índice)**
+
+
+## Gramática JavaScript
+
+La gramática se define como el estudio de las reglas y principios que estandarizan el uso del lenguaje dentro de la oración
+
+Si llevamos este término a la programación podríamos entender el concepto de la gramática como las reglas y principios que regulan la escritura del código
+
+Por ende entendemos que no es solo es el hecho de escribir código como se nos de la gana, sino que debemos escribir código que sea entendible y ordenado
+
+### Nomenclatura
+
+* De archivos
+    * Usa `snake_case`
+    * `js_style_guide.js`
+
+* De objetos, primitivos, funciones e instancias
+    * Usa `camelCase`
+    * `var myObj = {};`
+    * `var myNum = 1;`
+    * `var myMap = new Map();`
+    * `function myFn() {}`
+
+* De clases y constructores
+    * Usa `PascalCase`
+    * `class MyClass {}`
+    * `function MyClass() {}`
+
+* De constantes
+    * Usa `UPPER_CASE`
+    * `const MY_CONSTANT = 1;`
+
+### Palabras Reservadas
+    A: abstract
+    B: boolean, break, byte
+    C: case, catch, char, class, const, continue
+    D: debugger, default, delete, do, double
+    E: else, enum, export, extends
+    F: false, final, finally, float, for, function
+    G: goto
+    I: if, implements, import, in, instanceof, int, interface
+    L: long
+    N: native, new, null
+    P: package, private, protected, public
+    R: return
+    S: short, static, super, switch, synchronized
+    T: this, throw, throws, transient, true, try, typeof
+    V: var, volatile, void
+    W: while, with
+
+### Tipos de Datos
+
+* **Primitivos**: Cuando se accede a un tipo primitivo se trabaja directamente sobre su valor
+    + `string`
+    + `number`
+    + `boolean`
+    + `null`
+    + `undefined`
+
+* **Complejo**: Cuando se accede a un tipo complejo se trabaja en una referencia a su valor
+    + `object = {}`
+    + `array = []`
+    + `function`
+
+### Ordenamiento de Código
+
+1. Importaciones o requerimientos de otros archivos o librerias
+2. Definición de constantes
+3. Definición de variables y objetos
+4. Definición de funciones
+5. Asignación de eventos y estados iniciales
+
+### Más Gramática
+
+* [Comentarios](https://github.com/airbnb/javascript#comments)
+* [Espacio en Blanco](https://github.com/airbnb/javascript#whitespace)
+* [Punto y coma](https://github.com/airbnb/javascript#semicolons)
+* [Guía de Estilo JavaScript de Airbnb](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
+
+### Objetos principales de JavaScript en el Front end
+
+* `window`
+* `document`
+* `navigator`
+
+**[⬆ regresar al índice](#Índice)**

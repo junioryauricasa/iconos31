@@ -1,3 +1,20 @@
+# Fundamentos de Programación JavaScript
+
+![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
+
+### Nota: JavaScript hoy esta en todos lados (Front end, Back end, Bases de Datos, Servidores, Terminal, Hardware, Software, etc). El enfoque de este documento es introductorio a los Fundamentos de Programación Web del lado Front end con JavaScript: conceptos básicos de programación, programación orientada a objetos, gramática y sintaxis de JS, interacción con HTML y CSS, eventos, JSON y AJAX.
+
+## Índice
+1. [JavaScript: BEGINS (1995)](#javascript-begins-1995)
+1. [JavaScript: AGE OF FLASH (2000)](#javascript-age-of-flash-2000)
+1. [JavaScript: AGE OF HTML5 (2008)](#javascript-age-of-html5-2008)
+1. [JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)](#javascript-age-of-web-components--real-time-2014)
+1. [LIBRERIAS y FRAMEWORKS](#librerias-y-frameworks)
+1. [JavaScript NO es JAVA](#javascript-no-es-java)
+1. [EcmaScript](#ecmascript)
+1. [Buenas Prácticas](#buenas-prácticas)
+1. [Libros](#libros)
+
 # PROGRAMACIÓN
 
 La gente cree que programar es dificil, algunas razones:

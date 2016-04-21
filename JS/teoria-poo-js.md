@@ -267,9 +267,9 @@ La programación basada ​​en prototipos es un estilo de programación orient
 4 Formas de crear objetos en JS:
 
 1. Objetos literales
-1. Prototipo Object()
-1. Función Constructora
-1. Clases (apartir de ES6 o ES2015)
+2. Prototipo Object()
+3. Función Constructora
+4. Clases (apartir de ES6 o ES2015)
 
 ### Funciones Anónimas (Anonymous Functions)
 Funciones anómimas que son declaradas dinámicamente en tiempo de ejecución. Son llamadas anónimas porque no poseen un nombre de la misma manera que las funciones normales

@@ -1,0 +1,1 @@
+Los objetos son una colección de propiedades

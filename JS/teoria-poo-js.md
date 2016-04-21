@@ -257,10 +257,18 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 ## Las Buenas Partes de JavaScript
 
 ### Orientado a Objetos
+Los objetos son una colección de propiedades.
+
 JavaScript tiene un fuerte enfoque de programación orientada a objetos, a pesar de algunos debates que tienen lugar debido a las diferencias de la orientacion a objetos en Javascript comparado con otros lenguajes.
 
-### Programación basada ​​en Prototipos
+#### Programación basada ​​en Prototipos
 La programación basada ​​en prototipos es un estilo de programación orientada a objetos en la que las clases no están presentes y la reutilización de comportamiento (conocido como herencia en lenguajes basados ​​en clases) se lleva a cabo a través de un proceso de decoración de objetos existentes que sirven de prototipos. Este modelo también se conoce como programación sin clases, orientada a prototipos o basada en ejemplos.
+
+4 Formas de crear objetos en JS:
+1. Objetos literales
+1. Prototipo Object()
+1. Función Constructora
+1. Clases (apartir de ES6 o ES2015)
 
 ### Funciones Anónimas (Anonymous Functions)
 Funciones anómimas que son declaradas dinámicamente en tiempo de ejecución. Son llamadas anónimas porque no poseen un nombre de la misma manera que las funciones normales
@@ -284,5 +292,8 @@ El modo estricto de ECMAScript 5 es una manera de optar por una forma restringid
 
 ### Funciones Auto Invocadas o Auto Ejecutables (Immediately-Invoked Functions)
 Es un patrón el cual produce un scope léxico usando las funciones de scoping de Javascript. La Expresión de función inmediatamente invocada puede ser usada para evitar el hoisting de las variables con los bloques, protege contra la contaminación del ambiente global y simultáneamente permite acceder a los métodos publicos al tiempo que conserva la privacidad en las variables definidas dentro de la función. También se conoce. Este patrón ha sido referido también como una **función anónima autoejecutable**.
+
+**[⬆ regresar al índice](#Índice)**
+
 
 **[⬆ regresar al índice](#Índice)**

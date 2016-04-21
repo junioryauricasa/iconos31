@@ -265,6 +265,7 @@ JavaScript tiene un fuerte enfoque de programación orientada a objetos, a pesar
 La programación basada ​​en prototipos es un estilo de programación orientada a objetos en la que las clases no están presentes y la reutilización de comportamiento (conocido como herencia en lenguajes basados ​​en clases) se lleva a cabo a través de un proceso de decoración de objetos existentes que sirven de prototipos. Este modelo también se conoce como programación sin clases, orientada a prototipos o basada en ejemplos.
 
 4 Formas de crear objetos en JS:
+
 1. Objetos literales
 1. Prototipo Object()
 1. Función Constructora

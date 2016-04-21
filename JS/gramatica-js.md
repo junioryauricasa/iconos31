@@ -75,7 +75,7 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 * [Punto y coma](https://github.com/airbnb/javascript#semicolons)
 * [Guía de Estilo JavaScript de Airbnb](https://github.com/airbnb/javascript#airbnb-javascript-style-guide-)
 
-## Objetos principales de JavaScript en el navegador
+## Objetos principales de JavaScript en el Front end
 
 * `window`
 * `document`

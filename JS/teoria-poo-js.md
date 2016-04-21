@@ -10,7 +10,7 @@
 1. [Gramática JS](#gramática-javascript)
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
-1. [JavaScript NO es JAVA](#javascript-no-es-java)
+1. [DOM](#dom)
 1. [EcmaScript](#ecmascript)
 1. [Buenas Prácticas](#buenas-prácticas)
 1. [Libros](#libros)
@@ -264,7 +264,7 @@ JavaScript tiene un fuerte enfoque de programación orientada a objetos, a pesar
 #### Programación basada ​​en Prototipos
 La programación basada ​​en prototipos es un estilo de programación orientada a objetos en la que las clases no están presentes y la reutilización de comportamiento (conocido como herencia en lenguajes basados ​​en clases) se lleva a cabo a través de un proceso de decoración de objetos existentes que sirven de prototipos. Este modelo también se conoce como programación sin clases, orientada a prototipos o basada en ejemplos.
 
-4 Formas de crear objetos en JS:
+#### 4 Formas de crear objetos en JS:
 
 1. Objetos literales
 2. Prototipo Object()
@@ -295,6 +295,14 @@ El modo estricto de ECMAScript 5 es una manera de optar por una forma restringid
 Es un patrón el cual produce un scope léxico usando las funciones de scoping de Javascript. La Expresión de función inmediatamente invocada puede ser usada para evitar el hoisting de las variables con los bloques, protege contra la contaminación del ambiente global y simultáneamente permite acceder a los métodos publicos al tiempo que conserva la privacidad en las variables definidas dentro de la función. También se conoce. Este patrón ha sido referido también como una **función anónima autoejecutable**.
 
 **[⬆ regresar al índice](#Índice)**
+
+
+## DOM
+El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API para documentos HTML y XML. Este prevee una representación estructural del documento, permitiéndole modificar su contenido y presentación visual mediante el uso de un lenguaje de scripting tal como JavaScript.
+
+### Métodos para acceder a los elementos del DOM (Selectores)
+* `**getElementsByTagName['tag']**` devuleve un arreglo con todos los elementos de la etiqueta buscada
+* `**getElementsByTagName['tag']**` devuleve un arreglo con todos los elementos de la etiqueta buscada
 
 
 **[⬆ regresar al índice](#Índice)**

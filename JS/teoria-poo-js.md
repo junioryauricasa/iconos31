@@ -247,6 +247,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 #### Di NO  a `file://` usa `http://`
 
 ### Instalando un servidor web en mi equipo con Node.js:
+![Node.js](nodejs-new-pantone-black.png)
 1. Ir a [nodejs.org](https://nodejs.org)
 2. Descargar e Instalar Node.js
 	* Puedes instalar la versión **LTS (Long Term Support)**, la cuál tendrá soporte a largo plazo, generalmente se usa en ambientes de producción.
@@ -324,29 +325,38 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 ![DOM](http://bextlan.com/img/para-cursos/dom.png)
 
 ### Métodos para acceder a los elementos del DOM (Selectores)
-* **`.getElementsByTagName('tag-name')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
-* **`.getElementsByClassName('class-name')`** devuleve un arreglo con todos los elementos de una clase CSS
-* **`.getElementsByName('name-attribute-value')`** devuleve el elemento que tenga el valor del atributo name buscado
-* **`.getElementsById('id-name')`** devuleve el elemento que tenga el valor del atributo id buscado
-* **`.querySelectorAll('a-selector')`** devuleve un arreglo con todos los elementos de un selector
-* **`.querySelector('a-selector')`** devuleve el elemento que tenga el valor del selector buscado
+* **`document.getElementsByTagName('tag-name')`** devuleve un arreglo con todos los elementos de una etiqueta HTML
+* **`document.getElementsByClassName('class-name')`** devuleve un arreglo con todos los elementos de una clase CSS
+* **`document.getElementsByName('name-attribute-value')`** devuleve el elemento que tenga el valor del atributo name buscado
+* **`document.getElementsById('id-name')`** devuleve el elemento que tenga el valor del atributo id buscado
+* **`document.querySelectorAll('a-selector')`** devuleve un arreglo con todos los elementos de un selector
+* **`document.querySelector('a-selector')`** devuleve el elemento que tenga el valor del selector buscado
 
-### Atributos para acceder a los elementos del DOM por su posición jerárquica:
-* **`.parentNode`**: Nodo Padre
-* **`.children`**: Nodos Hijos
-* **`.childNodes`**: Todos los nodos hijo
-* **`.firstChild`**: Primer nodo hijo
-* **`.lastChild`**: Último nodo hijo
-* **`.nextSibling`**: Siguiente nodo hermano 
-* **`.previousSibling`**: Anterior nodo hermano
+### Atributos para acceder a los nodos y elementos del DOM por su posición jerárquica:
+* Nodos (Elementos y Textos):
+	* **`.parentNode`**: Nodo padre
+	* **`.childNodes`**: Nodos hijos
+	* **`.firstChild`**: Primer nodo hijo
+	* **`.lastChild`**: Último nodo hijo
+	* **`.nextSibling`**: Siguiente nodo hermano 
+	* **`.previousSibling`**: Anterior nodo hermano
+	
+* Elementos (Etiquetas HTML):
+	* **`.parentElement`**: Elemento padre
+	* **`.children`**: Elementos hijos
+	* **`.firstElementChild`**: Primer elemento hijo
+	* **`.lastElementChild`**: Último elemento hijo
+	* **`.nextElementSibling`**: Siguiente elemento hermano 
+	* **`.previousElementSibling`**: Anterior elemento hermano
 
 ### Métodos para crear elementos en el DOM
-* **`createElement('HTMLElement')`**: Crea un nuevo elemento HTML del tipo especificado y devuelve un referencia a dicho elemento
-* **`createTextNode('string')`**: Crea un nuevo nodo de texto con el contenido especificado en la cadena de texto
+* **`.createElement('HTMLElement')`**: Crea un nuevo elemento HTML del tipo especificado y devuelve un referencia a dicho elemento
+* **`.createTextNode('string')`**: Crea un nuevo nodo de texto con el contenido especificado en la cadena de texto
 
-### Atributos para crear o modificar elementos en el DOM
-* **`.innerHTML = 'HTML Content'`**: Crea o modifica el contenido HTML especificado en la cadena de texto
+### Atributos para crear o modificar nodos y elementos en el DOM
 * **`.nodeValue = 'string'`**: Crea o modifica el texto de un nodo especificado
+* **`.innerText = 'string'`**: Crea o modifica el contenido de texto del elemento especificado
+* **`.innerHTML = 'HTML Content'`**: Crea o modifica el contenido HTML del elemento especificado
 
 ### Métodos para agregar, reemplazar y eliminar nodos en el DOM
 * **`.appendChild(child-node)`**: Agrega un nodo hijo al elemento especificado
@@ -354,5 +364,25 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.replaceChild(new-node, replaced-node)`**: Reemplaza un nodo hijo al elemento especificado
 * **`.insertBefore(new-node, reference-node)`**: Inserta un nodo antes del que elegimos como referencia dentro del elemento especificado
 * **`.cloneNode(boolean)`**: Clona el nodo especificado. `true` con contenido, `false` vacío
+
+### Accediendo a Atributos HTML en el DOM
+* **`.getAttribute('name-attribute')`**: Obteniendo el valor de un atributo HTML del elemento especificado
+* **`.setAttribute('name-attribute', 'new-value')`**: Estableciendo el valor de un atributo HTML del elemento especificado
+* **`elemento.nombreAtributo`**: Obteniendo el valor de un atributo HTML del elemento especificado
+* **`elemento.nombreAtributo = 'nuevo valor'`**: Estableciendo el valor de un atributo HTML del elemento especificado
+
+### Accediendo a Estilos CSS en el DOM
+* **`.style`**: Objeto que contiene todos los atributos CSS del elemento especificado
+* **`elemento.style.nombreAtributo`**: Obteniendo el valor de un atributo CSS del elemento especificado
+* **`elemento.style.nombreAtributo = 'nuevo valor'`**: Estableciendo el valor de un atributo CSS del elemento especificado
+
+### Accediendo a las clases CSS en el DOM
+* **`.className`**: Devuelve una cadena de texto con los nombres de las clases del elemento especificado
+* **`.classList`**: Devuelve un arreglo con los nombres de las clases del elemento especificado
+* **`.classList[n]`**: Devuelve la clase que se encuentre en la posición `n` del arreglo `classList` del elemento especificado
+* **`.classList.contain('class-name')`**: Devuelve true si el elemento especificado contiene la clase CSS mencionada, sino devuelve false
+* **`.classList.add('class-name')`**: Agrega la clase CSS mencionada al elemento especificado
+* **`.classList.remove('class-name')`**: Elimina la clase CSS mencionada al elemento especificado
+* **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
 
 **[⬆ regresar al índice](#Índice)**

@@ -22,13 +22,13 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 
 ## :school: Sesión 1: 14 Abril 2016
+
 ### :clipboard: Temas y conceptos revisados:
 * [Introducción al mundo de JavaScript](./teoria-js.md)
 * [Introducción a la Programación](./teoria-poo-js.md)
-* Programación Orientada a Objetos
-* POO en JavaScript
-* [Gramática JavaScript](./gramatica-js.md)
-* [Instalando un Servidor Web con Node.js](./servidor-web-node.md)
+* [Programación Orientada a Objetos](./teoria-poo-js.md#programaciÓn-orientada-a-objetos)
+* [Gramática JavaScript](./teoria-poo-js.md#gramática-javascript)
+* [Instalando un Servidor Web con Node.js](./teoria-poo-js.md#servidor-web)
 
 ### :pencil: Actividades para la siguiente sesión: 
 * Traer la definición conceptual de un objeto del mundo real (con Métodos y Atributos) en un archivo de texto, prohibido usar seres vivos
@@ -41,16 +41,29 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 * Del Libro Introducción a JavaScript leer los siguientes capítulos:
 	* [Capítulo 3. Programación básica](http://librosweb.es/libro/javascript/capitulo_3.html)
 	* [Capítulo 4. Programación avanzada](http://librosweb.es/libro/javascript/capitulo_4.html)
+
+
+## :school: Sesión 2: 21 Abril 2016
+
+### :clipboard: Temas y conceptos revisados:
+* [Sintaxis JavaScript](./teoria-poo-js.md#sintaxis-javascript)
+* [Las Buenas Partes de JavaScript](./teoria-poo-js.md#las-buenas-partes-de-javascript)
+* Objetos y Clases con JavaScript
+
+### :pencil: Actividades para la siguiente sesión:
+* Traer programado un objeto con 3 métodos y 3 atributos usando las 4 formas diferentes que tiene JavaScript para la creación de objetos
+* Del Libro Introducción a JavaScript leer los siguientes capítulos:
 	* [Capítulo 5. DOM](http://librosweb.es/libro/javascript/capitulo_5.html)
 	* [Capítulo 6. Eventos](http://librosweb.es/libro/javascript/capitulo_6.html)
 
 
-## :school: Sesión 2: 21 Abril 2016
-### :clipboard: Temas y conceptos revisados: 
-### :pencil: Actividades para la siguiente sesión: 
-
 ## :school: Sesión 3: 28 Abril 2016
+
 ### :clipboard: Temas y conceptos revisados: 
+* [](./teoria-poo-js.md#)
+* [](./teoria-poo-js.md#)
+* [](./teoria-poo-js.md#)
+
 ### :pencil: Actividades para la siguiente sesión: 
 
 ## :school: Sesión 4: 05 Mayo 2016

@@ -10,6 +10,7 @@
 1. [Gramática JS](#gramática-javascript)
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
+1. [Sintaxis JS](#sintaxis-javascript)
 1. [DOM](#dom)
 
 ## PROGRAMACIÓN
@@ -251,11 +252,11 @@ La programación basada ​​en prototipos es un estilo de programación orient
 3. Función Constructora
 4. Clases (apartir de ES6 o ES2015)
 
-### Funciones Anónimas (Anonymous Functions)
-Funciones anómimas que son declaradas dinámicamente en tiempo de ejecución. Son llamadas anónimas porque no poseen un nombre de la misma manera que las funciones normales
-
 ### Funciones como Objetos de Primera Clase (Functions as First-Class Objects)
 Las funciones en JavaScript son objetos de primera clase. Esto significa que las funciones son simplemente un tipo de objeto especial, con las cuales se pueden hacer las mismas cosas que cualquier otro objeto podria hacer.
+
+### Funciones Anónimas (Anonymous Functions)
+Funciones anómimas que son declaradas dinámicamente en tiempo de ejecución. Son llamadas anónimas porque no poseen un nombre de la misma manera que las funciones normales
 
 ### Tipado Blando (Loose Typing)
 No es necesario especificar el tipo de dato de una variable al ser declarada, cuando se le asigna un valor, JavaScript detecta el tipo de dato automáticamente.
@@ -276,6 +277,9 @@ Es un patrón el cual produce un scope léxico usando las funciones de scoping d
 
 **[⬆ regresar al índice](#Índice)**
 
+
+## Sintaxis JavaScript
+Aquí links de capitulo 3 y 4
 
 ## DOM
 El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API para documentos HTML y XML. Este prevee una representación estructural del documento, permitiéndole modificar su contenido y presentación visual mediante el uso de un lenguaje de scripting tal como JavaScript.

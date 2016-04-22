@@ -380,7 +380,7 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.className`**: Devuelve una cadena de texto con los nombres de las clases del elemento especificado
 * **`.classList`**: Devuelve un arreglo con los nombres de las clases del elemento especificado
 * **`.classList[n]`**: Devuelve la clase que se encuentre en la posición `n` del arreglo `classList` del elemento especificado
-* **`.classList.contain('class-name')`**: Devuelve true si el elemento especificado contiene la clase CSS mencionada, sino devuelve false
+* **`.classList.contain('class-name')`**: Devuelve `true` si el elemento especificado contiene la clase CSS mencionada, sino devuelve `false`
 * **`.classList.add('class-name')`**: Agrega la clase CSS mencionada al elemento especificado
 * **`.classList.remove('class-name')`**: Elimina la clase CSS mencionada al elemento especificado
 * **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado

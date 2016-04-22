@@ -15,9 +15,10 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ## :books: Fuentes bibliográficas del curso:
 * [Introducción a JavaScript](http://librosweb.es/libro/javascript/)
 * [Introducción a AJAX](http://librosweb.es/libro/ajax/)
-* [Curso de Diseño y Programación Web de Bextlán](http://bextlan.com/cursos/web/)
 * [JavaScript The Good Parts](https://www.ebooks-it.net/ebook/javascript-the-good-parts)
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [Curso de Diseño y Programación Web de Bextlán](http://bextlan.com/cursos/web/)
+* [Tutoriales JavaScript de Bextlán](http://bextlan.com/tutoriales/javascript/)
 
 
 ## :school: Sesión 1: 14 Abril 2016

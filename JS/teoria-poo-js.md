@@ -8,9 +8,9 @@
 1. [Programación](#programaciÓn)
 1. [Programación Orientada a Objetos](#programaciÓn-orientada-a-objetos)
 1. [Gramática JS](#gramática-javascript)
+1. [Sintaxis JS](#sintaxis-javascript)
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
-1. [Sintaxis JS](#sintaxis-javascript)
 1. [DOM](#dom)
 
 ## PROGRAMACIÓN
@@ -192,6 +192,47 @@ Por ende entendemos que no es solo es el hecho de escribir código como se nos d
 **[⬆ regresar al índice](#Índice)**
 
 
+## Sintaxis JavaScript
+* [Programación Básica](http://librosweb.es/libro/javascript/capitulo_3.html)
+	* Variables
+	* Tipos de variables
+		* Numéricas
+		* Cadenas de texto
+		* Arrays
+		* Booleanos
+	* Operadores
+		* Asignación
+		* Incremento y decremento
+		* Lógicos
+			* `Not`
+			* `And`
+			* `Or`
+		* Matemáticos
+		* Relacionales
+	* Estructuras de control de flujo
+		* `if`
+		* `if`...`else`
+		* `if`...`else if`...`else`
+		* `for`
+		* `for`...`in`
+	* Funciones y propiedades básicas de JavaScript
+		* Funciones útiles para cadenas de texto
+		* Funciones útiles para arrays
+		* Funciones útiles para números
+
+* [Programación Avanzada](http://librosweb.es/libro/javascript/capitulo_4.html)
+	* Funciones
+		* Argumentos y valores de retorno
+	* Ámbito de las variables
+	* Sentencias break y continue
+	* Otras estructuras de control
+		* `while`
+		* `do`...`while`
+		* `switch`...`case`
+
+**[⬆ regresar al índice](#Índice)**
+
+
 ## Servidor Web
 Muchas de las funciones que se realizan en un sitio o aplicación web requieren el acceso a los recursos mediante el protocolo [HTTP](https://es.wikipedia.org/wiki/Hypertext_Transfer_Protocol) y para ello necesitamos acceder desde nuestro navegador web a un [Servidor Web](https://es.wikipedia.org/wiki/Servidor_web)
 
@@ -277,9 +318,6 @@ Es un patrón el cual produce un scope léxico usando las funciones de scoping d
 
 **[⬆ regresar al índice](#Índice)**
 
-
-## Sintaxis JavaScript
-Aquí links de capitulo 3 y 4
 
 ## DOM
 El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API para documentos HTML y XML. Este prevee una representación estructural del documento, permitiéndole modificar su contenido y presentación visual mediante el uso de un lenguaje de scripting tal como JavaScript.

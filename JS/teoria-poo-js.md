@@ -2,7 +2,9 @@
 ![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 
 **Nota:**
+
 **JavaScript hoy esta en todos lados (Front end, Back end, Bases de Datos, Servidores, Terminal, Hardware, Software, etc).**
+
 **El enfoque de este documento es introductorio a los Fundamentos de Programación Web del lado Front end con JavaScript: conceptos básicos de programación, programación orientada a objetos, gramática y sintaxis de JS, interacción con HTML y CSS, eventos, JSON y AJAX.**
 
 

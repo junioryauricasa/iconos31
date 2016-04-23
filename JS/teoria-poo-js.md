@@ -248,7 +248,9 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 #### Di NO  a `file://` usa `http://`
 
 ### Instalando un servidor web con Node.js:
+
 ![Node.js](http://bextlan.com/img/para-cursos/nodejs-new-pantone-black.png)
+
 1. Ir a [nodejs.org](https://nodejs.org)
 2. Descargar e Instalar Node.js
 	* Puedes instalar la versión **LTS (Long Term Support)**, la cuál tendrá soporte a largo plazo, generalmente se usa en ambientes de producción.

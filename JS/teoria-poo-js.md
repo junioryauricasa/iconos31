@@ -8,10 +8,11 @@
 1. [Programación](#programaciÓn)
 1. [Programación Orientada a Objetos](#programaciÓn-orientada-a-objetos)
 1. [Gramática JS](#gramática-javascript)
-1. [Sintaxis JS](#sintaxis-javascript)
+0. [Sintaxis JS](#sintaxis-javascript)
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
+1. [Eventos en JS](#eventos-en-javascript)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:
@@ -384,5 +385,9 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.classList.add('class-name')`**: Agrega la clase CSS mencionada al elemento especificado
 * **`.classList.remove('class-name')`**: Elimina la clase CSS mencionada al elemento especificado
 * **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
+
+**[⬆ regresar al índice](#Índice)**
+
+## Eventos en JavaScript
 
 **[⬆ regresar al índice](#Índice)**

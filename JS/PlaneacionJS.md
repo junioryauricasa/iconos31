@@ -60,8 +60,8 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ## :school: Sesión 3: 28 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados: 
-* [DOM](./teoria-poo-js.md#)
-* [Eventos](./teoria-poo-js.md#)
+* [DOM](./teoria-poo-js.md#dom)
+* [Eventos](./teoria-poo-js.md#eventos-en-javascript)
 
 ### :pencil: Actividades para la siguiente sesión: 
 

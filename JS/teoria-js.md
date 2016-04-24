@@ -102,7 +102,7 @@
     * [Foundation](http://foundation.zurb.com/)
     * [jQueryMobile](https://jquerymobile.com/)
     * [Kendo UI](http://www.telerik.com/kendo-ui)
-* Frameworks MVC
+* Frameworks MV*
     * [Angular](https://angularjs.org/)
     * [Backbone](http://backbonejs.org/)
     * [Ember](http://emberjs.com/)

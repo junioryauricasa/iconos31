@@ -398,12 +398,14 @@ Los eventos hacen posible que los usuarios transmitan información al sitio o ap
 JavaScript permite asignar una función a cada uno de los eventos. De esta forma, cuando se produce cualquier evento, JS ejecuta la función asociada. Este tipo de funciones se denominan **event handlers** (manejadores de eventos).
 
 Existen 3 formas de generar manejadores de eventos en JS:
+
 1. Como atributo de elementos HTML
 1. Como manejador semántico
 1. Como manejador múltiple
 
 ### Evento como atributo de elemento HTML
 	<button id="hola" onclick="saludar()">Hola</button>
+	
 	<script>
 		function saludar(evento) {
 			console.log(
@@ -457,7 +459,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			evento
 		);
 	});
-	
+
 	btnHola.removeEventListener('click', function (evento) {
 		console.log(
 			'Hola',

@@ -397,13 +397,13 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 	* **`'afterend'`**: Después del elemento mismo
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	<!-- beforebegin -->
-	<p>
+<!-- beforebegin -->
+<p>
 	<!-- afterbegin -->
-		Contenido de p
+	Contenido de p
 	<!-- beforeend -->
-	</p>
-	<!-- afterend -->
+</p>
+<!-- afterend -->
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **[⬆ regresar al índice](#Índice)**

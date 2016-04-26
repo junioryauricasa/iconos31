@@ -484,3 +484,6 @@ La identificación de agente de usuario es uno de los criterios de exclusión ut
 * [Lista de User Agents](http://www.useragentstring.com/pages/useragentstring.php)
 
 **[⬆ regresar al índice](#Índice)**
+
+
+##Formularios

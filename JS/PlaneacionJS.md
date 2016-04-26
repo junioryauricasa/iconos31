@@ -24,7 +24,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ## :school: Sesión 1: 14 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados:
-* [Introducción al mundo de JavaScript](./teoria-js.md)
+* [Introducción al mundo de JavaScript](./teoria-intro-js.md)
 * [Introducción a la Programación](./teoria-poo-js.md)
 * [Programación Orientada a Objetos](./teoria-poo-js.md#programaciÓn-orientada-a-objetos)
 * [Gramática JavaScript](./teoria-poo-js.md#gramática-javascript)

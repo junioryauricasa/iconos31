@@ -391,5 +391,78 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 **[⬆ regresar al índice](#Índice)**
 
 ## Eventos en JavaScript
+JavaScript pueden utilizar el modelo de programación basada en eventos. En este tipo de programación, los scripts se dedican a esperar a que el usuario **haga algo** (que pulse una tecla, que mueva el ratón, que cierre la ventana del navegador), el script responde a la acción del usuario normalmente procesando esa interacción y generando un resultado.
+
+Los eventos hacen posible que los usuarios transmitan información al sitio o aplicación. JavaScript define numerosos eventos que permiten una interacción completa entre el usuario y la web. La pulsación de una tecla, pinchar o mover el ratón, seleccionar un elemento de formulario, redimensionar la ventana del navegador; son algunos ejemplos de la [lista de eventos](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html) disponible en JS.
+
+JavaScript permite asignar una función a cada uno de los eventos. De esta forma, cuando se produce cualquier evento, JS ejecuta la función asociada. Este tipo de funciones se denominan **event handlers** (manejadores de eventos).
+
+Existen 3 formas de generar manejadores de eventos en JS:
+1. Como atributo de elementos HTML
+1. Como manejador semántico
+1. Como manejador múltiple
+
+### Evento como atributo de elemento HTML
+	<button id="hola" onclick="saludar()">Hola</button>
+	<script>
+		function saludar(evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		}
+	</script>
+
+### Manejador de eventos semántico
+#### Con función definida
+	var btnHola = document.querySelector('#hola');
+
+	function saludar(evento) {
+		console.log(
+			'Hola',
+			evento
+		);
+	}
+
+	btnHola.onclick = saludar;
+#### Con función anónima
+	var btnHola = document.querySelector('#hola');
+
+	btnHola.onclick = function (evento) {
+		console.log(
+			'Hola',
+			evento
+		);
+	};
+
+### Manejador de eventos múltiple
+#### Con función definida
+	var btnHola = document.querySelector('#hola');
+
+	function saludar(evento) {
+		console.log(
+			'Hola',
+			evento
+		);
+	}
+
+	btnHola.addEventListener('click', saludar);
+	btnHola.removeEventListener('click', saludar);
+#### Con función anónima
+	var btnHola = document.querySelector('#hola');
+
+	btnHola.addEventListener('click', function (evento) {
+		console.log(
+			'Hola',
+			evento
+		);
+	});
+	
+	btnHola.removeEventListener('click', function (evento) {
+		console.log(
+			'Hola',
+			evento
+		);
+	});
 
 **[⬆ regresar al índice](#Índice)**

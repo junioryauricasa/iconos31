@@ -390,9 +390,22 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
 
 ### Insertando texto o contenido HTML dinámico al DOM:
-* [**`.insertAdjacentHTML(position, content);`**](https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML)
+* [**`elemento.insertAdjacentHTML(position, content);`**](https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML): Agrega contenido:
+	* **`'beforebegin'`**: Antes del elemento mismo
+	* **`'afterbegin'`**: Dentro del elemento, antes del primer elemento hijo
+	* **`'beforeend'`**: Dentro del elemento, después del último elemento hijo
+	* **`'afterend'`**: Después del elemento mismo
+
+	<!-- beforebegin -->
+	<p>
+	<!-- afterbegin -->
+		Contenido de p
+	<!-- beforeend -->
+	</p>
+	<!-- afterend -->
 
 **[⬆ regresar al índice](#Índice)**
+
 
 ## Eventos en JavaScript
 JavaScript pueden utilizar el modelo de programación basada en eventos. En este tipo de programación, los scripts se dedican a esperar a que el usuario **haga algo** (que pulse una tecla, que mueva el ratón, que cierre la ventana del navegador), el script responde a la acción del usuario normalmente procesando esa interacción y generando un resultado.

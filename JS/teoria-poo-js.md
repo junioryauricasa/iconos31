@@ -13,7 +13,7 @@
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
 1. [Eventos en JS](#eventos-en-javascript)
-1. [Agente de Usuario en JS](#agente-de-usuario)
+1. [Agente de Usuario](#agente-de-usuario)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:

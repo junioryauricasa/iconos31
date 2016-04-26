@@ -66,7 +66,8 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ### :pencil: Actividades para la siguiente sesión: 
 
 ## :school: Sesión 4: 05 Mayo 2016
-### :clipboard: Temas y conceptos revisados: 
+### :clipboard: Temas y conceptos revisados:
+* [User-Agent](./teoria-poo-js.md#agente-de-usuario)
 ### :pencil: Actividades para la siguiente sesión: 
 
 ## :school: Sesión 5: 12 Mayo 2016

@@ -13,6 +13,7 @@
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
 1. [Eventos en JS](#eventos-en-javascript)
+1. [Agente de Usuario en JS](#agente-de-usuario)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:
@@ -405,7 +406,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 
 ### Evento como atributo de elemento HTML
 	<button id="hola" onclick="saludar()">Hola</button>
-	
+
 	<script>
 		function saludar(evento) {
 			console.log(
@@ -466,5 +467,20 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			evento
 		);
 	});
+
+**[⬆ regresar al índice](#Índice)**
+
+## Agente de Usuario
+
+Un agente de usuario es una aplicación informática que funciona como cliente en un protocolo de red; el nombre se aplica generalmente para referirse a aquellas aplicaciones que acceden a Internet.
+
+Los agentes de usuario que se conectan a la web pueden ser desde navegadores web hasta los web crawler de los buscadores, pasando por teléfonos móviles, lectores de pantalla y navegadores en braille usados por personas con discapacidades.
+
+Cuando un usuario accede a un sitio o aplicación web generalmente envía una cadena de texto que identifica al agente de usuario ante el servidor. Este texto forma parte del pedido a través de HTTP, llevando como prefijo **User-agent:** que incluye información como el nombre de la aplicación, la versión, el sistema operativo, y el idioma. Los bots, como los web crawlers, a veces incluyen también una URL o una dirección de correo electrónico para que el administrador del sitio web pueda contactarse con el operador del mismo.
+
+La identificación de agente de usuario es uno de los criterios de exclusión utilizado por el estándar de exclusión de robots para impedir el acceso a ciertas secciones de un sitio web.
+
+* [Entendiendo el User Agent](http://www.useragentstring.com/)
+* [Lista de User Agents](http://www.useragentstring.com/pages/useragentstring.php)
 
 **[⬆ regresar al índice](#Índice)**

@@ -390,7 +390,7 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
 
 ### Insertando texto o contenido HTML dinámico al DOM:
-* **`[.insertAdjacentHTML(position, content);]`**(https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML)
+* [**`.insertAdjacentHTML(position, content);`**](https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML)
 
 **[⬆ regresar al índice](#Índice)**
 

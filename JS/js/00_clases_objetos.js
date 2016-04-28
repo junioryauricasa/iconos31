@@ -1,7 +1,7 @@
 //comentario de una linea
 /*
-comentarios
-multilinea
+	comentarios
+	multilinea
 */
 //función anónima autoejecutable
 (function (d, w, n) {
@@ -69,17 +69,19 @@ multilinea
 	perro.aparecer('https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/German_Shepherd_Dog_head_Lamia_2005.jpg/220px-German_Shepherd_Dog_head_Lamia_2005.jpg');
 
 	//Función Constructora
-	function Perro (nombre, edad, raza, genero, esterilizado) {
+	function Perro(nombre, edad, raza, genero, esterilizado) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.raza = raza;
-		//operador ternario
-		//variable = (condición) ? verdadero : falso;
-		// = Asignación
-		// == Comparo valores
-		//this.genero = (genero == true) ? 'Hembra' : 'Macho';
-		// === Comparo valor y tipo
-		//this.genero = (genero === true) ? 'Hembra' : 'Macho';
+		/*
+			operador ternario
+			variable = (condición) ? verdadero : falso;
+			= Asignación
+			== Comparo valores
+			this.genero = (genero == true) ? 'Hembra' : 'Macho';
+			=== Comparo valor y tipo
+			this.genero = (genero === true) ? 'Hembra' : 'Macho';
+		*/
 		this.genero = (genero) ? 'Hembra' : 'Macho';
 		this.esterilizado = esterilizado;
 
@@ -94,7 +96,7 @@ multilinea
 		this.aparecer = function (imagen) {
 			d.write('<img src="' + imagen +'">');
 		};
-	}
+	};
 
 	var perro3 = new Perro('Toti', 15, 'French', 0, false);
 	var perro3_2 = new Perro('Hérculisa', 4, 'Chihuahua', 1, true);
@@ -128,7 +130,7 @@ multilinea
 			this.raza = raza;
 			this.genero = (genero) ? 'Hembra' : 'Macho';
 			this.esterilizado = esterilizado;
-		}
+		};
 
 		ladrar() {
 			alert('guau guau');
@@ -141,7 +143,7 @@ multilinea
 		aparecer(imagen) {
 			d.write('<img src="' + imagen +'">');
 		};
-	}
+	};
 
 	var perro4 = new PerroClass('Firulais', 6, 'Border Collie', false, true);
 
@@ -156,5 +158,4 @@ multilinea
 	perro4.ladrar();
 	perro4.morder('cartero');
 	perro4.aparecer('http://1.bp.blogspot.com/-ac2NHP5U5i0/T10WkHQcsSI/AAAAAAAAA4k/5MnFLni7Y0s/s1600/border+collie+cachorro.jpg');
-
 })(document, window, navigator);

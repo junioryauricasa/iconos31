@@ -56,27 +56,34 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 5. DOM](http://librosweb.es/libro/javascript/capitulo_5.html)
 	* [Capítulo 6. Eventos](http://librosweb.es/libro/javascript/capitulo_6.html)
 
-
 ## :school: Sesión 3: 28 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * [DOM](./teoria-poo-js.md#dom)
 * [Eventos](./teoria-poo-js.md#eventos-en-javascript)
 
-### :pencil: Actividades para la siguiente sesión: 
+### :pencil: Actividades para la siguiente sesión:
+* Del Libro Introducción a JavaScript leer los siguientes capítulos:
+	* [Capítulo 7. Formularios](http://librosweb.es/libro/javascript/capitulo_7.html)
 
 ## :school: Sesión 4: 05 Mayo 2016
 ### :clipboard: Temas y conceptos revisados:
 * [Agente de Usuario](./teoria-poo-js.md#agente-de-usuario)
+* [Media Queries]()
 * [Validación de Formularios]()
 * [JSON]()
 
 ### :pencil: Actividades para la siguiente sesión: 
+* Del Libro Introducción a AJAX leer los siguientes capítulos:
+	* [Capítulo 7. Primeros pasos con AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 ## :school: Sesión 5: 12 Mayo 2016
 ### :clipboard: Temas y conceptos revisados: 
-### :pencil: Actividades para la siguiente sesión: 
+* [AJAX]()
+* [API's]()
 
+### :pencil: Actividades para la siguiente sesión: 
+* Entrega de Proyecto
 
 ## :mortar_board: Evaluación:
 * 50% Actividades

@@ -13,6 +13,7 @@
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
 1. [Eventos en JS](#eventos-en-javascript)
+1. [Media Queries en JS](#media-queries)
 1. [Agente de Usuario](#agente-de-usuario)
 
 ## PROGRAMACIÓN
@@ -66,7 +67,7 @@ y llevarlo al mundo digital (lo abstracto)
 
 ![kEnAi](http://bextlan.com/img/para-cursos/kenai.jpg)
 
-	Class Perro() { ... }
+	Class Perro { ... }
 
 	kenai = new Perro();
 
@@ -80,7 +81,7 @@ y llevarlo al mundo digital (lo abstracto)
 #### Clase: 
 * Es un **Modelo** a seguir
 * La idea de Platón
-* Sintaxis: `Class Perro(){...}`
+* Sintaxis: `Class Perro {...}`
 
 #### Objeto:
 * Representación o **Instancia** de una clase
@@ -257,7 +258,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 	* Puedes instalar la versión **LTS (Long Term Support)**, la cuál tendrá soporte a largo plazo, generalmente se usa en ambientes de producción.
 	* Puedes instalar la versión **Stable**, la cuál es la última versión estable de Node, semanalmente sale una versión con carácterísticas nuevas y correcciones de bugs, generalmente se usa en ambientes de desarrollo.
 3. Abrir una terminal de comandos,
-	* Si estás en Linux o Mac puede ser que debas anteponer a todos los comandos que ejecutes, la palabra `sudo`
+	* Si estás en Linux o Mac puede ser que debas anteponer a todos los comandos que ejecutes, la palabra `sudo`, posteriormente a ello es probable que la terminal te pida la contraseña de tu cuenta de usuario
 	* Si estás en Windows con el programa de ejecutar escribe `cmd` da `enter` y en la terminal de comandos escribe `powershell`, con ello accederás a una terminal más poderosa de Windows que acepta comandos de Linux
 	* Si no sabes usar comandos en la terminal, aquí te dejo una referencia para:
 		* [Windows](http://ss64.com/nt/index.html)
@@ -271,7 +272,7 @@ Cuando trabajes en el desarrollo de un sitio o aplicación localmente, siempre d
 	* `cd C:\la-ruta\de-mi\carpeta`
 	* Si la ruta tiene espacios en blanco deberás ponerla entre comillas:
 	* `cd '/la ruta\de mi/carpeta con espacios'`
-7. Estando en la carpeta desde la terminal ,ejecuta el comando:
+7. Estando en la carpeta desde la terminal, ejecuta el comando:
 	* `http-server`
 	* Si quieres ver todas las opciones que http-server ofrece lee su [documentación](https://www.npmjs.com/package/http-server)
 8. Ir al navegador y acceder a la url:
@@ -390,7 +391,7 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
 
 ### Insertando texto o contenido HTML dinámico al DOM:
-* [**`elemento.insertAdjacentHTML(position, content);`**](https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML): Agrega contenido:
+* [**`.insertAdjacentHTML(position, content);`**](https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML): Agrega contenido:
 	* **`'beforebegin'`**: Antes del elemento mismo
 	* **`'afterbegin'`**: Dentro del elemento, antes del primer elemento hijo
 	* **`'beforeend'`**: Dentro del elemento, después del último elemento hijo
@@ -431,7 +432,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 				'Hola',
 				evento
 			);
-		}
+		};
 	</script>
 
 ### Manejador de eventos semántico
@@ -443,7 +444,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			'Hola',
 			evento
 		);
-	}
+	};
 
 	btnHola.onclick = saludar;
 #### Con función anónima
@@ -465,7 +466,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			'Hola',
 			evento
 		);
-	}
+	};
 
 	btnHola.addEventListener('click', saludar);
 	btnHola.removeEventListener('click', saludar);
@@ -488,6 +489,37 @@ Existen 3 formas de generar manejadores de eventos en JS:
 
 **[⬆ regresar al índice](#Índice)**
 
+
+## Media Queries
+Desde la especificación de CSS 2.1, las hojas de estilo han tenido cierto grado de capacidad para el reconocimiento de dispositivos mediante el uso de tipos de medios. Por ejemplo:
+
+    <link rel="stylesheet" href="print.css" media="print">
+
+Con CSS3, la W3C perfeccionó y mejoró los tipos de medios con características multimedia y con la capacidad de preguntar dichas características a los medios
+
+Esto no sólo hace posible inspeccionar el contenido que se entrega al dispositivo, sino también las características físicas reales del dispositivo
+
+El uso de media queries permite pedir fácilmente al navegador sus características, tales como anchura, altura, relación de aspecto y la orientación
+
+La sintaxis es la siguiente:
+            
+    @media screen and (max-width:480px) and (orientation:portrait) {
+        /* 
+        Código CSS que se aplicará cuando se cumpla la media queries
+        */
+    }               
+
+* [¿Puedo usarlas?](http://caniuse.com/#search=css3%20media)
+* Inspírate en [mediaqueri.es](http://mediaqueri.es/)
+* Lista completa de [media queries](https://www.w3.org/TR/css3-mediaqueries/)
+* [Media Queries en JS](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries)
+	* [**`window.matchMedia()`**](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
+	* [**`MediaQueryList`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList)
+	* [**`MediaQueryListListener`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryListListener)
+
+**[⬆ regresar al índice](#Índice)**
+
+
 ## Agente de Usuario
 
 Un agente de usuario es una aplicación informática que funciona como cliente en un protocolo de red; el nombre se aplica generalmente para referirse a aquellas aplicaciones que acceden a Internet.
@@ -500,6 +532,8 @@ La identificación de agente de usuario es uno de los criterios de exclusión ut
 
 * [Entendiendo el User Agent](http://www.useragentstring.com/)
 * [Lista de User Agents](http://www.useragentstring.com/pages/useragentstring.php)
+* [Método **`.match()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/match)
+* [Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
 
 **[⬆ regresar al índice](#Índice)**
 

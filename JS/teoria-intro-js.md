@@ -9,7 +9,7 @@
 1. [JavaScript: AGE OF FLASH (2000)](#javascript-age-of-flash-2000)
 1. [JavaScript: AGE OF HTML5 (2008)](#javascript-age-of-html5-2008)
 1. [JavaScript: AGE OF WEB COMPONENTS & REAL TIME (2014)](#javascript-age-of-web-components--real-time-2014)
-1. [LIBRERIAS y FRAMEWORKS](#librerias-y-frameworks)
+1. [Librerias y Frameworks](#librerias-y-frameworks)
 1. [JavaScript NO es JAVA](#javascript-no-es-java)
 1. [EcmaScript](#ecmascript)
 1. [Buenas Prácticas](#buenas-prácticas)
@@ -89,7 +89,7 @@
 **[⬆ regresar al índice](#Índice)**
 
 
-### LIBRERIAS y FRAMEWORKS:
+### Librerias y Frameworks
 
 * Librerías Front end
     * [jQuery](https://jquery.com/)

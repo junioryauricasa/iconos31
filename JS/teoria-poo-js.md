@@ -358,17 +358,26 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.createElement('HTMLElement')`**: Crea un nuevo elemento HTML del tipo especificado y devuelve un referencia a dicho elemento
 * **`.createTextNode('string')`**: Crea un nuevo nodo de texto con el contenido especificado en la cadena de texto
 
-### Atributos para crear o modificar nodos y elementos en el DOM
-* **`.nodeValue = 'string'`**: Crea o modifica el texto de un nodo especificado
-* **`.innerText = 'string'`**: Crea o modifica el contenido de texto del elemento especificado
-* **`.innerHTML = 'HTML Content'`**: Crea o modifica el contenido HTML del elemento especificado
-
 ### Métodos para agregar, reemplazar y eliminar nodos en el DOM
 * **`.appendChild(child-node)`**: Agrega un nodo hijo al elemento especificado
 * **`.removeChild(child-node)`**: Elimina un nodo hijo al elemento especificado
 * **`.replaceChild(new-node, replaced-node)`**: Reemplaza un nodo hijo al elemento especificado
 * **`.insertBefore(new-node, reference-node)`**: Inserta un nodo antes del que elegimos como referencia dentro del elemento especificado
 * **`.cloneNode(boolean)`**: Clona el nodo especificado. `true` con contenido, `false` vacío
+
+### Atributos para crear o modificar nodos y elementos en el DOM
+* **`.nodeValue = 'string'`**: Crea o modifica el texto de un nodo especificado
+* **`.innerText = 'string'`**: Crea o modifica el contenido de texto del elemento especificado
+* **`.innerHTML = 'HTML Content'`**: Crea o modifica el contenido HTML del elemento especificado
+
+### Accediendo a las clases CSS en el DOM
+* **`.className`**: Devuelve una cadena de texto con los nombres de las clases del elemento especificado
+* **`.classList`**: Devuelve un arreglo con los nombres de las clases del elemento especificado
+* **`.classList[n]`**: Devuelve la clase que se encuentre en la posición `n` del arreglo `classList` del elemento especificado
+* **`.classList.contain('class-name')`**: Devuelve `true` si el elemento especificado contiene la clase CSS mencionada, sino devuelve `false`
+* **`.classList.add('class-name')`**: Agrega la clase CSS mencionada al elemento especificado
+* **`.classList.remove('class-name')`**: Elimina la clase CSS mencionada al elemento especificado
+* **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
 
 ### Accediendo a Atributos HTML en el DOM
 * **`.getAttribute('name-attribute')`**: Obteniendo el valor de un atributo HTML del elemento especificado
@@ -380,15 +389,6 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 * **`.style`**: Objeto que contiene todos los atributos CSS del elemento especificado
 * **`elemento.style.nombreAtributo`**: Obteniendo el valor de un atributo CSS del elemento especificado
 * **`elemento.style.nombreAtributo = 'nuevo valor'`**: Estableciendo el valor de un atributo CSS del elemento especificado
-
-### Accediendo a las clases CSS en el DOM
-* **`.className`**: Devuelve una cadena de texto con los nombres de las clases del elemento especificado
-* **`.classList`**: Devuelve un arreglo con los nombres de las clases del elemento especificado
-* **`.classList[n]`**: Devuelve la clase que se encuentre en la posición `n` del arreglo `classList` del elemento especificado
-* **`.classList.contain('class-name')`**: Devuelve `true` si el elemento especificado contiene la clase CSS mencionada, sino devuelve `false`
-* **`.classList.add('class-name')`**: Agrega la clase CSS mencionada al elemento especificado
-* **`.classList.remove('class-name')`**: Elimina la clase CSS mencionada al elemento especificado
-* **`.classList.toggle('class-name')`**: Intercambia (agrega o elimina) la clase CSS mencionada al elemento especificado
 
 ### Insertando texto o contenido HTML dinámico al DOM:
 * [**`.insertAdjacentHTML(position, content);`**](https://developer.mozilla.org/es/docs/Web/API/Element/insertAdjacentHTML): Agrega contenido:

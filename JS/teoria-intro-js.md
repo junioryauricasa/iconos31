@@ -123,6 +123,7 @@
     * [Cassandra](http://cassandra.apache.org/)
     * [Firebase](https://www.firebase.com/)
 * Aplicaciones Híbridas (Nativas):
+    * [React Native](https://facebook.github.io/react-native/)
     * [Ionic](http://ionicframework.com/)
     * [Meteor](https://www.meteor.com/)
     * [Adobe PhoneGap](http://phonegap.com/)

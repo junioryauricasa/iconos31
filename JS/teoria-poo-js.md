@@ -14,7 +14,7 @@
 1. [DOM](#dom)
 1. [Eventos en JS](#eventos-en-javascript)
 1. [Agente de Usuario](#agente-de-usuario)
-1. [Media Queries en JS](#media-queries)
+1. [Media Queries en JS](#media-queries-en-javascript)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:
@@ -549,7 +549,7 @@ La identificación de agente de usuario es uno de los criterios de exclusión ut
 **[⬆ regresar al índice](#Índice)**
 
 
-## Media Queries
+## Media Queries en JavaScript
 Desde la especificación de CSS 2.1, las hojas de estilo han tenido cierto grado de capacidad para el reconocimiento de dispositivos mediante el uso de tipos de medios. Por ejemplo:
 
     <link rel="stylesheet" href="print.css" media="print">
@@ -572,9 +572,11 @@ La sintaxis es la siguiente:
 * Inspírate en [mediaqueri.es](http://mediaqueri.es/)
 * Lista completa de [media queries](https://www.w3.org/TR/css3-mediaqueries/)
 * [Media Queries en JS](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries)
+	* Nos permitirán cargar el contenido más adecuado, dependiendo de las características de hardware, software o tipo de conexión del dispositivo que visualice nuestro sitio o aplicación
 	* [**`window.matchMedia()`**](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
 	* [**`MediaQueryList`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList)
 	* [**`MediaQueryListListener`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryListListener)
+	* [¿Puedo usarlas?](http://caniuse.com/#search=matchMedia)
 
 **[⬆ regresar al índice](#Índice)**
 

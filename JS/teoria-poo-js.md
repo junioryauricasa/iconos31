@@ -428,9 +428,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 
 	<script>
 		function saludar() {
-			console.log(
-				'Hola'
-			);
+			console.log('Hola');
 		};
 	</script>
 

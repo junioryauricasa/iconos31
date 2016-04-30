@@ -427,10 +427,9 @@ Existen 3 formas de generar manejadores de eventos en JS:
 	<button id="hola" onclick="saludar()">Hola</button>
 
 	<script>
-		function saludar(evento) {
+		function saludar() {
 			console.log(
-				'Hola',
-				evento
+				'Hola'
 			);
 		};
 	</script>

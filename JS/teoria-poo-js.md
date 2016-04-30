@@ -434,71 +434,93 @@ Existen 3 formas de generar manejadores de eventos en JS:
 
 ### Manejador de eventos semántico
 #### Con función definida
-	var btnHola = document.querySelector('#hola');
+	<button id="hola">Hola</button>
 
-	function saludar(evento) {
-		console.log(
-			'Hola',
-			evento
-		);
-	}
+	<script>
+		var btnHola = document.querySelector('#hola');
 
-	btnHola.onclick = saludar;
+		function saludar(evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		}
+
+		btnHola.onclick = saludar;
+	</script>
+	
 #### Con función anónima
-	var btnHola = document.querySelector('#hola');
+	<button id="hola">Hola</button>
 
-	btnHola.onclick = function (evento) {
-		console.log(
-			'Hola',
-			evento
-		);
-	}
+	<script>
+		var btnHola = document.querySelector('#hola');
+
+		btnHola.onclick = function (evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		}
+	</script>
 
 ### Manejador de eventos múltiple
 #### Con función definida
-	var btnHola = document.querySelector('#hola');
+	<button id="hola">Hola</button>
 
-	function saludar(evento) {
-		console.log(
-			'Hola',
-			evento
-		);
-	}
+	<script>
+		var btnHola = document.querySelector('#hola');
 
-	btnHola.addEventListener('click', saludar);
-	btnHola.removeEventListener('click', saludar);
+		function saludar(evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		}
+
+		btnHola.addEventListener('click', saludar);
+		btnHola.removeEventListener('click', saludar);
+	</script>
+
 #### Con función anónima
-	var btnHola = document.querySelector('#hola');
+	<button id="hola">Hola</button>
 
-	btnHola.addEventListener('click', function (evento) {
-		console.log(
-			'Hola',
-			evento
-		);
-	});
+	<script>
+		var btnHola = document.querySelector('#hola');
 
-	btnHola.removeEventListener('click', function (evento) {
-		console.log(
-			'Hola',
-			evento
-		);
-	});
+		btnHola.addEventListener('click', function (evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		});
+
+		btnHola.removeEventListener('click', function (evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		});
+	</script>
 
 ### Flujo de eventos en manejadores múltiples
 
 Hay un tercer parámetro de tipo `boolean`, si éste no se especifica, por defecto toma el valor de `false`
+	
+	<button id="hola">Hola</button>
 
-	var btnHola = document.querySelector('#hola');
+	<script>
+		var btnHola = document.querySelector('#hola');
 
-	function saludar(evento) {
-		console.log(
-			'Hola',
-			evento
-		);
-	}
+		function saludar(evento) {
+			console.log(
+				'Hola',
+				evento
+			);
+		}
 
-	btnHola.addEventListener('click', saludar, true);
-	btnHola.removeEventListener('click', saludar, false);
+		btnHola.addEventListener('click', saludar, true);
+		btnHola.removeEventListener('click', saludar, false);
+	</script>
 
 * Si el valor es `true` se ejecuta la **FASE DE CAPTURA**, es decir, el evento se ejecuta del elemento más externo (`<body>`) al más interno
 * Si el valor es `false` se ejecuta la **FASE DE BURBUJA**, es decir, el evento se ejecuta del elemento más interno al más externo (`<body>`)

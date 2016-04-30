@@ -525,6 +525,7 @@ Hay un tercer parámetro de tipo `boolean`, si éste no se especifica, por defec
 * Si el valor es `false` se ejecuta la **fase de burbuja**, es decir, el evento se ejecuta del elemento más interno al más externo del DOM
 * Si el valor es `true` se ejecuta la **fase de captura**, es decir, el evento se ejecuta del elemento más externo al más interno del DOM
 * Más sobre [Bubbling & Capturing](https://www.youtube.com/watch?v=lgkqf6hldEk&index=12&list=PLvq-jIkSeTUaw9krmA6bf5inYcuvUNWI3)
+
 ![Bubbling & Capturing](http://bextlan.com/img/para-cursos/capturing-bubbling.png)
 
 **[⬆ regresar al índice](#Índice)**

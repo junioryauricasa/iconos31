@@ -13,8 +13,8 @@
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
 1. [Eventos en JS](#eventos-en-javascript)
-1. [Media Queries en JS](#media-queries)
 1. [Agente de Usuario](#agente-de-usuario)
+1. [Media Queries en JS](#media-queries)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:
@@ -531,6 +531,24 @@ Hay un tercer parámetro de tipo `boolean`, si éste no se especifica, por defec
 **[⬆ regresar al índice](#Índice)**
 
 
+## Agente de Usuario
+
+Un agente de usuario es una aplicación informática que funciona como cliente en un protocolo de red; el nombre se aplica generalmente para referirse a aquellas aplicaciones que acceden a Internet.
+
+Los agentes de usuario que se conectan a la web pueden ser desde navegadores web hasta los web crawler de los buscadores, pasando por teléfonos móviles, lectores de pantalla y navegadores en braille usados por personas con discapacidades.
+
+Cuando un usuario accede a un sitio o aplicación web generalmente envía una cadena de texto que identifica al agente de usuario ante el servidor. Este texto forma parte del pedido a través de HTTP, llevando como prefijo **User-agent:** que incluye información como el nombre de la aplicación, la versión, el sistema operativo, y el idioma. Los bots, como los web crawlers, a veces incluyen también una URL o una dirección de correo electrónico para que el administrador del sitio web pueda contactarse con el operador del mismo.
+
+La identificación de agente de usuario es uno de los criterios de exclusión utilizado por el estándar de exclusión de robots para impedir el acceso a ciertas secciones de un sitio web.
+
+* [Entendiendo el User Agent](http://www.useragentstring.com/)
+* [Lista de User Agents](http://www.useragentstring.com/pages/useragentstring.php)
+* [Método **`.match()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/match)
+* [Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
+
+**[⬆ regresar al índice](#Índice)**
+
+
 ## Media Queries
 Desde la especificación de CSS 2.1, las hojas de estilo han tenido cierto grado de capacidad para el reconocimiento de dispositivos mediante el uso de tipos de medios. Por ejemplo:
 
@@ -559,24 +577,5 @@ La sintaxis es la siguiente:
 	* [**`MediaQueryListListener`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryListListener)
 
 **[⬆ regresar al índice](#Índice)**
-
-
-## Agente de Usuario
-
-Un agente de usuario es una aplicación informática que funciona como cliente en un protocolo de red; el nombre se aplica generalmente para referirse a aquellas aplicaciones que acceden a Internet.
-
-Los agentes de usuario que se conectan a la web pueden ser desde navegadores web hasta los web crawler de los buscadores, pasando por teléfonos móviles, lectores de pantalla y navegadores en braille usados por personas con discapacidades.
-
-Cuando un usuario accede a un sitio o aplicación web generalmente envía una cadena de texto que identifica al agente de usuario ante el servidor. Este texto forma parte del pedido a través de HTTP, llevando como prefijo **User-agent:** que incluye información como el nombre de la aplicación, la versión, el sistema operativo, y el idioma. Los bots, como los web crawlers, a veces incluyen también una URL o una dirección de correo electrónico para que el administrador del sitio web pueda contactarse con el operador del mismo.
-
-La identificación de agente de usuario es uno de los criterios de exclusión utilizado por el estándar de exclusión de robots para impedir el acceso a ciertas secciones de un sitio web.
-
-* [Entendiendo el User Agent](http://www.useragentstring.com/)
-* [Lista de User Agents](http://www.useragentstring.com/pages/useragentstring.php)
-* [Método **`.match()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/match)
-* [Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
-
-**[⬆ regresar al índice](#Índice)**
-
 
 ##Formularios

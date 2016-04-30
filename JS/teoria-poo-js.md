@@ -429,7 +429,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 	<script>
 		function saludar() {
 			console.log('Hola');
-		};
+		}
 	</script>
 
 ### Manejador de eventos semántico
@@ -441,7 +441,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			'Hola',
 			evento
 		);
-	};
+	}
 
 	btnHola.onclick = saludar;
 #### Con función anónima
@@ -452,7 +452,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			'Hola',
 			evento
 		);
-	};
+	}
 
 ### Manejador de eventos múltiple
 #### Con función definida
@@ -463,7 +463,7 @@ Existen 3 formas de generar manejadores de eventos en JS:
 			'Hola',
 			evento
 		);
-	};
+	}
 
 	btnHola.addEventListener('click', saludar);
 	btnHola.removeEventListener('click', saludar);
@@ -495,7 +495,7 @@ Hay un tercer parámetro de tipo `boolean`, si éste no se especifica, por defec
 			'Hola',
 			evento
 		);
-	};
+	}
 
 	btnHola.addEventListener('click', saludar, true);
 	btnHola.removeEventListener('click', saludar, false);

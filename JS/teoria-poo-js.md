@@ -487,6 +487,27 @@ Existen 3 formas de generar manejadores de eventos en JS:
 		);
 	});
 
+### Flujo de eventos en manejadores múltiples
+
+Hay un tercer parámetro de tipo `boolean`, si éste no se especifica, por defecto toma el valor de `false`
+
+	var btnHola = document.querySelector('#hola');
+
+	function saludar(evento) {
+		console.log(
+			'Hola',
+			evento
+		);
+	};
+
+	btnHola.addEventListener('click', saludar, true);
+	btnHola.removeEventListener('click', saludar, false);
+
+* Si el valor es `true` se ejecuta la **FASE DE CAPTURA**, es decir, el evento se ejecuta del elemento más externo (`<body>`) al más interno
+* Si el valor es `false` se ejecuta la **FASE DE BURBUJA**, es decir, el evento se ejecuta del elemento más interno al más externo (`<body>`)
+* Más sobre [Bubbling & Capturing](https://www.youtube.com/watch?v=lgkqf6hldEk&index=12&list=PLvq-jIkSeTUaw9krmA6bf5inYcuvUNWI3)
+![Bubbling & Capturing](http://bextlan.com/img/para-cursos/capturing-bubbling.png)
+
 **[⬆ regresar al índice](#Índice)**
 
 

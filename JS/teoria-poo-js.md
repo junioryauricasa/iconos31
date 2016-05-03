@@ -632,11 +632,11 @@ La sintaxis JSON se deriva de sintaxis de notación de objetos JavaScript:
 * Un booleano (verdadero o falso)
 * Un arreglo (entre corchetes)
 * Un objeto (entre llaves)
-* Un valor nulo `null`
+* Un valor nulo (`null`)
 
 #### Más info
 * [JSON.org](http://www.json.org/json-es.html)
-* [Tutorial rápido de JSON](http://www.w3schools.com/json/)
+* [JSON en w3schools.com](http://www.w3schools.com/json/)
 
 **[⬆ regresar al índice](#Índice)**
 

@@ -69,9 +69,8 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ## :school: Sesión 4: 05 Mayo 2016
 ### :clipboard: Temas y conceptos revisados:
 * [Agente de Usuario](./teoria-poo-js.md#agente-de-usuario)
-* [Media Queries]()
-* [Validación de Formularios]()
-* [JSON]()
+* [Media Queries](./teoria-poo-js.md#media-queries-en-javascript)
+* [Formularios](./teoria-poo-js.md#formularios)
 
 ### :pencil: Actividades para la siguiente sesión: 
 * Del Libro Introducción a AJAX leer los siguientes capítulos:
@@ -79,8 +78,9 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 
 ## :school: Sesión 5: 12 Mayo 2016
 ### :clipboard: Temas y conceptos revisados: 
-* [AJAX]()
-* [API's]()
+* [JSON](./teoria-poo-js.md#)
+* [AJAX](./teoria-poo-js.md#)
+* [API's](./teoria-poo-js.md#)
 
 ### :pencil: Actividades para la siguiente sesión: 
 * Entrega de Proyecto

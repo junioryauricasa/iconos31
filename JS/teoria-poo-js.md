@@ -15,6 +15,10 @@
 1. [Eventos en JS](#eventos-en-javascript)
 1. [Agente de Usuario](#agente-de-usuario)
 1. [Media Queries en JS](#media-queries-en-javascript)
+1. [Formularios](#formularios)
+1. [JSON](#json)
+1. [AJAX](#ajax)
+1. [API's](#api's)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:
@@ -581,3 +585,23 @@ La sintaxis es la siguiente:
 **[⬆ regresar al índice](#Índice)**
 
 ##Formularios
+La programación de aplicaciones que contienen formularios web siempre ha sido una de las tareas fundamentales de JavaScript. De hecho, una de las principales razones por las que se inventó el lenguaje de programación fue la necesidad de validar los datos de los formularios directamente en el navegador del usuario. De esta forma, se evitaba recargar la página cuando el usuario cometía errores al rellenar los formularios.
+
+No obstante, la aparición de las aplicaciones AJAX ha relevado al tratamiento de formularios como la principal actividad del lenguaje. Ahora, el principal uso de JavaScript es el de las comunicaciones asíncronas con los servidores y el de la manipulación dinámica de las aplicaciones. De todas formas, el manejo de los formularios sigue siendo un requerimiento imprescindible, aunque hoy podemos lograrlo con los nuevos atributos de formularios de HTML5.
+
+* [Formularios en JS](http://librosweb.es/libro/javascript/capitulo_7.html)
+* [Expresiones Regulares](https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular)
+* [Método **`.exec()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
+* [Estado Actual de los Formularios HTML5](http://www.wufoo.com.mx/html5/)
+* [Fabulosos Formularios con HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
+
+**[⬆ regresar al índice](#Índice)**
+
+##JSON
+**[⬆ regresar al índice](#Índice)**
+
+##AJAX
+**[⬆ regresar al índice](#Índice)**
+
+##API's
+**[⬆ regresar al índice](#Índice)**

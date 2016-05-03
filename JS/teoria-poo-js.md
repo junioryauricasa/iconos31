@@ -638,6 +638,10 @@ La sintaxis JSON se deriva de sintaxis de notación de objetos JavaScript:
 * [JSON.org](http://www.json.org/json-es.html)
 * [JSON en w3schools.com](http://www.w3schools.com/json/)
 
+#### Métodos
+* **`JSON.stringify()`** convierte un valor a cadena de notación JSON.
+* **`JSON.parse()`** analiza una cadena de texto como JSON.
+
 **[⬆ regresar al índice](#Índice)**
 
 ##AJAX
@@ -649,4 +653,5 @@ La interfaz de programación de aplicaciones, abreviada como API1 (del inglés: 
 Son usadas generalmente en las bibliotecas de programación.
 
 Una API representa la capacidad de comunicación entre componentes de software. Se trata del conjunto de llamadas a ciertas bibliotecas que ofrecen acceso a ciertos servicios desde los procesos y representa un método para conseguir abstracción en la programación, generalmente (aunque no necesariamente) entre los niveles o capas inferiores y los superiores del software. Uno de los principales propósitos de una API consiste en proporcionar un conjunto de funciones de uso general, por ejemplo, para dibujar ventanas o iconos en la pantalla. De esta forma, los programadores se benefician de las ventajas de la API haciendo uso de su funcionalidad, evitándose el trabajo de programar todo desde el principio. Las API asimismo son abstractas: el software que proporciona una cierta API generalmente es llamado la implementación de esa API.
+
 **[⬆ regresar al índice](#Índice)**

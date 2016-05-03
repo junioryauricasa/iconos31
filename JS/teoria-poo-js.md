@@ -18,7 +18,7 @@
 1. [Formularios](#formularios)
 1. [JSON](#json)
 1. [AJAX](#ajax)
-1. [API's](#api's)
+1. [API's](#apis)
 
 ## PROGRAMACIÓN
 La gente cree que programar es dificil, algunas razones:
@@ -536,7 +536,6 @@ Hay un tercer parámetro de tipo **`boolean`**, si éste no se especifica, por d
 
 
 ## Agente de Usuario
-
 Un agente de usuario es una aplicación informática que funciona como cliente en un protocolo de red; el nombre se aplica generalmente para referirse a aquellas aplicaciones que acceden a Internet.
 
 Los agentes de usuario que se conectan a la web pueden ser desde navegadores web hasta los web crawler de los buscadores, pasando por teléfonos móviles, lectores de pantalla y navegadores en braille usados por personas con discapacidades.
@@ -598,10 +597,56 @@ No obstante, la aparición de las aplicaciones AJAX ha relevado al tratamiento d
 **[⬆ regresar al índice](#Índice)**
 
 ##JSON
+JavaScript Object Notation o Notación de Objetos de JavaScript, es un formato ligero de intercambio de datos. Leerlo y escribirlo es simple para humanos, mientras que para las máquinas es simple interpretarlo y generarlo. 
+
+Está basado en un subconjunto del Lenguaje de Programación JavaScript, Standard ECMA-262 3rd Edition - Diciembre 1999. JSON es un formato de texto que es completamente independiente del lenguaje pero utiliza convenciones que son ampliamente conocidos por los programadores de la familia de lenguajes C, Java, JavaScript, Perl, Python, y muchos otros. Estas propiedades hacen que JSON sea un lenguaje ideal para el intercambio de datos.
+
+JSON está constituído por dos estructuras:
+
+	* Una colección de pares de nombre/valor. En varios lenguajes esto es conocido como un objeto, registro, estructura, diccionario, tabla hash, lista de claves o un arreglo asociativo.
+	* Una lista ordenada de valores. En la mayoría de los lenguajes, esto se implementa como arreglos, vectores, listas o sequencias.
+
+Estas son estructuras universales; virtualmente todos los lenguajes de programación las soportan de una forma u otra. Es razonable que un formato de intercambio de datos que es independiente del lenguaje de programación se base en estas estructuras.
+
+#### Características:
+
+* JSON es una sintaxis para almacenar e intercambiar datos.
+* JSON es una alternativa más fácil de usar a XML.
+* En aplicaciones AJAX, JSON es más rápido y más fácil que XML
+
+#### Sintaxis
+
+La sintaxis JSON se deriva de sintaxis de notación de objetos JavaScript:
+
+* Datos se encuentran en pares de nombre / valor
+* Datos están separados por comas
+* Las llaves `{ }` contienen objetos
+* Los corchetes `[ ]` tienen arreglos
+* Los datos JSON tienen un nombre y un valor
+* Los datos JSON se escribe como pares de nombre / valor `"nombre" : "valor"`
+
+#### Valores JSON
+
+* Un número (entero o de coma flotante)
+* Una cadena (entre comillas dobles)
+* Un booleano (verdadero o falso)
+* Un arreglo (entre corchetes)
+* Un objeto (entre llaves)
+* Un valor nulo `null`
+
+#### Más info
+* [JSON.org](http://www.json.org/json-es.html)
+* [Tutorial rápido de JSON](http://www.w3schools.com/json/)
+
 **[⬆ regresar al índice](#Índice)**
 
 ##AJAX
 **[⬆ regresar al índice](#Índice)**
 
 ##API's
+La interfaz de programación de aplicaciones, abreviada como API1 (del inglés: Application Programming Interface), es el conjunto de subrutinas, funciones y procedimientos (o métodos, en la programación orientada a objetos) que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción.
+
+Son usadas generalmente en las bibliotecas de programación.
+
+Una API representa la capacidad de comunicación entre componentes de software. Se trata del conjunto de llamadas a ciertas bibliotecas que ofrecen acceso a ciertos servicios desde los procesos y representa un método para conseguir abstracción en la programación, generalmente (aunque no necesariamente) entre los niveles o capas inferiores y los superiores del software. Uno de los principales propósitos de una API consiste en proporcionar un conjunto de funciones de uso general, por ejemplo, para dibujar ventanas o iconos en la pantalla. De esta forma, los programadores se benefician de las ventajas de la API haciendo uso de su funcionalidad, evitándose el trabajo de programar todo desde el principio. Las API asimismo son abstractas: el software que proporciona una cierta API generalmente es llamado la implementación de esa API.
 **[⬆ regresar al índice](#Índice)**

@@ -639,8 +639,8 @@ La sintaxis JSON se deriva de sintaxis de notación de objetos JavaScript:
 * [JSON en w3schools.com](http://www.w3schools.com/json/)
 
 #### Métodos
-* **`JSON.stringify()`** convierte un valor a cadena de notación JSON.
-* **`JSON.parse()`** analiza una cadena de texto como JSON.
+* [**`JSON.stringify()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/stringify) convierte un valor a cadena de notación JSON.
+* [**`JSON.parse()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/JSON/parse) analiza una cadena de texto como JSON.
 
 **[⬆ regresar al índice](#Índice)**
 

@@ -645,6 +645,37 @@ La sintaxis JSON se deriva de sintaxis de notación de objetos JavaScript:
 **[⬆ regresar al índice](#Índice)**
 
 ##AJAX
+Es un acrónimo de **Asynchronous JavaScript + XML** o JavaScript asíncrono + XML.
+
+Ajax no es una tecnología en sí mismo. En realidad, se trata de varias tecnologías independientes que se unen.
+
+Las tecnologías que forman AJAX son:
+
+* **HTML y CSS**, para crear una presentación basada en estándares.
+* **DOM**, para la interacción y manipulación dinámica de la presentación.
+* **XML**, **XSLT** y **JSON**, para el intercambio y la manipulación de información.
+* **XMLHttpRequest**, para el intercambio asíncrono de información.
+* **JavaScript**, para unir todas las demás tecnologías.
+
+![Tecnologías AJAX](http://bextlan.com/img/para-cursos/tecnologias-ajax.gif)
+
+En las aplicaciones web tradicionales, las acciones del usuario en la página (pinchar en un botón, seleccionar un valor de una lista, etc.) desencadenan llamadas al servidor. Una vez procesada la petición del usuario, el servidor devuelve una nueva página HTML al navegador del usuario.
+
+Esta técnica tradicional para crear aplicaciones web funciona correctamente, pero no crea una buena sensación al usuario. Al realizar peticiones continuas al servidor, el usuario debe esperar a que se recargue la página con los cambios solicitados. Si la aplicación debe realizar peticiones continuas, su uso se convierte en algo molesto.
+
+AJAX permite mejorar completamente la interacción del usuario con la aplicación, evitando las recargas constantes de la página, ya que el intercambio de información con el servidor se produce en un segundo plano.
+
+![Modelo AJAX](http://bextlan.com/img/para-cursos/modelo-ajax.gif)
+
+Las aplicaciones construidas con AJAX eliminan la recarga constante de páginas mediante la creación de un elemento intermedio entre el usuario y el servidor. La nueva capa intermedia de AJAX mejora la respuesta de la aplicación, ya que el usuario nunca se encuentra con una ventana del navegador vacía esperando la respuesta del servidor.
+
+Las peticiones HTTP al servidor se sustituyen por peticiones JavaScript que se realizan al elemento encargado de AJAX. Las peticiones más simples no requieren intervención del servidor, por lo que la respuesta es inmediata. Si la interacción requiere una respuesta del servidor, la petición se realiza de forma asíncrona. En este caso, la interacción del usuario tampoco se ve interrumpida por recargas de página o largas esperas por la respuesta del servidor.
+
+![Proceso AJAX](http://bextlan.com/img/para-cursos/proceso-ajax.gif)
+
+* [Más info](http://librosweb.es/libro/ajax/capitulo_7.html)
+
+
 **[⬆ regresar al índice](#Índice)**
 
 ##API's

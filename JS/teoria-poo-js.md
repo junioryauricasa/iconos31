@@ -656,6 +656,7 @@ Las tecnologías que forman AJAX son:
 * **XML**, **XSLT** y **JSON**, para el intercambio y la manipulación de información.
 * **XMLHttpRequest**, para el intercambio asíncrono de información.
 * **JavaScript**, para unir todas las demás tecnologías.
+* [Más info](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 ![Tecnologías AJAX](http://bextlan.com/img/para-cursos/tecnologias-ajax.gif)
 
@@ -673,7 +674,6 @@ Las peticiones HTTP al servidor se sustituyen por peticiones JavaScript que se r
 
 ![Proceso AJAX](http://bextlan.com/img/para-cursos/proceso-ajax.gif)
 
-* [Más info](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 
 **[⬆ regresar al índice](#Índice)**

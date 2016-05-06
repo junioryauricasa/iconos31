@@ -14,7 +14,7 @@
 1. [DOM](#dom)
 1. [Eventos en JS](#eventos-en-javascript)
 1. [Agente de Usuario](#agente-de-usuario)
-1. [Media Queries en JS](#media-queries-en-javascript)
+1. [Media Queries en JS](#media-queries)
 1. [Formularios](#formularios)
 1. [JSON](#json)
 1. [AJAX](#ajax)
@@ -546,13 +546,16 @@ La identificación de agente de usuario es uno de los criterios de exclusión ut
 
 * [Entendiendo el User Agent](http://www.useragentstring.com/)
 * [Lista de User Agents](http://www.useragentstring.com/pages/useragentstring.php)
+* [Expresiones Regulares](https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular)
+* [Expresiones Regulares en JS](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
 * [Método **`.match()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/match)
-* [Expresiones Regulares](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/RegExp)
 
 **[⬆ regresar al índice](#Índice)**
 
 
-## Media Queries en JavaScript
+## Media Queries
+
+### Media Queries en CSS
 Desde la especificación de CSS 2.1, las hojas de estilo han tenido cierto grado de capacidad para el reconocimiento de dispositivos mediante el uso de tipos de medios. Por ejemplo:
 
     <link rel="stylesheet" href="print.css" media="print">
@@ -574,12 +577,15 @@ La sintaxis es la siguiente:
 * [¿Puedo usarlas?](http://caniuse.com/#search=css3%20media)
 * Inspírate en [mediaqueri.es](http://mediaqueri.es/)
 * Lista completa de [media queries](https://www.w3.org/TR/css3-mediaqueries/)
-* [Media Queries en JS](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries)
-	* Nos permitirán cargar el contenido más adecuado, dependiendo de las características de hardware, software o tipo de conexión del dispositivo que visualice nuestro sitio o aplicación
-	* [**`window.matchMedia()`**](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
-	* [**`MediaQueryList`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList)
-	* [**`MediaQueryListListener`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryListListener)
-	* [¿Puedo usarlas?](http://caniuse.com/#search=matchMedia)
+
+### Media Queries en JS
+Nos permitirán cargar el contenido más adecuado, dependiendo de las características de hardware, software o tipo de conexión del dispositivo que visualice nuestro sitio o aplicación
+
+* [Programando Media Queries en JS](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries)
+* [**`window.matchMedia()`**](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
+* [**`MediaQueryList`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList)
+* [**`MediaQueryListListener`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryListListener)
+* [¿Puedo usarlas?](http://caniuse.com/#search=matchMedia)
 
 **[⬆ regresar al índice](#Índice)**
 
@@ -589,7 +595,6 @@ La programación de aplicaciones que contienen formularios web siempre ha sido u
 No obstante, la aparición de las aplicaciones AJAX ha relevado al tratamiento de formularios como la principal actividad del lenguaje. Ahora, el principal uso de JavaScript es el de las comunicaciones asíncronas con los servidores y el de la manipulación dinámica de las aplicaciones. De todas formas, el manejo de los formularios sigue siendo un requerimiento imprescindible, aunque hoy podemos lograrlo con los nuevos atributos de formularios de HTML5.
 
 * [Formularios en JS](http://librosweb.es/libro/javascript/capitulo_7.html)
-* [Expresiones Regulares](https://es.wikipedia.org/wiki/Expresi%C3%B3n_regular)
 * [Método **`.exec()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
 * [Estado Actual de los Formularios HTML5](http://www.wufoo.com.mx/html5/)
 * [Fabulosos Formularios con HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
@@ -674,9 +679,8 @@ Las peticiones HTTP al servidor se sustituyen por peticiones JavaScript que se r
 
 ![Proceso AJAX](http://bextlan.com/img/para-cursos/proceso-ajax.gif)
 
-
-
 **[⬆ regresar al índice](#Índice)**
+
 
 ##API's
 La interfaz de programación de aplicaciones, abreviada como API1 (del inglés: Application Programming Interface), es el conjunto de subrutinas, funciones y procedimientos (o métodos, en la programación orientada a objetos) que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción.

@@ -12,7 +12,7 @@
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
-1. [Eventos](#eventos-en-javascript)
+1. [Eventos](#eventos)
 1. [Agente de Usuario](#agente-de-usuario)
 1. [Media Queries](#media-queries)
 1. [Formularios](#formularios)

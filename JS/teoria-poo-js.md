@@ -597,12 +597,12 @@ Esto nos permite sentar las bases de WPO (**Web Optimization Performance**) en n
 ##Formularios
 La programación de aplicaciones que contienen formularios web siempre ha sido una de las tareas fundamentales de JavaScript. De hecho, una de las principales razones por las que se inventó el lenguaje de programación fue la necesidad de validar los datos de los formularios directamente en el navegador del usuario. De esta forma, se evitaba recargar la página cuando el usuario cometía errores al rellenar los formularios.
 
-No obstante, la aparición de las aplicaciones AJAX ha relevado al tratamiento de formularios como la principal actividad del lenguaje. Ahora, el principal uso de JavaScript es el de las comunicaciones asíncronas con los servidores y el de la manipulación dinámica de las aplicaciones. De todas formas, el manejo de los formularios sigue siendo un requerimiento imprescindible, aunque hoy podemos lograrlo con los nuevos atributos de formularios de HTML5.
+No obstante, la aparición de AJAX y las API's de HTML5 han relevado al tratamiento de formularios como la principal actividad del lenguaje. Ahora, el principal uso de JavaScript es el de las comunicaciones asíncronas con los servidores y el de la manipulación dinámica de las aplicaciones. De todas formas, el manejo de los formularios sigue siendo un requerimiento imprescindible, aunque hoy podemos lograrlo con los nuevos atributos de formularios de HTML5.
 
 * [Formularios en JS](http://librosweb.es/libro/javascript/capitulo_7.html)
-* [Método **`.exec()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
 * [Estado Actual de los Formularios HTML5](http://www.wufoo.com.mx/html5/)
 * [Fabulosos Formularios con HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
+* [Método **`.exec()`**](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec)
 
 **[⬆ regresar al índice](#Índice)**
 

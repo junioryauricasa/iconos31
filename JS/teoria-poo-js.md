@@ -709,8 +709,8 @@ En JavaScript tenemos 2 tipos de API's:
 	* GetUserMedia
 	* Audio / Video
 	* Canvas / SVG
-	* Web Sockets
-	* Web Workers
+	* WebSockets
+	* WebWorkers
 	* Touch
 	* etc
 

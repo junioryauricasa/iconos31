@@ -12,9 +12,9 @@
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
-1. [Eventos en JS](#eventos-en-javascript)
+1. [Eventos](#eventos-en-javascript)
 1. [Agente de Usuario](#agente-de-usuario)
-1. [Media Queries en JS](#media-queries)
+1. [Media Queries](#media-queries)
 1. [Formularios](#formularios)
 1. [JSON](#json)
 1. [AJAX](#ajax)
@@ -414,7 +414,7 @@ El **Modelo de Objetos del Documento** (DOM - Document Object Model) es un API p
 **[⬆ regresar al índice](#Índice)**
 
 
-## Eventos en JavaScript
+## Eventos
 JavaScript pueden utilizar el modelo de programación basada en eventos. En este tipo de programación, los scripts se dedican a esperar a que el usuario **haga algo** (que pulse una tecla, que mueva el ratón, que cierre la ventana del navegador), el script responde a la acción del usuario normalmente procesando esa interacción y generando un resultado.
 
 Los eventos hacen posible que los usuarios transmitan información al sitio o aplicación. JavaScript define numerosos eventos que permiten una interacción completa entre el usuario y la web. La pulsación de una tecla, pinchar o mover el ratón, seleccionar un elemento de formulario, redimensionar la ventana del navegador; son algunos ejemplos de la [lista de eventos](http://librosweb.es/libro/javascript/capitulo_6/modelo_basico_de_eventos_2.html) disponible en JS.

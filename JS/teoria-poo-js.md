@@ -1,14 +1,14 @@
 # Fundamentos de Programación JavaScript
 ![JavaScript](http://bextlan.com/v4/themes/v4/img/tutoriales/javascript.jpg)
 
-**Nota: JavaScript hoy esta en todos lados (Front end, Back end, Bases de Datos, Servidores, Terminal, Hardware, Software, etc). El enfoque de este documento es introductorio a los Fundamentos de Programación Web del lado Front end con JavaScript: conceptos básicos de programación, programación orientada a objetos, gramática y sintaxis de JS, interacción con HTML y CSS, eventos, JSON y AJAX.**
+**Nota: JavaScript hoy esta en todos lados (Front end, Back end, Bases de Datos, Servidores, Terminal, Hardware, Software, etc). El enfoque de este documento es introductorio a los Fundamentos de Programación Web del lado Front end con JavaScript: conceptos básicos de programación, programación orientada a objetos, gramática y sintaxis de JS, interacción con HTML y CSS, eventos, formularios, JSON y AJAX.**
 
 
 ## Índice
 1. [Programación](#programaciÓn)
 1. [Programación Orientada a Objetos](#programaciÓn-orientada-a-objetos)
 1. [Gramática JS](#gramática-javascript)
-0. [Sintaxis JS](#sintaxis-javascript)
+1. [Sintaxis JS](#sintaxis-javascript)
 1. [Servidor Web](#servidor-web)
 1. [Las buenas partes de JS](#las-buenas-partes-de-javascript)
 1. [DOM](#dom)
@@ -579,13 +579,18 @@ La sintaxis es la siguiente:
 * Lista completa de [media queries](https://www.w3.org/TR/css3-mediaqueries/)
 
 ### Media Queries en JS
-Nos permitirán cargar el contenido más adecuado, dependiendo de las características de hardware, software o tipo de conexión del dispositivo que visualice nuestro sitio o aplicación
+Nos permitirán cargar el contenido más adecuado, dependiendo de las características de hardware, software o tipo de conexión del dispositivo que visualice nuestro sitio o aplicación.
 
 * [Programando Media Queries en JS](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Testing_media_queries)
 * [**`window.matchMedia()`**](https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia)
 * [**`MediaQueryList`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList)
 * [**`MediaQueryListListener`**](https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryListListener)
 * [¿Puedo usarlas?](http://caniuse.com/#search=matchMedia)
+
+Esto nos permite sentar las bases de WPO (**Web Optimization Performance**) en nuestros sitios y aplicaciones web
+* [WPO Wikipedia](https://en.wikipedia.org/wiki/Web_performance)
+* [WPO Google](https://developers.google.com/web/fundamentals/performance/?hl=es)
+* [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
 **[⬆ regresar al índice](#Índice)**
 

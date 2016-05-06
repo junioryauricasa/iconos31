@@ -59,7 +59,20 @@ function rojo(evento) {
 	var fecha = new Date(),
 		hora = fecha.getHours(),
 		saludo = d.getElementById('saludo'),
-		hojaCSS = d.createElement('link');
+		hojaCSS = d.createElement('link'),
+		reloj = d.getElementById('reloj'),
+		//toLocaleString()  fecha y hora
+		//toLocaleDateString() fecha
+		//toLocaleTimeString() hora
+		fechaFormato = fecha.toLocaleTimeString(),
+		btnIniciarReloj = d.querySelector('#iniciar-reloj'),
+		btnIniciarAlarma = d.querySelector('#iniciar-alarma'),
+		btnDetenerReloj = d.querySelector('#detener-reloj'),
+		btnDetenerAlarma = d.querySelector('#detener-alarma'),
+		alarma = d.createElement('audio'),
+		temporizadorReloj,
+		temporizadorAlarma,
+		btnNumero = d.querySelector('#numero');
 
 	function saludar() {
 		/*
@@ -88,10 +101,66 @@ function rojo(evento) {
 		d.head.appendChild(hojaCSS);
 	}
 
+	function parImpar() {
+		//alert('Ingresa un numero');
+		//confirm('Ingresa un numero');
+		//prompt('Ingresa un numero');
+		var numero = prompt('Ingresa un numero'),
+			modulo = numero % 2,
+			textoPar = 'El número: ' + numero + ' es Par',
+			textoImpar = 'El número: ' + numero + ' es Impar',
+			ternario;
+
+		/*
+			= Asignación
+			== Comparación de valor
+			=== Comparación de valor y tipo de dato
+		*/
+		if ( isNaN(modulo) || numero === '' ) {
+			alert('No me engañes, "' + numero + '" no es un número');
+		} else {
+			/*
+				operador ternario
+				variable = (condición) ? verdadero : falso;
+			*/
+			ternario = (modulo === 0) ? textoPar : textoImpar
+			alert(ternario);
+		}
+	}
+
 	console.log(
 		fecha,
 		hora
 	);
 
+	reloj.style.fontSize = '500%';
+	reloj.innerHTML = fechaFormato;
+
+	alarma.src = './audio/alarma.mp3';
+	alarma.controls = true;
+	d.body.appendChild(alarma);
+
 	w.onload = saludar;
+
+	btnIniciarReloj.onclick = function () {
+		temporizadorReloj = setInterval(function () {
+			reloj.innerHTML = new Date().toLocaleTimeString();
+		}, 1000);
+	};
+
+	btnDetenerReloj.onclick = function () {
+		clearInterval(temporizadorReloj);
+	};
+
+	btnIniciarAlarma.addEventListener('click', function () {
+		temporizadorAlarma = setTimeout(function () {
+			alarma.play();
+		}, 3000);
+	});
+
+	btnDetenerAlarma.addEventListener('click', function () {
+		clearTimeout(temporizadorAlarma);
+	});
+
+	btnNumero.onclick = parImpar;
 })(document, window);

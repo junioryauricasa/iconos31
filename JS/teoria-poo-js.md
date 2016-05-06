@@ -688,10 +688,45 @@ Las peticiones HTTP al servidor se sustituyen por peticiones JavaScript que se r
 
 
 ##API's
-La interfaz de programación de aplicaciones, abreviada como API1 (del inglés: Application Programming Interface), es el conjunto de subrutinas, funciones y procedimientos (o métodos, en la programación orientada a objetos) que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción.
+Interfaz de Programación de Aplicaciones, abreviada como API (**Application Programming Interface**), es el conjunto de subrutinas, funciones y procedimientos que ofrece una libreria o framework para ser utilizado por otro software como una capa de abstracción.
 
-Son usadas generalmente en las bibliotecas de programación.
+Una API representa la capacidad de comunicación entre componentes de software o hardware. Se trata del conjunto de llamadas a ciertas librerias que ofrecen acceso a ciertos servicios desde los procesos y representa un método para conseguir abstracción en la programación, generalmente (aunque no necesariamente) entre los niveles o capas inferiores y los superiores del software. 
 
-Una API representa la capacidad de comunicación entre componentes de software. Se trata del conjunto de llamadas a ciertas bibliotecas que ofrecen acceso a ciertos servicios desde los procesos y representa un método para conseguir abstracción en la programación, generalmente (aunque no necesariamente) entre los niveles o capas inferiores y los superiores del software. Uno de los principales propósitos de una API consiste en proporcionar un conjunto de funciones de uso general, por ejemplo, para dibujar ventanas o iconos en la pantalla. De esta forma, los programadores se benefician de las ventajas de la API haciendo uso de su funcionalidad, evitándose el trabajo de programar todo desde el principio. Las API asimismo son abstractas: el software que proporciona una cierta API generalmente es llamado la implementación de esa API.
+Uno de los principales propósitos de una API consiste en proporcionar un conjunto de funciones de uso general. De esta forma, los programadores se benefician de las ventajas de la API haciendo uso de su funcionalidad, evitándose el trabajo de programar todo desde el principio. 
+
+Las API son abstractas: el software que proporciona una API generalmente es llamado la implementación de esa API.
+
+En JavaScript tenemos 2 tipos de API's:
+
+* [Internas](https://developer.mozilla.org/en-US/docs/Web/API)
+	* DOM
+	* Event
+	* MediaQueryList
+	* XMLHTTPRequest (AJAX)
+	* Geolocation
+	* Storage
+	* Cache
+	* GetUserMedia
+	* Audio / Video
+	* Canvas / SVG
+	* Web Sockets
+	* Web Workers
+	* Touch
+	* etc
+
+* Externas
+	* [API de Google Maps](https://developers.google.com/maps/?hl=es)
+	* [API de YouTube](https://developers.google.com/youtube/)
+	* [API's Google](https://developers.google.com/?hl=es-419)
+	* [API's Facebook](https://developers.facebook.com/)
+	* [API's Twitter](https://dev.twitter.com/)
+	* [API's de Amazon](https://developer.amazon.com/)
+	* [API's de Mercado Libre](http://developers.mercadolibre.com/)
+	* [API Stripe](https://stripe.com/docs/api)
+	* [API Uber](https://developer.uber.com/)
+	* [API WordPress](https://developer.wordpress.com/docs/api/)
+	* [OMDb API](http://omdbapi.com/)
+	* [API de Marvel](http://developer.marvel.com/)
+	* etc
 
 **[⬆ regresar al índice](#Índice)**

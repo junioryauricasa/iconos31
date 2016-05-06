@@ -48,7 +48,7 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 ### :clipboard: Temas y conceptos revisados:
 * [Sintaxis JavaScript](./teoria-poo-js.md#sintaxis-javascript)
 * [Las Buenas Partes de JavaScript](./teoria-poo-js.md#las-buenas-partes-de-javascript)
-* Objetos y Clases con JavaScript
+* Objetos y Clases en JavaScript
 
 ### :pencil: Actividades para la siguiente sesión:
 * Traer programado un objeto con 3 métodos y 3 atributos usando las 4 formas diferentes que tiene JavaScript para la creación de objetos
@@ -56,31 +56,33 @@ Al finalizar el curso el estudiante aprenderá los fundamentos de programación 
 	* [Capítulo 5. DOM](http://librosweb.es/libro/javascript/capitulo_5.html)
 	* [Capítulo 6. Eventos](http://librosweb.es/libro/javascript/capitulo_6.html)
 
+
 ## :school: Sesión 3: 28 Abril 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * [DOM](./teoria-poo-js.md#dom)
-* [Eventos](./teoria-poo-js.md#eventos-en-javascript)
+* [Eventos](./teoria-poo-js.md#eventos)
 
 ### :pencil: Actividades para la siguiente sesión:
 * Del Libro Introducción a JavaScript leer los siguientes capítulos:
 	* [Capítulo 7. Formularios](http://librosweb.es/libro/javascript/capitulo_7.html)
 
 ## :school: Sesión 4: 05 Mayo 2016
+
 ### :clipboard: Temas y conceptos revisados:
 * [Agente de Usuario](./teoria-poo-js.md#agente-de-usuario)
-* [Media Queries](./teoria-poo-js.md#media-queries-en-javascript)
+* [Media Queries](./teoria-poo-js.md#media-queries)
 * [Formularios](./teoria-poo-js.md#formularios)
 
-### :pencil: Actividades para la siguiente sesión: 
+### :pencil: Actividades para la siguiente sesión:
 * Del Libro Introducción a AJAX leer los siguientes capítulos:
 	* [Capítulo 7. Primeros pasos con AJAX](http://librosweb.es/libro/ajax/capitulo_7.html)
 
 ## :school: Sesión 5: 12 Mayo 2016
 ### :clipboard: Temas y conceptos revisados: 
-* [JSON](./teoria-poo-js.md#)
-* [AJAX](./teoria-poo-js.md#)
-* [API's](./teoria-poo-js.md#)
+* [JSON](./teoria-poo-js.md#json)
+* [AJAX](./teoria-poo-js.md#ajax)
+* [API's](./teoria-poo-js.md#apis)
 
 ### :pencil: Actividades para la siguiente sesión: 
 * Entrega de Proyecto

@@ -376,9 +376,10 @@ Objetos básicos en SQL: Bases de Datos, Tablas y Usuarios (y sus Privilegios)
 
 ### CREATE
 Insertar un registro
-
+```SQL
 	INSERT INTO table (field_1, field_2, ..., field_n) 
 		VALUES (value_1, value2, ..., value_n);
+```
 
 Insertar varios registros:
 

@@ -76,17 +76,19 @@ Son rutinas que realizan entradas de datos, consultas a los datos, generación d
 ### Herramientas de Gestión
 
 #### Terminal
-	windows: cd c:/xampp/mysql/bin
-	mac: cd /Applications/XAMPP/bin
-	mysql -u root -p
-	ENTER PASSWORD: 
-	SHOW DATABASES;
-	USE nombre_bd;
-	SHOW TABLES;
-	DESCRIBE nombre_tabla
-	SHOW COLUMNS FROM nombre_tabla
-	SELECT campos_tabla FROM nombre_tabla;
-	SELECT * FROM nombre_tabla;
+```SQL
+windows: cd c:/xampp/mysql/bin
+mac: cd /Applications/XAMPP/bin
+mysql -u root -p
+ENTER PASSWORD: 
+SHOW DATABASES;
+USE nombre_bd;
+SHOW TABLES;
+DESCRIBE nombre_tabla
+SHOW COLUMNS FROM nombre_tabla
+SELECT campos_tabla FROM nombre_tabla;
+SELECT * FROM nombre_tabla;
+```
 
 #### WebApp
 * [phpMyAdmin](https://www.phpmyadmin.net/) teniendo [XAMPP](http://localhost/phpmyadmin)
@@ -326,28 +328,36 @@ Es una buena práctica aplicar la 5FN, cuando tenemos una extensa y compleja est
 Objetos básicos en SQL: Bases de Datos, Tablas y Usuarios (y sus Privilegios)
 		
 ### Bases de Datos
-	CREATE DATABASE
-	DROP DATABASE
-	SHOW DATABASES
-	USE		
+```SQL
+CREATE DATABASE
+DROP DATABASE
+SHOW DATABASES
+USE
+```
 		
 ### Tablas
-	CREATE TABLE
-	DROP TABLE
-	ALTER TABLE [ADD COLUMN || DROP COLUMN || MODIFY]
-	DESCRIBE
+```SQL
+CREATE TABLE
+DROP TABLE
+ALTER TABLE [ADD COLUMN || DROP COLUMN || MODIFY]
+DESCRIBE
+```
 
 ### Usuarios
-	CREATE USER my_user IDENTIFIED BY 'my_password';
-	SELECT PASSWORD('my_password'); //contraseña en hash
-	CREATE USER my_user IDENTIFIED BY PASSWORD 'clave hash';
-	DROP USER my_user;
+```SQL
+CREATE USER my_user IDENTIFIED BY 'my_password';
+SELECT PASSWORD('my_password'); //contraseña en hash
+CREATE USER my_user IDENTIFIED BY PASSWORD 'clave hash';
+DROP USER my_user;
+```
 
 ### Privilegios
-	GRANT ALL PRIVILEGES ON data_base.table TO 'my_user'@'my_host' -> IDENTIFIED BY 'my_password' WITH GRANT OPTION;
-	SHOW GRANTS for 'my_user'@'my_host';
-	REVOKE [PRIVILEGES], GRANT OPTION FROM 'my_user'@'my_host';
-	FLUSH PRIVILEGES;
+```SQL
+GRANT ALL PRIVILEGES ON data_base.table TO 'my_user'@'my_host' -> IDENTIFIED BY 'my_password' WITH GRANT OPTION;
+SHOW GRANTS for 'my_user'@'my_host';
+REVOKE [PRIVILEGES], GRANT OPTION FROM 'my_user'@'my_host';
+FLUSH PRIVILEGES;
+```
 
 ### Más info interesante sobre objetos
 * Motores de Tablas
@@ -377,80 +387,91 @@ Objetos básicos en SQL: Bases de Datos, Tablas y Usuarios (y sus Privilegios)
 ### CREATE
 Insertar un registro
 ```SQL
-	INSERT INTO table (field_1, field_2, ..., field_n) 
-		VALUES (value_1, value2, ..., value_n);
+INSERT INTO table (field_1, field_2, ..., field_n) 
+	VALUES (value_1, value2, ..., value_n);
+
+INSERT INTO table 
+	SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n;
 ```
 
 Insertar varios registros:
-
-	INSERT INTO table (field_1, field_2, ..., field_n) VALUES
-		(value_1, value2, ..., value_n),
-		(value_1, value2, ..., value_n),
-		...,
-		(value_1, value2, ..., value_n);
-
-	INSERT INTO table 
-		SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n;
+```SQL
+INSERT INTO table (field_1, field_2, ..., field_n) VALUES
+	(value_1, value2, ..., value_n),
+	(value_1, value2, ..., value_n),
+	...,
+	(value_1, value2, ..., value_n);
+```
 
 ### READ
 Leer todos los campos de la tabla:
-
-	SELECT * FROM table;
+```SQL
+SELECT * FROM table;
+```
 
 Leer algunos campos de la tabla:
-
-	SELECT field_1, field_2, field_n FROM table
+```SQL
+SELECT field_1, field_2, field_n FROM table
+```
 
 Leer un registro en particular buscando el valor de un campo
-
-	SELECT * FROM table WHERE field_1 = 'valor_1'
+```SQL
+SELECT * FROM table WHERE field_1 = 'valor_1'
+```
 
 Leer un registro en particular buscando el valor de más de 2 campos con operadores lógicos
-
-	SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2'
-	SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2'
+```SQL
+SELECT * FROM table WHERE field_1 = 'valor_1' AND field_2 = 'valor_2'
+SELECT * FROM table WHERE field_1 = 'valor_1' OR field_2 = 'valor_2'
+```
 
 Leer un registro en particular buscando el valor similar de un campo
-
-	SELECT * FROM table WHERE field_1 LIKE '%valor_1'
-	SELECT * FROM table WHERE field_1 LIKE 'valor_1%'
-	SELECT * FROM table WHERE field_1 LIKE '%valor_1%'
+```SQL
+SELECT * FROM table WHERE field_1 LIKE '%valor_1'
+SELECT * FROM table WHERE field_1 LIKE 'valor_1%'
+SELECT * FROM table WHERE field_1 LIKE '%valor_1%'
+```
 
 Saber cuantos registros tiene mi tabla:
-
-	SELECT COUNT(*) FROM table;
+```SQL
+SELECT COUNT(*) FROM table;
+```
 
 ### UPDATE
 Siempre agregar la clausula WHERE para evitar actualizar toda la tabla
-
-	UPDATE table 
-		SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n  
-		WHERE field = value
+```SQL
+UPDATE table 
+	SET field_1 = 'value_1', field_2 = 'value_2', ..., field_n = value_n  
+	WHERE field = value
+```
 
 ### DELETE
 Siempre agregar la clausula WHERE para evitar eliminar toda la tabla
 
 **[NO TE OLVIDES DEL WHERE EN EL DELETE FROM](https://www.youtube.com/watch?v=i_cVJgIz_Cs)**
 
-	DELETE FROM table WHERE field = value
+```SQL
+DELETE FROM table WHERE field = value
+```
 
 ### CONSULTAS MÚLTIPLES
 Datos de 2 o más tablas
+```SQL
+SELECT * FROM table1 AS t1 
+	INNER JOIN table2 AS t2
 
-	SELECT * FROM table1 AS t1 
-		INNER JOIN table2 AS t2
+SELECT * FROM table1 AS t1 
+	INNER JOIN table2 AS t2
+	ON t1.a_field = t2.a_field
 
-	SELECT * FROM table1 AS t1 
-		INNER JOIN table2 AS t2
-		ON t1.a_field = t2.a_field
+SELECT t1.field1, t1.field2, t1.field3, t2.field1, t2.field5
+	FROM table1 AS t1 
+	INNER JOIN table2 AS t2
+	ON t1.field1 = t2.field5
 
-	SELECT t1.field1, t1.field2, t1.field3, t2.field1, t2.field5
-		FROM table1 AS t1 
-		INNER JOIN table2 AS t2
-		ON t1.field1 = t2.field5
-
-		WHERE t1.field1 = 'a_value'
-		ORDER BY t1.field3 DESC
+	WHERE t1.field1 = 'a_value'
+	ORDER BY t1.field3 DESC
+```
 
 * [Definición de Join](https://es.wikipedia.org/wiki/Join)
 * [Tipos de Joins](http://www.nebaris.com/post/77/tipos-de-join-en-sql)
@@ -458,15 +479,17 @@ Datos de 2 o más tablas
 
 ### CONSULTAS FULLTEXT KEY
 
-	SELECT * FROM table
-		WHERE MATCH(field1, field2, field3, field4)
-		AGAINST('a_search' IN BOOLEAN MODE);
+```SQL
+SELECT * FROM table
+	WHERE MATCH(field1, field2, field3, field4)
+	AGAINST('a_search' IN BOOLEAN MODE);
 
-	SELECT t1.field1, t1.field2, t2.field1, t2.field4
-		FROM table1 AS t1
-		INNER JOIN table2 AS t2
-		ON t1.field1 = t2.field4
-		WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
-		AGAINST('a_search' IN BOOLEAN MODE);
+SELECT t1.field1, t1.field2, t2.field1, t2.field4
+	FROM table1 AS t1
+	INNER JOIN table2 AS t2
+	ON t1.field1 = t2.field4
+	WHERE MATCH(t1.field1, t1.field2, t2.field1, t2.field4)
+	AGAINST('a_search' IN BOOLEAN MODE);
+```
 
 **[⬆ regresar al índice](#Índice)**

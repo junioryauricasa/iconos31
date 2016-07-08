@@ -60,5 +60,7 @@ abstract class Model {
 		$result->close();
 
 		$this->db_close();
+
+		return array_pop($this->rows);
 	}
 }

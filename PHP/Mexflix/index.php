@@ -24,7 +24,16 @@
 		</nav>
 	</header>
 	<main class="container center main">
-		<p>Aquí trabajaremos</p>
+		<p class="item">
+			Aquí trabajaremos
+			<?php
+				require_once('./controllers/Autoload.php');
+				$autoload = new Autoload();
+				
+				$status = new StatusModel();
+				var_dump($status->get());
+			?>
+		</p>
 	</main>
 	<script src="./public/js/mexflix.js"></script>
 </body>

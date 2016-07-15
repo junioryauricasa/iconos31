@@ -11,6 +11,7 @@
 Options +FollowSymlinks
 RewriteEngine On
 
+# desde carpeta: htdocs/aAlumnos/iconos31/PHP/Mexflix
 RewriteBase /aAlumnos/iconos31/PHP/Mexflix
 
 RewriteCond %{SCRIPT_FILENAME} !-d

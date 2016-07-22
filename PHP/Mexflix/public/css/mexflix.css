@@ -71,3 +71,5 @@ table tr:nth-child(odd):not(:first-child) { background-color: #999; }
 	width: 560px;
 	height: 315px;
 }
+
+.container { font-size: 1rem; }

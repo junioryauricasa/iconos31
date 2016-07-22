@@ -47,12 +47,12 @@ if ( $_POST['r'] == 'status-edit' && !isset($_POST['crud']) ) {
 	}
 
 } else if ($_POST['r']=='status-edit' && $_POST['crud'] == 'set') {
-	$new_status = array(
-		'status_id' => 0,
+	$save_status = array(
+		'status_id' => $_POST['status_id'],
 		'status' => $_POST['status']
 	);
 
-	$status = $status_controller->set($new_status);
+	$status = $status_controller->set($save_status);
 
 	$template = '
 		<div class="container">

@@ -96,7 +96,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ### :pencil: Actividades para la siguiente sesión: 
 * Replicar lo visto en clase en el Proyecto Final
 
-## :school: Sesión 5: 06 Agosto 2016
+## :school: Sesión 5: Sábado 06 Agosto 2016 12pm a 4pm
 
 ### :clipboard: Temas y conceptos revisados: 
 * Controlador de Modelos

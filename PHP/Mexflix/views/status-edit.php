@@ -56,7 +56,7 @@ if ( $_POST['r'] == 'status-edit' && !isset($_POST['crud']) ) {
 
 	$template = '
 		<div class="container">
-			<p class="item add">
+			<p class="item edit">
 				Status <b>%s</b> salvado
 			</p>
 		</div>

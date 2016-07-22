@@ -96,7 +96,7 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 ### :pencil: Actividades para la siguiente sesión: 
 * Replicar lo visto en clase en el Proyecto Final
 
-## :school: Sesión 5: 28 Julio 2016
+## :school: Sesión 5: 06 Agosto 2016
 
 ### :clipboard: Temas y conceptos revisados: 
 * Controlador de Modelos
@@ -120,5 +120,5 @@ Al finalizar el curso el estudiante utilizará el lenguaje de programación PHP 
 	* El código fuente de la aplicación junto con el archivo .sql de la BD deberá entregarse en un archivo **.zip**
 
 ## :date: Entrega:
-**Lunes 08 Agosto 2016 11:59:59pm**
+**Lunes 15 Agosto 2016 11:59:59pm**
 La entrega puede ser vía email, dropbox, google drive, zip en cualquier medio de transferencia de archivos al correo jonmircha@gmail.com

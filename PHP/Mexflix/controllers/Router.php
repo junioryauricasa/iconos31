@@ -5,14 +5,19 @@ class Router {
 	public function __construct($route) {
 		//http://php.net/manual/es/function.session-start.php
 		//http://php.net/manual/es/session.configuration.php
+		
+		//Si no existe $_SESSION, entonces inicio sesión
 		if( !isset($_SESSION) ) {
 			session_start();
 		}
 
+		//Si no existe la variable ok de tipo SESSION le asigno su valor a falso
 		if( !isset($_SESSION['ok']) ) {
 			$_SESSION['ok'] = false;
 		}
 
+
+		//Si la variable ok de tipo SESSION es true accedo a la aplicación, caso contrario solicito formulario de login
 		if ( $_SESSION['ok'] ) {
 			$this->route = isset( $_GET['r'] )
 				? $_GET['r']
@@ -66,6 +71,12 @@ class Router {
 					}
 					break;
 				}
+
+				case 'salir': {
+					$user_session = new SessionController();
+					$user_session->logout();
+					break;
+				}
 				
 				default : {
 					$controller->load_view('404');
@@ -73,16 +84,19 @@ class Router {
 				}
 			}
 		} else {
+			//Si las variables POST user y pass no existen muestro el formulario de login sino, valido los datos que el usuario haya mandado
 			if ( !isset($_POST['user']) && !isset($_POST['pass']) ) {
 				$login_form = new ViewController();
 				$login_form->load_view('login');
 			} else {
+				//Consulto los datos que el usuariuo me da en el form de login en la base de datos
 				$user_session = new SessionController();
 				$session = $user_session->login(
 					$_POST['user'],
 					$_POST['pass']
 				);
 
+				//Si los datos no coinciden le regreso un mensaje de error, sino creo la sesión y las variables de tipo SESSION que necesite
 				if ( empty($session) ) {
 					$login_form = new ViewController();
 					$login_form->load_view('login');

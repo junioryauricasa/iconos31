@@ -73,8 +73,35 @@ class Router {
 				}
 			}
 		} else {
-			$login_form = new ViewController();
-			$login_form->load_view('login');
+			if ( !isset($_POST['user']) && !isset($_POST['pass']) ) {
+				$login_form = new ViewController();
+				$login_form->load_view('login');
+			} else {
+				$user_session = new SessionController();
+				$session = $user_session->login(
+					$_POST['user'],
+					$_POST['pass']
+				);
+
+				if ( empty($session) ) {
+					$login_form = new ViewController();
+					$login_form->load_view('login');
+					header('Location: ./?error=El usuario y password proporcionados no coinciden');
+				} else {
+					$_SESSION['ok'] = true;
+
+					foreach ($session as $key) {
+						$_SESSION['user'] = $key['user'];
+						$_SESSION['email'] = $key['email'];
+						$_SESSION['name'] = $key['name'];
+						$_SESSION['birthday'] = $key['birthday'];
+						$_SESSION['pass'] = $key['pass'];
+						$_SESSION['role'] = $key['role'];
+					}
+
+					header('Location: ./');
+				}
+			}
 		}
 	}//cierra el constructor
 

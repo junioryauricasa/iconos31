@@ -12,6 +12,7 @@
 	<header class="container center header">
 		<div class="item  i-b  v-middle  ph12  lg2">
 			<h1 class="logo">Mexflix</h1>
+			<h2><?php echo 'Hola ' . $_SESSION['name']; ?></h2>
 		</div>
 		<nav class="item  i-b  v-middle  ph12  lg10  lg-right">
 			<ul class="container">

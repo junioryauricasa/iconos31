@@ -8,7 +8,7 @@ class UsersModel extends Model {
 			$$key = $value;
 		}
 
-		$this->sql = "REPLACE INTO users (user, email) VALUES ('$user', '$email')";
+		$this->sql = "REPLACE INTO users (user, email, name, birthday, pass, role) VALUES ('$user', '$email', '$name', '$birthday', MD5('$pass'), '$role')";
 		$this->set_query();
 	}
 
@@ -28,7 +28,7 @@ class UsersModel extends Model {
 		return $data;
 	}
 
-	public function del($user_id = '') {
+	public function del($user = '') {
 		$this->sql = "DELETE FROM users WHERE user = '$user'";
 		$this->set_query();
 	}

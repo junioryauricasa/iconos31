@@ -1,0 +1,73 @@
+html { 
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+a { color: #FF5700; }
+
+a:hover { color: #205081; }
+
+article {
+	padding: 1rem;
+	min-height: 200px;
+	font-size: 1.5rem;
+	color: white; 
+	background-color: #222;
+}
+
+hr { 
+	margin: 1rem auto;
+	border-color: #222; 
+}
+
+#animable {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: #FF5700;
+}
+
+#cuadro {
+	width: 300px;
+	height: 300px;
+	background-color: #FF5700;
+}
+
+#pacman {
+  	position: relative;
+  	width: 0;
+  	height: 0;
+	border: 60px solid yellow;
+  	border-right: 60px solid transparent;
+  	border-radius: 60px;
+}
+
+#subir {
+	position: fixed;
+	bottom: 10%;
+	right: 0;
+	display: none;
+	font-size: 300%;
+	cursor: pointer;
+}
+
+.capa {
+	height:120px;
+	display:none;
+}
+
+.capa, .mostrar, .ocultar, .cambiar {
+	margin: 0;
+	padding: .5rem;
+	border: thin solid #FF5700;
+	text-align: center;
+	background-color: #EEE;
+	cursor: pointer;
+}
+		
+.mas-grande {
+	display: block;
+	font-size: 3rem;
+   	font-weight: bold;
+	background-color: #FF5700;
+}

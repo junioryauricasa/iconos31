@@ -1,0 +1,46 @@
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: #EEE;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+button {
+	padding: 1rem;
+	font-size: 1.5rem;
+	color: white;
+	background-color: #0F1923;
+}
+
+button:hover {
+	background-color: #4082AE;
+	cursor: pointer;
+}
+
+header {
+	width: 100%;
+	border-bottom: thick solid #4082AE;
+	font-size: 2rem;
+	color: #4082AE;
+	background-color: #0F1923;
+}
+
+img { max-width: 100%; }
+
+p {	margin: 1rem auto; }
+
+#contenido {
+	width: 80%;
+	margin: 2rem auto;
+	font-size: 1.5rem;
+}

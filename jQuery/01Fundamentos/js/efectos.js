@@ -132,6 +132,33 @@
 			</selector>
 			después .after();
 		*/
+
+		$('#boton12').click(function () {
+			$('#contenido').html('<i>El contenido ha sido cambiado</i>');
+		});
+
+		$('#boton13').click(function () {
+			$('#contenido').text('<i>El contenido ha sido cambiado</i>');
+		});
+
+		$('#boton14').click(function () {
+			$('#contenido').prepend('<b>Contenido agregado antes</b><img src="http://bextlan.com/img/bextlan-logo.png"> ');
+		});
+
+		$('#boton15').click(function () {
+			$('#contenido').append(' <b>Contenido agregado después</b> <input type="text">');
+		});
+
+		$('#boton16').click(function () {
+			$('#contenido').before('<div class="antes">Contenido agregado antes del selector</div>');
+			$('.antes').css('background-color', '#FF5700');
+			$(this).off('click');
+		});
+
+		$('#boton17').click(function () {
+			$('#contenido').after('<div class="despues">Contenido agregado después del selector</div>');
+			$('.despues').css('background-color', '#205081');
+		});
 	}
 
 	$(document).ready(efectos);

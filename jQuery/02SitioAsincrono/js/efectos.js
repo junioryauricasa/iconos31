@@ -45,6 +45,13 @@
 				});
 			});
 		});
+
+		//$('nav a').click(function () {
+		$('nav').find('a').click(function () {
+			//alert('funciona');
+			$('nav').find('a').removeClass('actual');
+			$(this).addClass('actual');	
+		});
 	}
 
 	$(document).ready(efectos);

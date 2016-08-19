@@ -33,10 +33,6 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Modelo de Eventos
 * Efectos Visuales
 * Interacción con HTML y CSS
-* Funciones Callbacks y Anónimas
-* AJAX y cargas asíncronas con efectos visuales
-* Detección de eventos, teclado, mouse, scroll, pantalla
-* Responsive Design y Progressive Disclosure con jQuery
 
 ### :pencil: Actividades para la sesión 2:
 * Avanzar en proyecto final
@@ -45,6 +41,10 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 ## :school: Sesión 2: 18 Agosto 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
+* Funciones Callbacks y Anónimas
+* AJAX y cargas asíncronas con efectos visuales
+* Detección de eventos, teclado, mouse, scroll, pantalla
+* Responsive Design y Progressive Disclosure con jQuery
 * Sitio Asíncrono con jQuery
 * Integración de jQuery con Backend
 

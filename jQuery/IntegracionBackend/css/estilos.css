@@ -1,0 +1,24 @@
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+.pelicula {
+	background-color: #000;
+	color: #F00;
+	margin: 1rem auto;
+	padding: 1rem;
+	width: 70%;
+	text-align: center;
+}
+
+.pelicula img {
+	border: thin solid #FFF;
+}

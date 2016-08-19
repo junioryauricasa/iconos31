@@ -46,32 +46,34 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 
 ### :clipboard: Temas y conceptos aprendidos:
 * Sitio Asíncrono con jQuery
-* Entender el concepto de componente en jQuery
-* Aprender la estructura básica de un componente jQuery
-* Programar componentes jQuery propios
-* Versionado de componentes con [SemVer](http://semver.org/)
+* Integración de jQuery con Backend
+
 
 ### :pencil: Actividades para la sesión 3:
-* Agregar la funcionalidad de deslizamiento horizontal al componente hecho en clase
 * Avanzar en proyecto final
 
 
 ## :school: Sesión 3: 25 Agosto 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
-* Funcionalidad extra a componentes propios|
+* Entender el concepto de componente en jQuery
+* Aprender la estructura básica de un componente jQuery
+* Programar componentes jQuery propios
+* Versionado de componentes con [SemVer](http://semver.org/)
 * Análisis e Implementación de componentes de terceros
 	* [Flexslider 2](http://flexslider.woothemes.com/)
 	* [Fancybox 2](http://fancyapps.com/fancybox/)
 
 
 ### :pencil: Actividades para la sesión 4:
+* Agregar la funcionalidad de deslizamiento horizontal al componente hecho en clase
 * Avanzar en proyecto final
 
 
 ## :school: Sesión 4: 01 Septiembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
+* Funcionalidad extra a componentes propios
 * Componentes [jQueryUI](http://jqueryui.com/)
 * [Modernizr](https://modernizr.com/)
 * [Métodos AJAX en jQuery](http://api.jquery.com/category/ajax/)

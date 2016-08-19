@@ -28,14 +28,22 @@
 			});
 		});
 
-		$('#jqu').click(function (e) {
+		$('#jqu').click(function (e){
 			e.preventDefault();
-			alert('qUnit');
+			$('#contenido').slideUp(2000, function (){
+				$(this).load('./html/qunit.html', function (){
+					$(this).slideDown(2000);
+				});
+			});
 		});
 
-		$('#jqs').click(function (e) {
+		$('#jqs').click(function (e){
 			e.preventDefault();
-			alert('Sizzle');
+			$('#contenido').hide(2000, function (){
+				$(this).load('./html/sizzle.html', function (){
+					$(this).show(2000);
+				});
+			});
 		});
 	}
 

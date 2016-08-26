@@ -16,7 +16,12 @@
 
 			//Función constructora del componente donde irá toda la programación del mismo
 			function inicializar() {
-				alert('funciona mi plugin');
+				//alert('funciona mi plugin');
+				$(this).css({
+					backgroundColor : opc.fondo,
+					color : opc.colorLetra,
+					fontSize : opc.letra
+				});
 			}
 
 			//Por cada elemento que invoque el componente, se debe ejecutar una vez la función constructora

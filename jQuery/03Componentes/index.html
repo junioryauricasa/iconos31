@@ -28,7 +28,19 @@
 	<script src="./js/jquery.plugin.js"></script>
 	<script>
 		$(document).ready(function () {
-			$('button').plugin();
+			//$('button').plugin();
+
+			$('#defecto').click(function () {
+				$('#contenido').plugin();
+			});
+
+			$('#usuario').click(function () {
+				$('#contenido').plugin({
+					colorLetra : 'greenyellow',
+					letra : '300%',
+					fondo : 'black'
+				});
+			});
 		});
 	</script>
 </body>

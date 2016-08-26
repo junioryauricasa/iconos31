@@ -9,11 +9,27 @@
 
 	$.fn.extend({
 		onePageScroll : function (opciones) {
-			var predeterminadas = {},
+			var predeterminadas = {
+				velocidad : 1000
+			},
 				opc = $.extend(predeterminadas, opciones);
 
 			function inicializar() {
 				//alert('funciona');
+				function aDondeScroll(e) {
+					e.preventDefault();
+
+					var idEnlace = $(this).attr('href'),
+						coordsSeccion = $(idEnlace).offset().top;
+
+					console.log(idEnlace, coordsSeccion);
+
+					$('body').animate({
+						scrollTop : coordsSeccion 
+					}, opc.velocidad);
+				}
+
+				$(this).click(aDondeScroll);
 			}
 
 			return $(this).each(inicializar);

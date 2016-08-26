@@ -1,0 +1,11 @@
+1) Flotar las .section del .wrapper
+2) Revisar el overflow de  wrapper y/o body
+3) Dinámicamente habrá que saber cuantas "hijas" .section tiene el wrapper, ya que el ancho de  éste depende del numero de .section "hijas"
+
+4) De alguna manera el plugin tiene que saber si se desplaza vertical u horizontalmente (considerar el código HTML y el Código JS)
+
+5) Si el plugin detecta que el movimiento será vertical
+	trabajamos con offset().top y scrollTop
+6) Si el plugiin detecta que el movimiento será horizontal
+	dinámicamente cuandoo cargue el documento, el sitio debe maquetarse considerando los puntos 1, 2 y 3
+	trabajamos con offset().left y scrollLeft	

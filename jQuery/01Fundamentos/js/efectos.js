@@ -212,7 +212,7 @@
 		});
 
 		$('#subir').click(function () {
-			$('body').animate({
+			$('html, body').animate({
 				scrollTop : 0,
 				scrollLeft : 0
 			}, 1000);

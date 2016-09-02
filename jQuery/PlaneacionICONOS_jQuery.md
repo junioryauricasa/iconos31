@@ -60,7 +60,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 * Aprender la estructura básica de un componente jQuery
 * Programar componentes jQuery propios
 * Versionado de componentes con [SemVer](http://semver.org/)
-* Análisis e Implementación de componentes de terceros
+* Análisis de componentes de terceros
 	* [Flexslider 2](http://flexslider.woothemes.com/)
 	* [Fancybox 2](http://fancyapps.com/fancybox/)
 
@@ -74,9 +74,11 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 
 ### :clipboard: Temas y conceptos aprendidos:
 * Funcionalidad extra a componentes propios
+* Implementación de componentes de terceros
+	* [Flexslider 2](http://flexslider.woothemes.com/)
+	* [Fancybox 2](http://fancyapps.com/fancybox/)
 * Componentes [jQueryUI](http://jqueryui.com/)
 * [Modernizr](https://modernizr.com/)
-* [Métodos AJAX en jQuery](http://api.jquery.com/category/ajax/)
 
 ### :pencil: Actividades para la sesión 5:
 * Avanzar en proyecto final
@@ -85,6 +87,7 @@ Al final del curso el estudiante tendrá los conocimientos necesarios para prove
 ## :school: Sesión 5: 08 Septiembre 2016
 
 ### :clipboard: Temas y conceptos aprendidos:
+* [Métodos AJAX en jQuery](http://api.jquery.com/category/ajax/)
 * Framework [jQueryMobile](http://jquerymobile.com/)
 
 ### :pencil: Actividades:

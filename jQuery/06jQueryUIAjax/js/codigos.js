@@ -61,4 +61,18 @@
 	$(document).ready(calendario);
 
 	$('#contacto').submit(enviarDatos);
+
+	//Eventos Asíncronos
+	/*
+	$('#limpiar').click(function () {
+		$('#contacto')[0].reset();
+	});
+	*/
+
+	$(document).on('click', '#limpiar', function () {
+		$('#contacto')[0].reset();
+		$('#mensaje')
+			.fadeOut()
+			.html(null);
+	});
 })(jQuery);

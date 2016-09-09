@@ -45,12 +45,12 @@
 						.html('ocurrió un error');
 				});
 			},
-			success : function () {
+			success : function (data) {
 				//alert('éxito, el servidor responde');
 				$('#precarga').fadeOut('slow', function () {
 					$('#mensaje')
 						.fadeIn()
-						.html('éxito, el servidor responde');
+						.html(data);
 				});
 			}
 		};

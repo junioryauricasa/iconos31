@@ -6,6 +6,7 @@
 	<title><?php bloginfo('name'); ?></title>
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+	<?php wp_head(); ?>
 </head>
 <body>
 	<header class="flex-container  b-light-gray">
@@ -13,17 +14,3 @@
 		<nav class="menu  flex-auto  sm-w100  lg-w80  b-dark-gray  border">Menú</nav>
 	</header>
 	<section class="flex-container  b-light-gray">
-		<main class="main  flex-auto  sm-w100  lg-w70  b-dark-gray  border">
-			Contenido Principal	
-		</main>
-		<aside class="aside  flex-auto  sm-w100  lg-w30  b-dark-gray  border">
-			Contenido Secundario
-		</aside>
-	</section>
-	<footer class="flex-container  b-light-gray">
-		<div class="footer  flex-auto  sm-w100  b-dark-gray  border">
-			<p>Pié de Página</p>
-		</div>
-	</footer>
-</body>
-</html>

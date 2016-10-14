@@ -14,7 +14,9 @@ print('<main class="main  flex-auto  sm-w100  lg-w70  b-dark-gray  border">');
 					<p>%s</p>
 					<p class="post-categories">%s</p>
 					<p>%s</p>
-					<p>%s</p>
+					<p>
+						<a href="%s">%s</a>
+					</p>
 					<div class="the-content">%s</div>
 				</article>
 				<hr>
@@ -29,6 +31,7 @@ print('<main class="main  flex-auto  sm-w100  lg-w70  b-dark-gray  border">');
 				get_the_excerpt(),
 				get_the_category_list(' - '),
 				get_the_tag_list('<i>', ', ', '</i>'),
+				get_author_posts_url( get_the_author_id() ),
 				get_the_author(),
 				get_the_content()
 			);

@@ -1,0 +1,764 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Comments Evolved for WordPress"
+msgstr ""
+
+#. Short description.
+msgid "Comments Evolved ( formerly Google+ Comments for WordPress ) makes the comment section tabbed seamlessly adding tabs for Comments &amp; More"
+msgstr ""
+
+#. Screenshot description.
+msgid "In Action."
+msgstr ""
+
+#. Screenshot description.
+msgid "Admin Options"
+msgstr ""
+
+#. Found in description list item.
+msgid "You should have <a href=\"http://plus.google.com/authorship\">Google Authorship</a> already setup and in use for your site."
+msgstr ""
+
+#. Found in description list item.
+msgid "I've setup a page so if you want to <a href=\"http://www.wepay.com/donations/brandonholtsclaw\">Donate</a> to this plugins development, now you can."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Comments Evolved ( formerly Google+ Comments for WordPress ) makes the comment section tabbed seamlessly adding tabs for G+ Comments, Facebook, Disqus, WordPress Comments, and Trackbacks"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "If a user is required to create an account with your site before they can comment, you might as well ask them to fetch you a soda from mars. It’s probably not going to happen. However, if you can give them the option to comment with an account they’ve already set up, then you will be much more likely to get some interaction."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "**Source Code @ Github: ** <a href=\"https://github.com/bholtsclaw/comments-evolved\">comments-evolved@github</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Using this plugin or JavaScript to load comments <strong>does <em>NOT</em></strong> have a negative effect on your SEO, Google now indexes content ( and specifically comments ) loaded via JavaScript. See <a href=\"http://blog.optimum7.com/safon/google/google-now-indexing-fb-comments.html\">this link</a> and also <a href=\"http://webmasters.stackexchange.com/questions/27042/effect-on-seo-of-lazy-scrolling-on-html-comments\">this one</a> for more details."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>This plug-in is not endorsed or associated with the Google, Twitter, Disqus, Facebook, WordPress.org, Automattic, or WordPress HelpCenter.</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid ""
+"Unpack archive to this archive to the 'wp-content/plugins/' directory inside\n"
+"of WordPress"
+msgstr ""
+
+#. Found in installation list item.
+msgid ""
+"Maintain the directory structure of the archive (all extracted files\n"
+"should exist in 'wp-content/plugins/gplus-comments/'"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<p>From your blog administration, activate the plugin.</p>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<p>Enjoy!</p>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<strong>NOTE: You should always <a href=\"http://codex.wordpress.org/Backing_Up_Your_Database\">backup your database</a> before installing the plug-ins.</strong>"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "From your blog administration, activate the plugin."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Enjoy!"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.6.2"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.6.1"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.6"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.8"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.6"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.5"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.4"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.3"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.2"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.1"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.5.0"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.17"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.16"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.11"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.10"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.9"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.7 + 1.4.8"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.6"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.5"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.4"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.3"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.2"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.1"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.4.0"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.3.0"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.9"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.8"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.7"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.6"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.5"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.1"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.2.0"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.1.0"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.0.4"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.0.3"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.0.2"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.0.1"
+msgstr ""
+
+#. Found in change log header.
+msgid "1.0.0"
+msgstr ""
+
+#. Found in change log header.
+msgid "0.8.0"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Style and registration fixed"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fix couple of bugs, the plugin is workable again. enjoy! :)"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "slow page load fixed"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "improved performance"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "bug fixes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "reverted comment counting code for now until preformace issues can be resolved in a future update"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "udates to the disqus comment count"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fixes for the comment count total"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "even more css fixes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "css fixes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "css updates"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "reworked css so that the embeded iFrames are now <strong>responsive</strong> and more mobile friendly."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fixed JS for loading Livefyre so that comments made with the official plugin and this plugin are loaded in the same way."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added option to show comment count on each tab label"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added shortcode <code>[comments_evolved]</code> and template tag <code>display_comments_evolved()</code> to display comment section in anywhere."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added shortcodes and template tags to show individual and combined comment counts ( @see the <a href=\"http://wordpress.org/plugins/gplus-comments/installation/\">install page</a> for listing )"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "WARNING: if you are upgrading from Google+ Comments for WordPress to Comments Evolved then the plugin will need to be manually reactivated and settings will be reset back to defaults."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "rebranding from \"Google+ Comments\" to \"Comments Evolved\" ... completed"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "major code cleanups ( seperated plugin init, frontend, and backend code )"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "tab font adjustment"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "refactor of most display code so its easier to add new commenting systems"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "tweaked tab fonts"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added livefyre tab option"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "streamlined js and css"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added icon themes ( only default and monotone in this release )"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added donation button to admin interface"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "lots of code cleanup in prep to add shortcodes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "finally fixed the long standing bug where some themes could not click on content in the single post area"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "jQuery typo"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Bugfixes for various issues where you could not click the main content area"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "misc css cleanup"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "misc old code deletion"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "split main plugin for better maint"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fb-root error fixed"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "FB javascript problem mitigated"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Parse Error Hotfix. Please Update ASAP."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "load a default comments file with no native comments shown but an error message if comments.php cannot be found for native comments"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "better error message with link to PHP info on php.net about PHP version 5.3+ requirement and upgrade proceedures"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "loading google+ and facebook javascript the common way shown in the examples instead of a custom js function for better compatability with Google +1, Pintrest, Facbook \"Like\", and other 3rd party buttons."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "load comments.php in a alternate way if the default does not exist in the current theme"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "make the comments template load at a higher priority so it correctly loads when child themes are used"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "moved the defines out of init so they are always available ( like during activation ), this fixes default tab order is correctly set for new installs"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "load wp comments template from current theme if it exists so original styles take effect"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added missing trackback icon"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "tighened up css margins for tabs"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "minor css hotfixes for tab margin and spacing"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "You can now change the default order of the tabs"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "The first tab is now default so something other than G+ can be default"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Official color icons now used instead of the icon font"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "JS now loaded inline in the footer reducing http calls"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Icons can now optionally be hidden"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Misc css cleanups and tweaks"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "completely overhauled the css used to show the tabs"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added optional labels for each of the tabs"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added optional label for commenting area"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "tweaked the ordering of the css and js loading to work in more circumstances"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added a check for PHP 5.3+ or newer"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "updated screenshots"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "lets REALLY not set everyones background to white ... srsly."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "dont set everyones page background to #fff ( white )"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "move missing styles from theme to plugin"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "make all tab css !important and scoped so it does not inherit from the page easily"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "version bump to fix svn botch"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "minor css adjustments for tabs"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "updates to the tab css so it dont mix with some themes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "updates to the font css so it dont mix with some themes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added a check for php 5.3+ with a sensible error message"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "ensured jquery-ui-tabs is loaded now explicitly"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added Plugin options page to show or hide various comment tabs from the wp-admin area"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "comment tabs are now responsive and should adjust to nearly any layout"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "now using async javascript to load G+ comments for faster page loading"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added option to show facebook comments"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "added option to show disqus comments"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "updated screenshot"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "many typo fixes"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "initial ( non-functional ) options page placeholder and associated hooks added"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fixed bugs that removed native WordPress comment functionality by accident, any native options should work now"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid ""
+"better loading of the css/js via wp_register/wp_encueue system to let other plug-ins possibly modify our\n"
+"scripts and styles as needed as well as using CDN resources wisely"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid ""
+"everything loaded with https:// or <a href=\"http://paulirish.com/2010/the-protocol-relative-url/\">protocol relative urls</a> so that https:// works without warnings generated due to\n"
+"\"unsafe\" resource loading from http://"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "hot-fix to fix accidental loading of css and js in the admin area"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fixed automatically a bug where it would disable wp comments by default, that should not have been the case."
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fixed bumping the version"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Removed the need for jquery-ui-tab fixing the tab display for some versions of WordPress"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "changed the tab colors to closer match the G+ Comments and blend into more websites seamlessly"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "fixed a typo when no comments had been made yet"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Release via WordPress.org"
+msgstr ""
+
+#. Found in change log list item, changelog list item.
+msgid "Initial public release"
+msgstr ""
+
+#. Found in faq header.
+msgid "Google+ Comments for WordPress doesn't work ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Do you need any other plugins to use the other commenting systems like Disqus ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I'd like support for X commenting system, will you add it ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Will loading Comments with Javascript hurt my SEO ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Does the normal commenting stay active ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I choose what Tab to make Default?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I enable or disable commenting systems I'm not using ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I disable WordPress Native comments so all new comments are made via Google+ but still show the historic WordPress Comments ?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What if I ..."
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>Check jQuery version and make sure you are using the lastest included in WordPress\n"
+"If it's an older version or not enqueued correctly it <em>will</em> cause problems.\n"
+"It may be in your theme or another plugin</p>"
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>You may be lacking wp_footer() function in your footer.php of your WordPress theme.\n"
+"Look at the default theme to see how it is implemented and add it into your theme.</p>"
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>Try deactivating all plugins one at a time besides Google+ Comments for WordPress and see if if it starts working\n"
+"Make sure and to clear both WordPress and your Browsers Cache after any plugin changes to make sure you see the correct pages\n"
+"and not a cached version of the same (broken) one. If it does work after deactivating on then there's a plugin conflict.</p>"
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>If deactivating plugins doesn't work then there might be a conflict with your theme\n"
+"To isolate you can try an different theme and see if it works.</p>"
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>Be sure to clear ALL cache's that may be in effect, both in WP like WP-SuperCache or W3TC and also\n"
+"locally on your machine like the browser and you can even reboot your Internet router as a precaution ( and a bit of\n"
+"overkill but hey, why not check everything ) as it could be running a squid transparent cache proxy for you\n"
+"when running DD-WRT or similar as well and you may not have noticed / known before something like this.</p>"
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>There may be a style conflict of some sort, check the Developer console for your browser ( any of them anymore have\n"
+"a debug console / js console , even IE7+ native and others via extensions too ) when the page is loading to check for\n"
+"error messaged that may help narrow it down.</p>"
+msgstr ""
+
+#. Found in faq list item.
+msgid ""
+"<p>Try deleting the plugin and reinstalling - it may have not completely updated correctly.\n"
+"You'll have to reset your settings so you might want to write them down.</p>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<em>A.K.A. the tabs are in list form instead, or do not show up at all</em>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Keep Calm and lets step through this, the plugin does indeed work though, It's used by thousands of websites already every day so if it doesn't work for your website that because there is some problem with how it interacts with the theme or other plugins and the info below will help you track what one it is exactly."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The <em>most common cause for it not working is a <strong>jQuery conflict</strong> caused by a theme or a plugin</em> that either does not properly instantiate jQuery causing an old version and new version to both try and load themselfs unknown to each other, or instantiates a very old version of jQuery that is not compatable with the jQuery this plugin requests to be loaded ( e.g. we tell WordPress to load the jQuery.js + jQuery-UI-Core.js + jQuery-UI-Tabs.js that are both included with WordPress 3.3+ ) ... below may be of some help."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "<em>Here are things to try in order to see what the problem is.</em>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Check jQuery version and make sure you are using the lastest included in WordPress\n"
+"If it's an older version or not enqueued correctly it <em>will</em> cause problems.\n"
+"It may be in your theme or another plugin"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"You may be lacking wp_footer() function in your footer.php of your WordPress theme.\n"
+"Look at the default theme to see how it is implemented and add it into your theme."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Try deactivating all plugins one at a time besides Google+ Comments for WordPress and see if if it starts working\n"
+"Make sure and to clear both WordPress and your Browsers Cache after any plugin changes to make sure you see the correct pages\n"
+"and not a cached version of the same (broken) one. If it does work after deactivating on then there's a plugin conflict."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"If deactivating plugins doesn't work then there might be a conflict with your theme\n"
+"To isolate you can try an different theme and see if it works."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Be sure to clear ALL cache's that may be in effect, both in WP like WP-SuperCache or W3TC and also\n"
+"locally on your machine like the browser and you can even reboot your Internet router as a precaution ( and a bit of\n"
+"overkill but hey, why not check everything ) as it could be running a squid transparent cache proxy for you\n"
+"when running DD-WRT or similar as well and you may not have noticed / known before something like this."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"There may be a style conflict of some sort, check the Developer console for your browser ( any of them anymore have\n"
+"a debug console / js console , even IE7+ native and others via extensions too ) when the page is loading to check for\n"
+"error messaged that may help narrow it down."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid ""
+"Try deleting the plugin and reinstalling - it may have not completely updated correctly.\n"
+"You'll have to reset your settings so you might want to write them down."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No. All needed code for any of the available commenting systems is included with this plugin."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Sure, most likely. If there is not a technical reason not to then I'd be glad to add other commenting systems. Just file a support request asking for it and we'll go from there."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "No, that information is based on the way things used to be. Now not only does it not hurt your SEO it can actually help it with more +1's for your content, as well as JS comments from G+, Facebook, Twitter, and others is now fully indexed by google. Plus more engagement and thus content as well. For more info see <a href=\"http://blog.optimum7.com/safon/google/google-now-indexing-fb-comments.html\">this link</a> and also <a href=\"http://webmasters.stackexchange.com/questions/27042/effect-on-seo-of-lazy-scrolling-on-html-comments\">this one</a> for more details."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, both systems can be active at the same time."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, as of 1.4.0 you can."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, only choose to show the tabs you wish to use via the G+ Comments Options Page inside the Admin area of your WordPress install."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, just disable WP comments like you normally would and then leave the Show WordPress Comments option checked in the Google+ Comments Options."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "I can be reached many different ways all listed on http://en.gravatar.com/imbrandon , including Email, Phone, or Other Social Networks."
+msgstr ""

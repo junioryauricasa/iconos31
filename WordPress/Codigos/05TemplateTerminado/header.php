@@ -8,15 +8,15 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-	<header class="">
+	<header class="header">
 		<section class="flex-container">
-			<a href="#" class="menu-btn">Hamburguesa</a>
-			<div class="">
+			<a href="#" class="menu-btn"></a>
+			<div class="flex-auto  sm-w100  lg-w20  logo">
 				<h1 class="">
 					<a href="<?php bloginfo('home'); ?>">Logo</a>
 				</h1>
 			</div>
-			<div class="">
+			<div class="flex-auto  sm-w100  lg-w80  menu-main">
 				<?php 
 					$args = array(
 						'theme_location' => 'main_nav',

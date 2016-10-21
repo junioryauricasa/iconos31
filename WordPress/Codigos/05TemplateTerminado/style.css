@@ -31,14 +31,6 @@ a:not(.post-link) {
 
 a:hover { opacity: .75; }
 
-hr {
-	width: 20%;
-	margin: 2rem auto;
-	border: medium dashed #222;
-}
-
-hr:last-child { display: none; }
-
 img {
 	max-width: 100%;
 	height: auto;
@@ -138,25 +130,133 @@ img {
 	width: 50%;
 }
 
-.post-info img {
-	border-radius: 100%;
+.post-info img { border-radius: 100%; }
+
+.message-query {
+	padding: 2rem 0;
+	font-size: 2rem;
+	color: #FFF;
+}
+
+.message-query mark {
+	padding: .25rem;
+	background-color: greenyellow;
+}
+
+.message-404 {
+	padding: 2rem 0;
+	font-size: 3rem;
+	color: greenyellow;
+	text-align: center;
 }
 
 .error {
 	padding: 1rem;
 	font-size: 2rem;
 	text-align: center;
-	color: red;
-	background-color: yellow;
+	background-color: #FF0;
 }
 
-.the-content {
-	margin: 1rem auto;
+.carita {
+	font-size: 5rem;
+	transform: rotate(90deg);
+}
+
+.post-content {
+	background-color: rgba(173, 255, 47, .5);
+	padding: 2rem;
+}
+
+.post-content > aside {
+	margin-top: 2rem;
 	padding: 1rem;
-	background-color: #666;
+	color: #FFF;
+	background-color: #222;
 }
 
-.f2 { font-size: 2rem; }
+.the-content > h2 {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.the-content > div > * {
+	margin: 1rem;
+}
+
+.the-content img {
+	display: block;
+	margin: auto;
+}
+
+/* Navegación Móvil */
+
+.menu-btn {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	z-index: 999;
+	display: block;
+	width: 3rem;
+	height: .65rem;
+	padding: 1rem;
+	font-size: 1rem;
+	/* background-color: #F00; */
+}
+
+.menu-btn::before {
+	content: ' ';
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	width: 1em;
+	height: .15em;
+	display: block;
+	font-size: 3em;
+	background-color: #000;
+	border-radius: .15em;
+	box-shadow: 
+		0 .25em 0 #000,
+		0 .5em 0 #000;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;		
+	width: 100%;
+	height: 4rem;
+	background-color: #CCC;
+}
+
+.logo { 
+	position: relative;
+	z-index: 998;
+}
+
+.menu-main {
+	position: fixed;
+	top: 4rem;
+	left: 0;
+	z-index: 997;
+	max-width: 100%;
+	max-height: 0;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	background-color: #FFF;
+	transition: all .3s ease-out;
+	transform: translateY(-100vh);
+}
+
+.menu-main.active { 
+	max-height: 100vh;
+	transform: translateY(0);
+}
+
+
+/* Navegación Móvil */
 
 @media screen and (min-width: 64em) {
 	.lg-w100 { width: 100%; }

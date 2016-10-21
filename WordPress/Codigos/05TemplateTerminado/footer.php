@@ -15,5 +15,6 @@
 		</div>
 	</footer>
 	<?php wp_footer(); ?>
+	<script src="<?php 	print get_template_directory_uri() . '/js/codigos.js'; ?>"></script>
 </body>
 </html>

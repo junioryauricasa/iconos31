@@ -29,5 +29,8 @@ add_action('wp_enqueue_scripts', function () {
 	wp_enqueue_style('my-styles');
 
 	wp_enqueue_script('jquery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js');
+});
 
+add_action('widgets_init', function() {
+	register_sidebars(2);
 });

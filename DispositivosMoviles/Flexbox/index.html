@@ -4,6 +4,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<title>Flexbox</title>
+	<link rel="stylesheet" href="./estilos.css">
 </head>
 <body>
 	<h1>Flexbox</h1>
@@ -17,7 +18,67 @@
 		<li>
 			<a href="https://www.w3.org/TR/css-flexbox/" target="_blank">Flexbox  W3C</a>
 		</li>
+		<li>
+			<a href="http://www.w3schools.com/cssref/css3_pr_flex-grow.asp" target="_blank">Flex grow</a>
+		</li>
+		<li>
+			<a href="http://www.w3schools.com/cssref/css3_pr_flex-shrink.asp" target="_blank">Flex shrink</a>
+		</li>
+		<li>
+			<a href="http://codepen.io/collection/nYWkGe/" target="_blank">Ejemplos Flexbox</a>
+		</li>
 	</ul>
 	<img src="http://bextlan.com/img/para-cursos/flex-direction-terms.svg" alt="Esquema Flexbox">
+	<br>
+	<section class="container">
+		<article class="item">1</article>
+		<article class="item">2</article>
+		<article class="item">3</article>
+		<article class="item">4</article>
+		<article class="item">5</article>
+		<article class="item">6</article>
+		<article class="item">7</article>
+		<article class="item">8</article>
+		<article class="item">9</article>
+		<article class="item">10</article>
+		<article class="item">11</article>
+		<article class="item">12</article>
+		<article class="item">13</article>
+		<article class="item">14</article>
+		<article class="item">15</article>
+		<article class="item">16</article>
+		<article class="item">17</article>
+		<article class="item">18</article>
+		<article class="item">19</article>
+	</section>
+	<style>
+	#main {
+	    width: 350px;
+	    height: 100px;
+	    border: 1px solid #c3c3c3;
+	    display: flex;
+	}
+
+	#main div {
+	    flex-grow: 1;
+	    flex-shrink: 1;
+	    flex-basis: 100px;
+	}
+
+	#main div:nth-of-type(2) {
+	    flex-shrink: 1;
+	}
+
+	#main div:nth-of-type(2):hover {
+	    flex-shrink: 4;
+	}
+	</style>
+	<div id="main">
+	  <div style="background-color:coral;"></div>
+	  <div style="background-color:lightblue;"></div>
+	  <div style="background-color:khaki;"></div>
+	  <div style="background-color:pink;"></div>
+	  <div style="background-color:lightgrey;"></div>
+	</div>
 </body>
 </html>

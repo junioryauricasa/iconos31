@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Maquetación Responsive Mobile First</title>
+	<link rel="stylesheet" href="./framework.css">
+	<style>
+		.container-fluid,
+		.container {
+			border: medium solid #000;
+			background-color: #333;
+		}
+
+		.item {
+			border: thin solid greenyellow;
+			background-color: #999;
+		}
+	</style>
+</head>
+<body>
+	<h1>Maquetación Responsive Mobile First</h1>
+	<h2>Con retícula a 12 columnas</h2>
+	<section class="container-fluid  sm-flex  sm-flex-row  sm-flex-wrap">
+		<!-- article.item.xs-c12.sm-c6.md-c4.lg-c3.xl-c2.sm-flex-auto{$}*19 -->
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">1</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">2</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">3</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">4</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">5</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">6</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">7</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">8</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">9</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">10</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">11</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">12</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">13</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">14</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">15</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">16</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">17</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto">18</article>
+		<article class="item xs-c12 sm-c6 md-c4 lg-c3 xl-c2 sm-flex-auto  lg-flex-none">19</article>
+	</section>
+	<h2>Con retícula porcentual</h2>
+	<section class="container xs-flex xs-flex-row xs-flex-wrap xs-jc-space-between">
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none  xl-order-1">1</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">2</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">3</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">4</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">5</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none  lg-order--1">6</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">7</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">8</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">9</article>
+		<article class="item xs-w50 sm-w30 md-w20 lg-w100 xl-w10 xs-flex-none">10</article>
+	</section>
+</body>
+</html>

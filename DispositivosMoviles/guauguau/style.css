@@ -1,0 +1,135 @@
+/* 
+Theme Name: Guau guau
+Theme URI: http://bextlan.com/cursos/wordpress
+Author: Jonathan MirCha
+Author URI: http://jonmircha.com
+Description: Este es el tema diseñado para mi sitio personal de perros.
+Version: 1.0.0
+Tags: perros, canes, sabuesos, dogs, html5, wordpress, responsive design.
+*/
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.flex-auto { flex: auto; }
+
+.flex-none { flex: none; }
+
+.m-auto { margin: auto; }
+
+.border { border: thin solid greenyellow; }
+
+.social-nav {
+	margin: 1rem auto;
+	text-align: center;
+}
+
+.social-nav li { 
+	display: inline;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.wp-pagenavi { margin: 1.5rem auto 3rem; }
+
+.wp-pagenavi > * {
+	padding: 1rem !important;
+	font-size: 1.5rem !important;
+	border: 0 !important;
+}
+
+.wp-pagenavi .pages { display: none; }
+
+.wp-pagenavi .current {
+	background-color: greenyellow;
+	color: #000;
+	font-size: 2rem; 
+	border-radius: 2rem;
+}
+
+.post-info {
+	background-color: rgba(173, 255, 47, .5);
+	text-align: center;
+	margin: 2rem auto;
+	padding: 2rem;
+	transition: all .5s ease-out;
+}
+
+.post-info:hover { filter: grayscale(1); }
+
+.post-link {
+	color: #000;
+	text-decoration: none;
+}
+
+.post-info h2 { font-size: 3rem; }
+
+.post-info p { 
+	margin: auto;
+	width: 50%;
+}
+
+.post-info img { border-radius: 100%; }
+
+.message-query {
+	padding: 2rem 0;
+	font-size: 2rem;
+	color: #FFF;
+}
+
+.message-query mark {
+	padding: .25rem;
+	background-color: greenyellow;
+}
+
+.message-404 {
+	padding: 2rem 0;
+	font-size: 3rem;
+	color: greenyellow;
+	text-align: center;
+}
+
+.error {
+	padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #FF0;
+}
+
+.carita {
+	font-size: 5rem;
+	transform: rotate(90deg);
+}
+
+.post-content {
+	background-color: rgba(173, 255, 47, .5);
+	padding: 2rem;
+}
+
+.post-content > aside {
+	margin-top: 2rem;
+	padding: 1rem;
+	color: #FFF;
+	background-color: #222;
+}
+
+.the-content > h2 {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.the-content > div > * {
+	margin: 1rem;
+}
+
+.the-content img {
+	display: block;
+	margin: auto;
+}

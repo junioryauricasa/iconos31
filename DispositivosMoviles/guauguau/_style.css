@@ -1,0 +1,281 @@
+/* 
+Theme Name: Guau guau
+Theme URI: http://bextlan.com/cursos/wordpress
+Author: Jonathan MirCha
+Author URI: http://jonmircha.com
+Description: Este es el tema diseñado para mi sitio personal de perros.
+Version: 1.0.0
+Tags: perros, canes, sabuesos, dogs, html5, wordpress, responsive design.
+*/
+
+html {
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+body { overflow-x: hidden; }
+
+a:not(.post-link) {
+	color: greenyellow;
+	transition: all .3s ease-out;
+}
+
+a:hover { opacity: .75; }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.b-dark { background-color: #222; }
+
+.b-dark-gray { background-color: #666; }
+
+.b-light-gray { background-color: #CCC; }
+
+.sm-w100 { width: 100%; }
+
+.sm-w90 { width: 90%; }
+
+.sm-w80 { width: 80%; }
+
+.sm-w70 { width: 70%; }
+
+.sm-w60 { width: 60%; }
+
+.sm-w50 { width: 50%; }
+
+.sm-w40 { width: 40%; }
+
+.sm-w30 { width: 30%; }
+
+.sm-w20 { width: 20%; }
+
+.sm-w10 { width: 10%; }
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.flex-auto { flex: auto; }
+
+.flex-none { flex: none; }
+
+.m-auto { margin: auto; }
+
+.border { border: thin solid greenyellow; }
+
+.social-nav {
+	margin: 1rem auto;
+	text-align: center;
+}
+
+.social-nav li { 
+	display: inline;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+.wp-pagenavi { margin: 1.5rem auto 3rem; }
+
+.wp-pagenavi > * {
+	padding: 1rem !important;
+	font-size: 1.5rem !important;
+	border: 0 !important;
+}
+
+.wp-pagenavi .pages { display: none; }
+
+.wp-pagenavi .current {
+	background-color: greenyellow;
+	color: #000;
+	font-size: 2rem; 
+	border-radius: 2rem;
+}
+
+.post-info {
+	background-color: rgba(173, 255, 47, .5);
+	text-align: center;
+	margin: 2rem auto;
+	padding: 2rem;
+	transition: all .5s ease-out;
+}
+
+.post-info:hover { filter: grayscale(1); }
+
+.post-link {
+	color: #000;
+	text-decoration: none;
+}
+
+.post-info h2 { font-size: 3rem; }
+
+.post-info p { 
+	margin: auto;
+	width: 50%;
+}
+
+.post-info img { border-radius: 100%; }
+
+.message-query {
+	padding: 2rem 0;
+	font-size: 2rem;
+	color: #FFF;
+}
+
+.message-query mark {
+	padding: .25rem;
+	background-color: greenyellow;
+}
+
+.message-404 {
+	padding: 2rem 0;
+	font-size: 3rem;
+	color: greenyellow;
+	text-align: center;
+}
+
+.error {
+	padding: 1rem;
+	font-size: 2rem;
+	text-align: center;
+	background-color: #FF0;
+}
+
+.carita {
+	font-size: 5rem;
+	transform: rotate(90deg);
+}
+
+.post-content {
+	background-color: rgba(173, 255, 47, .5);
+	padding: 2rem;
+}
+
+.post-content > aside {
+	margin-top: 2rem;
+	padding: 1rem;
+	color: #FFF;
+	background-color: #222;
+}
+
+.the-content > h2 {
+	font-size: 3rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.the-content > div > * {
+	margin: 1rem;
+}
+
+.the-content img {
+	display: block;
+	margin: auto;
+}
+
+/* Navegación Móvil */
+
+.menu-btn {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	z-index: 999;
+	display: block;
+	width: 3rem;
+	height: .65rem;
+	padding: 1rem;
+	font-size: 1rem;
+	/* background-color: #F00; */
+}
+
+.menu-btn::before {
+	content: ' ';
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	width: 1em;
+	height: .15em;
+	display: block;
+	font-size: 3em;
+	background-color: #000;
+	border-radius: .15em;
+	box-shadow: 
+		0 .25em 0 #000,
+		0 .5em 0 #000;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;		
+	width: 100%;
+	height: 4rem;
+	background-color: #CCC;
+}
+
+.logo { 
+	position: relative;
+	z-index: 998;
+}
+
+.menu-main {
+	position: fixed;
+	top: 4rem;
+	left: 0;
+	z-index: 997;
+	max-width: 100%;
+	max-height: 0;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	background-color: #FFF;
+	transition: all .3s ease-out;
+	transform: translateY(-100vh);
+}
+
+.menu-main.active { 
+	max-height: 100vh;
+	transform: translateY(0);
+}
+
+
+/* Navegación Móvil */
+
+@media screen and (min-width: 64em) {
+	.lg-w100 { width: 100%; }
+
+	.lg-w90 { width: 90%; }
+
+	.lg-w80 { width: 80%; }
+
+	.lg-w70 { width: 70%; }
+
+	.lg-w60 { width: 60%; }
+
+	.lg-w50 { width: 50%; }
+
+	.lg-w40 { width: 40%; }
+
+	.lg-w30 { width: 30%; }
+
+	.lg-w20 { width: 20%; }
+
+	.lg-w10 { width: 10%; }	
+}
